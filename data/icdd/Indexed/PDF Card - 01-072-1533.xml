@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-072-1533</pdf_number>
+<chemical_formula>Mn O</chemical_formula>
+<empirical_formula>Mn O</empirical_formula>
+<anx>AX</anx>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Manganosite, syn</mineral_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>5.24</xtldx>
+<ds>5.24</ds>
+<rep_struc>Na Cl</rep_struc>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Alternate</status>
+<cell_a>4.48</cell_a>
+<z>4.00</z>
+<cell_vol>89.92</cell_vol>
+<cell_mv>22.48</cell_mv>
+<xtlvol>89.92</xtlvol>
+<redcellvol>22.48</redcellvol>
+<xtla>4.480</xtla>
+<xtlb>4.480</xtlb>
+<xtlc>4.480</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>3.168</redcell_a>
+<redcell_b>3.168</redcell_b>
+<redcell_c>3.168</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(10) = 999.9(0.0001, 10)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>70.94</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>4.97</iic>
+<iic_nd>1.1</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF8.00</pearson>
+<pdf_minclass>Halite (group), oxide (subgroup)</pdf_minclass>
+<entry_date>09/01/1998</entry_date>
+<last_mod_date>09/01/2015</last_mod_date>
+<last_modifications>Update</last_modifications>
+<weight_percent>Mn77.45 O22.55</weight_percent>
+<atomic_percent>Mn50.00 O50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Forensic, Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Synthetic)</subfile_indicator>
+<cross_ref_pdf_numbers>00-001-1206 (Deleted), 00-002-1158 (Deleted), 00-003-1145 (Deleted), 00-006-0592 (Deleted), 00-007-0230 (Primary), 01-071-4748 (Alternate), 01-075-0257 (Alternate), 01-075-0625 (Alternate), 01-075-0626 (Alternate), 01-089-2804 (Alternate), 04-001-7707 (Alternate), 04-002-5597 (Alternate), 04-002-5617 (Alternate), 04-002-8159 (Alternate), 04-002-8344 (Alternate), 04-003-5838 (Alternate), 04-003-7148 (Alternate), 04-003-7163 (Alternate), 04-004-8991 (Alternate), 04-005-4310 (Primary), 04-005-4397 (Alternate), 04-005-4473 (Alternate), 04-005-9717 (Alternate), 04-005-9791 (Alternate), 04-006-0700 (Alternate), 04-006-1771 (Alternate), 04-006-1784 (Alternate), 04-006-3696 (Alternate), 04-006-3703 (Alternate), 04-006-5363 (Alternate), 04-007-3408 (Alternate), 04-007-3620 (Alternate), 04-007-8200 (Alternate), 04-007-8377 (Alternate), 04-008-0277 (Alternate), 04-008-2747 (Alternate), 04-008-6796 (Alternate), 04-011-7332 (Alternate), 04-013-0265 (Alternate), 04-015-2351 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Ott, H. "Die Strukturen von Mn O, Mn S, Ag F, Ni S, Sn I4, Sr Cl2, Ba F2, Praezisionsmessungen einiger Alkalihalogenide." Z. Kristallogr., Kristallgeom., Kristallphys., Kristallchem. 1926, 63, 222.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Ott, H. Golden Book of Phase Transitions, Wroclaw 2002, 1, 1.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Ott, H. Skr. Nor. Vidensk.-Akad., Kl. 1: Mat.-Naturvidensk. Kl. 1927, 1927, 1.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: AX. Analysis: Mn1 O1. Formula from original source: Mn O. ICSD Collection Code: 18006. Calculated Pattern Original Remarks: Cell from 2nd ref. (Goldschmidt): 4.44. Stable above 118 K (3rd ref., Tomaszewski), below trigonal. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: b a (FM3-M). Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-072-1533.jpg</chart_name>
+<stick_series type="Mn O - 01-072-1533 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>34.652</theta>
+<da>2.586530</da>
+<intensity>627</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.226</theta>
+<da>2.240000</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.197</theta>
+<da>1.583920</da>
+<intensity>488</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>69.536</theta>
+<da>1.350770</da>
+<intensity>170</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>73.112</theta>
+<da>1.293260</da>
+<intensity>122</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>86.905</theta>
+<da>1.120000</da>
+<intensity>46</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>97.087</theta>
+<da>1.027780</da>
+<intensity>51</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>100.515</theta>
+<da>1.001760</da>
+<intensity>112</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>114.772</theta>
+<da>0.914476</da>
+<intensity>83</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>126.611</theta>
+<da>0.862176</da>
+<intensity>41</intensity>
+<h>5</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

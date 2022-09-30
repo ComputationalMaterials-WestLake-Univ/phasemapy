@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-004-0591</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Pyrolusite</mineral_name>
+<xstal_system>Tetragonal</xstal_system>
+<xtldx>5.068</xtldx>
+<rep_struc>Ti O2</rep_struc>
+<rep_struc_alpha_order>O2 Ti</rep_struc_alpha_order>
+<lpf_rep_struc>Ti O2,tP6,136</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>O2 Ti,tP6,136</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>4.44</cell_a>
+<cell_c>2.89</cell_c>
+<z>2.00</z>
+<cell_vol>56.97</cell_vol>
+<cell_mv>28.48</cell_mv>
+<authcovera>0.651</authcovera>
+<xtlvol>56.97</xtlvol>
+<redcellvol>56.97</redcellvol>
+<xtla>4.440</xtla>
+<xtlb>4.440</xtlb>
+<xtlc>2.890</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.651</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>0.651</xtlcoverb>
+<redcell_a>2.890</redcell_a>
+<redcell_b>4.440</redcell_b>
+<redcell_c>4.440</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>2.00</xtlz>
+<ss>F(7) = 12.7(0.0789, 7)</ss>
+<xtlsg>P42/mnm (136)</xtlsg>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>1.9373</lambda>
+<patrad>FeKα</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<aspectn>136</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>P42/mnm (136)</spgr>
+<pearson>tP6.00</pearson>
+<pdf_minclass>Rutile (supergroup), 1Q (group)</pdf_minclass>
+<entry_date>09/01/1954</entry_date>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Forensic, Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Natural)</subfile_indicator>
+<cross_ref_pdf_numbers>04-003-1024 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>McMurdie, Golovato. J. Res. Natl. Bur. Stand. (U. S. ) 1948, 41, 589.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Delete: Berry January 23, 1961, for Set 12. Sample Source or Locality: Source of specimen - Egypt. Warning: Lines with abs(delta 2Theta)&gt;0.1 DEG.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-004-0591.jpg</chart_name>
+<stick_series type="Mn O2 - 00-004-0591 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>28.40</theta>
+<da>3.14</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.12</theta>
+<da>2.42</da>
+<intensity>80</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.60</theta>
+<da>2.22</da>
+<intensity>10</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.61</theta>
+<da>2.12</da>
+<intensity>50</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.55</theta>
+<da>1.99</da>
+<intensity>10</intensity>
+<h>2</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.03</theta>
+<da>1.64</da>
+<intensity>80</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.76</theta>
+<da>1.57</da>
+<intensity>30</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

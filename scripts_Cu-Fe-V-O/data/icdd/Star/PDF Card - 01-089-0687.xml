@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>01-089-0687</pdf_number>
+<chemical_formula>Fe O</chemical_formula>
+<empirical_formula>Fe O</empirical_formula>
+<anx>AX</anx>
+<chemical_name>Iron Oxide</chemical_name>
+<mineral_name>Wüstite, syn</mineral_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>5.894</xtldx>
+<ds>5.893</ds>
+<rep_struc>Na Cl</rep_struc>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Alternate</status>
+<cell_a>4.326(2)</cell_a>
+<z>4.00</z>
+<cell_vol>80.96</cell_vol>
+<cell_mv>20.24</cell_mv>
+<xtlvol>80.96</xtlvol>
+<redcellvol>20.24</redcellvol>
+<xtla>4.326</xtla>
+<xtlb>4.326</xtlb>
+<xtlc>4.326</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>3.059</redcell_a>
+<redcell_b>3.059</redcell_b>
+<redcell_c>3.059</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(10) = 999.9(0.0000, 10)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>71.84</xtlmolwt>
+<quality_mark>Star</quality_mark>
+<iic>5.01</iic>
+<iic_nd>1.58</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<rfactor>0.054</rfactor>
+<pearson>cF8.00</pearson>
+<pdf_minclass>Halite (group), oxide (subgroup)</pdf_minclass>
+<entry_date>09/01/2001</entry_date>
+<last_mod_date>09/01/2020</last_mod_date>
+<last_modifications>Update</last_modifications>
+<weight_percent>Fe77.73 O22.27</weight_percent>
+<atomic_percent>Fe50.00 O50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Forensic, Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Synthetic)</subfile_indicator>
+<cross_ref_pdf_numbers>00-001-1223 (Deleted), 00-002-1180 (Deleted), 00-002-1186 (Deleted), 00-003-0968 (Deleted), 00-006-0615 (Primary), 00-046-1312 (Primary), 01-074-1886 (Alternate), 01-075-1550 (Alternate), 01-077-2355 (Alternate), 01-080-3819 (Alternate), 01-080-3820 (Alternate), 01-086-8049 (Alternate), 01-086-8051 (Alternate), 01-089-2468 (Deleted), 01-089-7100 (Alternate), 04-001-9939 (Primary), 04-002-8158 (Alternate), 04-003-5839 (Alternate), 04-004-4812 (Alternate), 04-004-8989 (Alternate), 04-005-4396 (Alternate), 04-005-9688 (Alternate), 04-005-9689 (Alternate), 04-005-9718 (Alternate), 04-005-9792 (Alternate), 04-006-5424 (Alternate), 04-007-8201 (Alternate), 04-008-2748 (Alternate), 04-016-6419 (Alternate), 04-019-1422 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<doi>10.1006/jssc.1996.0206</doi>
+<reference>Fjellvag, H., Gronvold, F., Stolen, S., Hauback, B.C. "On the crystallographic and magnetic structures of nearly stoichiometric iron monoxide". J. Solid State Chem. 1996, 124, 52.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: AX. Analysis: Fe1 O1. Formula from original source: Fe O. ICSD Collection Code: 82233. Calculated Pattern Original Remarks: Structure refinement by Rietveld method. Structure determination using neutron diffraction (powder). Temperature of Data Collection: 298 K. Wyckoff Sequence: b a. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<wyckoff_sequence>b a</wyckoff_sequence>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.540593 Å)</wave_length>
+<chart_name>PDF Card - 01-089-0687.jpg</chart_name>
+<stick_series type="Fe O - 01-089-0687 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>35.927</theta>
+<da>2.497620</da>
+<intensity>671</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.725</theta>
+<da>2.163000</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>60.482</theta>
+<da>1.529470</da>
+<intensity>477</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>72.394</theta>
+<da>1.304340</da>
+<intensity>170</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>76.169</theta>
+<da>1.248810</da>
+<intensity>118</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>90.836</theta>
+<da>1.081500</da>
+<intensity>44</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>101.820</theta>
+<da>0.992453</da>
+<intensity>52</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>105.560</theta>
+<da>0.967323</da>
+<intensity>111</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>121.459</theta>
+<da>0.883041</da>
+<intensity>85</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>135.408</theta>
+<da>0.832539</da>
+<intensity>43</intensity>
+<h>5</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

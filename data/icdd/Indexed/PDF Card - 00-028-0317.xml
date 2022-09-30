@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-028-0317</pdf_number>
+<chemical_formula>Nb2 O5</chemical_formula>
+<empirical_formula>Nb2 O5</empirical_formula>
+<chemical_name>Niobium Oxide</chemical_name>
+<xstal_system>Hexagonal</xstal_system>
+<xtldx>9.981</xtldx>
+<rep_struc_alpha_order>Al B2</rep_struc_alpha_order>
+<lpf_rep_struc>Al B2,hP3,191</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Al B2,hP3,191</lpf_rep_struc_alpha_order>
+<pressure_temperature>Non-ambient Pressure</pressure_temperature>
+<status>Primary</status>
+<cell_a>3.607</cell_a>
+<cell_c>3.925</cell_c>
+<z>1.00</z>
+<cell_vol>44.22</cell_vol>
+<cell_mv>44.22</cell_mv>
+<authcovera>1.088</authcovera>
+<xtlvol>44.22</xtlvol>
+<redcellvol>44.22</redcellvol>
+<xtla>3.607</xtla>
+<xtlb>3.607</xtlb>
+<xtlc>3.925</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>120.00</xtlga>
+<xtlcovera>1.088</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.088</xtlcoverb>
+<redcell_a>3.607</redcell_a>
+<redcell_b>3.607</redcell_b>
+<redcell_c>3.925</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>120.00</redcell_ga>
+<xtlz>1.00</xtlz>
+<ss>F(8) = 17.7(0.0564, 8)</ss>
+<xtlsg>P</xtlsg>
+<xtlmolwt>265.81</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<filttyp>Ni Beta</filttyp>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>P</spgr>
+<pearson>hP7.00</pearson>
+<entry_date>09/01/1978</entry_date>
+<weight_percent>Nb69.90 O30.10</weight_percent>
+<atomic_percent>Nb28.57 O71.43</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<doi>10.1021/ac60104a035</doi>
+<reference>Frevel, Rinn. Anal. Chem. 1955, 27, 1329.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: Pattern at high pressure. Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-028-0317.jpg</chart_name>
+<stick_series type="Nb2 O5 - 00-028-0317 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>22.606</theta>
+<da>3.930</da>
+<intensity>90</intensity>
+<h>0</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.586</theta>
+<da>3.120</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.711</theta>
+<da>2.446</da>
+<intensity>40</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>46.233</theta>
+<da>1.962</da>
+<intensity>30</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>50.673</theta>
+<da>1.800</da>
+<intensity>25</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.186</theta>
+<da>1.663</da>
+<intensity>30</intensity>
+<h>1</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.139</theta>
+<da>1.637</da>
+<intensity>14</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.969</theta>
+<da>1.565</da>
+<intensity>12</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

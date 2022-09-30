@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-031-1439</pdf_number>
+<chemical_formula>V O2</chemical_formula>
+<empirical_formula>O2 V</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Tetragonal</xstal_system>
+<xtldx>2.026</xtldx>
+<rep_struc>V O2</rep_struc>
+<rep_struc_alpha_order>O2 V</rep_struc_alpha_order>
+<lpf_rep_struc>V O2,tP48,138</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>O2 V,tP48,138</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>11.9</cell_a>
+<cell_c>7.68</cell_c>
+<z>16.00</z>
+<cell_vol>1087.56</cell_vol>
+<cell_mv>67.97</cell_mv>
+<authcovera>0.645</authcovera>
+<xtlvol>1087.56</xtlvol>
+<redcellvol>1087.56</redcellvol>
+<xtla>11.900</xtla>
+<xtlb>11.900</xtlb>
+<xtlc>7.680</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.645</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>0.645</xtlcoverb>
+<redcell_a>7.680</redcell_a>
+<redcell_b>11.900</redcell_b>
+<redcell_c>11.900</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>16.00</xtlz>
+<ss>F(18) = 2.5(0.0683, 107)</ss>
+<xtlsg>P42/ncm (138)</xtlsg>
+<xtlmolwt>82.94</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<temperature>298.0</temperature>
+<aspectn>138</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>P42/ncm (138)</spgr>
+<pearson>tP48.00</pearson>
+<entry_date>09/01/1981</entry_date>
+<last_mod_date>09/01/2004</last_mod_date>
+<last_modifications>AspectNum</last_modifications>
+<weight_percent>O38.58 V61.42</weight_percent>
+<atomic_percent>O66.67 V33.33</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Forensic, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>00-042-0876 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Theobald, F. J. Less-Common Met. 1977, 53, 55.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted by 00-042-0876. General Comments: High temperature form, called ''V O2'' (A). Forms above 220 C and below 330 C. Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<phase>Form A.</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-031-1439.jpg</chart_name>
+<stick_series type="V O2 - 00-031-1439 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>14.877</theta>
+<da>5.950</da>
+<intensity>60</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>25.502</theta>
+<da>3.490</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>26.346</theta>
+<da>3.380</da>
+<intensity>10</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>29.960</theta>
+<da>2.980</da>
+<intensity>50</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>33.407</theta>
+<da>2.680</da>
+<intensity>60</intensity>
+<h>3</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.597</theta>
+<da>2.520</da>
+<intensity>10</intensity>
+<h>4</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.672</theta>
+<da>2.270</da>
+<intensity>10</intensity>
+<h>4</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.823</theta>
+<da>2.110</da>
+<intensity>10</intensity>
+<h>4</h>
+<k>4</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.666</theta>
+<da>1.985</da>
+<intensity>60</intensity>
+<h>6</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>47.436</theta>
+<da>1.915</da>
+<intensity>100</intensity>
+<h>4</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>50.077</theta>
+<da>1.820</da>
+<intensity>30</intensity>
+<h>2</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.476</theta>
+<da>1.655</da>
+<intensity>20</intensity>
+<h>3</h>
+<k>2</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.842</theta>
+<da>1.645</da>
+<intensity>5</intensity>
+<h>7</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>57.166</theta>
+<da>1.610</da>
+<intensity>40</intensity>
+<h>6</h>
+<k>3</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.969</theta>
+<da>1.565</da>
+<intensity>5</intensity>
+<h>7</h>
+<k>3</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.895</theta>
+<da>1.543</da>
+<intensity>20</intensity>
+<h>7</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.177</theta>
+<da>1.450</da>
+<intensity>20</intensity>
+<h>8</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.701</theta>
+<da>1.420</da>
+<intensity>10</intensity>
+<h>8</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

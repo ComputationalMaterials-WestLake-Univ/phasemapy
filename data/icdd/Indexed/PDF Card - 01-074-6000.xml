@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-074-6000</pdf_number>
+<chemical_formula>Nb0.94 O0.06</chemical_formula>
+<empirical_formula>Nb0.94 O0.06</empirical_formula>
+<anx>N</anx>
+<chemical_name>Niobium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>8.001</xtldx>
+<ds>8</ds>
+<rep_struc>W</rep_struc>
+<rep_struc_alpha_order>W</rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>3.3216</cell_a>
+<z>2.00</z>
+<cell_vol>36.65</cell_vol>
+<cell_mv>18.32</cell_mv>
+<xtlvol>36.65</xtlvol>
+<redcellvol>18.32</redcellvol>
+<xtla>3.322</xtla>
+<xtlb>3.322</xtlb>
+<xtlc>3.322</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.877</redcell_a>
+<redcell_b>2.877</redcell_b>
+<redcell_c>2.877</redcell_c>
+<redcell_al>109.47</redcell_al>
+<redcell_be>109.47</redcell_be>
+<redcell_ga>109.47</redcell_ga>
+<xtlz>2.00</xtlz>
+<ss>F(8) = 999.9(0.0001, 8)</ss>
+<xtlsg>Im-3m (229)</xtlsg>
+<xtlmolwt>88.29</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>18.39</iic>
+<iic_nd>0.72</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>229</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Im-3m (229)</spgr>
+<pearson>cI2.00</pearson>
+<entry_date>09/01/2008</entry_date>
+<last_mod_date>09/01/2011</last_mod_date>
+<last_modifications>Reflections</last_modifications>
+<weight_percent>Nb98.91 O1.09</weight_percent>
+<atomic_percent>Nb94.00 O6.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<doi>10.1016/0022-5088(67)90140-3</doi>
+<reference>Taylor, A., Doyle, N.J. "The solid solubility of oxygen in Nb and Nb-rich Nb-Hf, Nb-Mo, and Nb-W alloys. I. The Nb-O system". J. Less-Common Met. 1967, 13, 313.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: N. Analysis: Nb0.94 O0.06. Formula from original source: Nb0.94 O0.06. ICSD Collection Code: 108623. Calculated Pattern Original Remarks: Cell of Nb: 3.2986. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: a(IM3-M). Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-074-6000.jpg</chart_name>
+<stick_series type="Nb0.94 O0.06 - 01-074-6000 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>38.290</theta>
+<da>2.348730</da>
+<intensity>1000</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.265</theta>
+<da>1.660800</da>
+<intensity>141</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>69.227</theta>
+<da>1.356040</da>
+<intensity>241</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>81.978</theta>
+<da>1.174360</da>
+<intensity>65</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>94.333</theta>
+<da>1.050380</da>
+<intensity>83</intensity>
+<h>3</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>106.898</theta>
+<da>0.958863</da>
+<intensity>21</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>120.383</theta>
+<da>0.887735</da>
+<intensity>105</intensity>
+<h>3</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>136.128</theta>
+<da>0.830400</da>
+<intensity>12</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

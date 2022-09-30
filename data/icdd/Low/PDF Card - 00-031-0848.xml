@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-031-0848</pdf_number>
+<chemical_formula>Mn4 V2 O9</chemical_formula>
+<empirical_formula>Mn4 O9 V2</empirical_formula>
+<chemical_name>Manganese Vanadium Oxide</chemical_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<xtlmolwt>465.63</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<color>Black</color>
+<entry_date>09/01/1981</entry_date>
+<last_mod_date>09/01/2003</last_mod_date>
+<last_modifications>Quality</last_modifications>
+<weight_percent>Mn47.19 O30.92 V21.88</weight_percent>
+<atomic_percent>Mn26.67 O60.00 V13.33</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Clark, G. et al. J. Inorg. Nucl. Chem. 1977, 39, 1841.</reference>
+</reference_group>
+</references>
+<database_comments>Sample Preparation: Made by heating MnO and ''V2 O4'' at 898 C. Warning: Unindexed pattern. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-031-0848.jpg</chart_name>
+<stick_series type="Mn4 V2 O9 - 00-031-0848 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>14.557</theta>
+<da>6.080</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>16.043</theta>
+<da>5.520</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>19.801</theta>
+<da>4.480</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>25.902</theta>
+<da>3.437</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>28.652</theta>
+<da>3.113</da>
+<intensity>15</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>31.282</theta>
+<da>2.857</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>36.055</theta>
+<da>2.489</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>36.495</theta>
+<da>2.460</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>37.489</theta>
+<da>2.397</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>41.403</theta>
+<da>2.179</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>49.611</theta>
+<da>1.836</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>50.946</theta>
+<da>1.791</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>52.004</theta>
+<da>1.757</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>52.292</theta>
+<da>1.748</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>61.889</theta>
+<da>1.498</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

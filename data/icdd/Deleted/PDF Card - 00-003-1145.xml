@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-003-1145</pdf_number>
+<chemical_formula>Mn O</chemical_formula>
+<empirical_formula>Mn O</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>5.531</xtldx>
+<dm>5.46</dm>
+<rep_struc>Na Cl</rep_struc>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>4.4</cell_a>
+<z>4.00</z>
+<cell_vol>85.18</cell_vol>
+<cell_mv>21.30</cell_mv>
+<xtlvol>85.18</xtlvol>
+<redcellvol>21.30</redcellvol>
+<xtla>4.400</xtla>
+<xtlb>4.400</xtlb>
+<xtlc>4.400</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>3.111</redcell_a>
+<redcell_b>3.111</redcell_b>
+<redcell_c>3.111</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(7) = 3.9(0.2267, 8)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>70.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>1.5405</lambda>
+<patrad>CuKα1</patrad>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF8.00</pearson>
+<entry_date>09/01/1953</entry_date>
+<last_mod_date>09/01/2004</last_mod_date>
+<last_modifications>SpaceGroup, AspectNum, Z, A, CellVolume</last_modifications>
+<weight_percent>Mn77.45 O22.55</weight_percent>
+<atomic_percent>Mn50.00 O50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Forensic, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>04-005-4310 (Primary), 04-007-3620 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Levi. Z. Kristallogr., Kristallgeom., Kristallphys., Kristallchem. 1925, 61, 558.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted by NBS card. Warning: One or more of the 4th-8th strongest lines are unindexed.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-003-1145.jpg</chart_name>
+<stick_series type="Mn O - 00-003-1145 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>36.190</theta>
+<da>2.480</da>
+<intensity>50</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>41.383</theta>
+<da>2.180</da>
+<intensity>80</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.597</theta>
+<da>1.550</da>
+<intensity>100</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>71.401</theta>
+<da>1.320</da>
+<intensity>80</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>74.677</theta>
+<da>1.270</da>
+<intensity>80</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>88.895</theta>
+<da>1.100</da>
+<intensity>50</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>99.397</theta>
+<da>1.010</da>
+<intensity>80</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>102.599</theta>
+<da>0.987</da>
+<intensity>100</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>117.084</theta>
+<da>0.903</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>129.401</theta>
+<da>0.852</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>160.136</theta>
+<da>0.782</da>
+<intensity>60</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

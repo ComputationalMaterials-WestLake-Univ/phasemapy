@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-012-0141</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<common_name>ε-Mn O2</common_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<cas>1313-13-9</cas>
+<status>Primary</status>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<filttyp>Ni Beta</filttyp>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<entry_date>09/01/1962</entry_date>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Forensic, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Glember, Meisiek. J. Prakt. Chem. 1958, 5, 219.</reference>
+</reference_group>
+</references>
+<database_comments>Reason O Quality Was Assigned: O assigned because unindexed. Sample Preparation: Specimen prepared by heating ''Mn ( N O2 )2'' in sealed-off glass tube at 150 C for 2-6 hours. On heating at 425 C for 1 day, ε-''Mn O2'' transforms into ε-''Mn O2'' (pyrolusite). Unit Cell Data Source: Powder Diffraction.</database_comments>
+<phase>ε</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-012-0141.jpg</chart_name>
+<stick_series type="Mn O2 - 00-012-0141 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>19.76</theta>
+<da>4.49</da>
+<intensity>70</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>22.84</theta>
+<da>3.89</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>23.97</theta>
+<da>3.71</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>31.59</theta>
+<da>2.83</da>
+<intensity>55</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>33.28</theta>
+<da>2.69</da>
+<intensity>70</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>36.96</theta>
+<da>2.43</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>37.93</theta>
+<da>2.37</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>39.86</theta>
+<da>2.26</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>42.61</theta>
+<da>2.12</da>
+<intensity>90</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>44.14</theta>
+<da>2.05</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>46.79</theta>
+<da>1.94</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>50.67</theta>
+<da>1.80</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>54.94</theta>
+<da>1.67</da>
+<intensity>55</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>56.40</theta>
+<da>1.63</da>
+<intensity>70</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

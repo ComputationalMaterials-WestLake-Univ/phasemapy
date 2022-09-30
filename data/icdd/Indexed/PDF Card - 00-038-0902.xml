@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-038-0902</pdf_number>
+<chemical_formula>O2</chemical_formula>
+<empirical_formula>O2</empirical_formula>
+<chemical_name>Oxygen</chemical_name>
+<common_name>β-O2</common_name>
+<xstal_system>Rhombohedral</xstal_system>
+<xtldx>2.329</xtldx>
+<rep_struc>O2</rep_struc>
+<rep_struc_alpha_order>O2</rep_struc_alpha_order>
+<lpf_rep_struc>[ O2 ],hR6,166</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>O2,hR6,166</lpf_rep_struc_alpha_order>
+<pressure_temperature>Non-ambient Pressure</pressure_temperature>
+<status>Primary</status>
+<cell_a>2.784</cell_a>
+<cell_c>10.196</cell_c>
+<z>3.00</z>
+<cell_vol>68.44</cell_vol>
+<cell_mv>22.81</cell_mv>
+<authcovera>3.662</authcovera>
+<xtlvol>68.44</xtlvol>
+<redcellvol>22.81</redcellvol>
+<xtla>2.784</xtla>
+<xtlb>2.784</xtlb>
+<xtlc>10.196</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>120.00</xtlga>
+<xtlcovera>3.662</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>3.662</xtlcoverb>
+<redcell_a>2.784</redcell_a>
+<redcell_b>2.784</redcell_b>
+<redcell_c>3.760</redcell_c>
+<redcell_al>68.27</redcell_al>
+<redcell_be>68.27</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>3.00</xtlz>
+<ss>F(4) = 16.5(0.0345, 7)</ss>
+<xtlsg>R-3m (166)</xtlsg>
+<xtlmolwt>32.00</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<diameter>114.60</diameter>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<instrument>Debye-Scherrer</instrument>
+<temperature>298.0</temperature>
+<pressure>7.40000000000</pressure>
+<aspectn>166</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>R-3m (166)</spgr>
+<pearson>hR2.00</pearson>
+<entry_date>09/01/1988</entry_date>
+<last_mod_date>09/01/2004</last_mod_date>
+<last_modifications>Z</last_modifications>
+<weight_percent>O100.00</weight_percent>
+<atomic_percent>O100.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Pharmaceutical</subfile_indicator>
+<cross_ref_pdf_numbers>04-007-2179 (Alternate), 04-007-5295 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<doi>10.1063/1.447495</doi>
+<reference>Olinger, B., Mills, R., Roof, R. J. Chem. Phys. 1984, 81, 5068.</reference>
+</reference_group>
+</references>
+<database_comments>In Situ Condition: Sample was loaded in diamond anvil cell with NaF as pressure monitor. Pressure of Datacollection: 7.4 GPa. Temperature of Data Collection: 298 K. Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<phase>β</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-038-0902.jpg</chart_name>
+<stick_series type="O2 - 00-038-0902 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>26.204</theta>
+<da>3.398</da>
+<intensity>30</intensity>
+<h>0</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>38.336</theta>
+<da>2.346</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.265</theta>
+<da>2.186</da>
+<intensity>50</intensity>
+<h>0</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>67.196</theta>
+<da>1.392</da>
+<intensity>10</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

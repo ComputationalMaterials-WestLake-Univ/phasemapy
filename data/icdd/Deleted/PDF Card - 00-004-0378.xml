@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-004-0378</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Ramsdellite</mineral_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>1.9373</lambda>
+<patrad>FeKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<pdf_minclass>Cryptomelane (supergroup), 1Q (group)</pdf_minclass>
+<entry_date>09/01/1954</entry_date>
+<last_mod_date>09/01/2003</last_mod_date>
+<last_modifications>Quality</last_modifications>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Natural)</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>McMurdie, Golovato. J. Res. Natl. Bur. Stand. (U. S. ) 1948, 41, 589.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Delete: see Brindley report April 26, 1955. General Comments: Well-crystallized form, occurring naturally. Structures: Reference reports orthorhombic. Warning: Unindexed pattern.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-004-0378.jpg</chart_name>
+<stick_series type="Mn O2 - 00-004-0378 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>21.98</theta>
+<da>4.04</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>35.31</theta>
+<da>2.54</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>36.96</theta>
+<da>2.43</da>
+<intensity>60</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>38.61</theta>
+<da>2.33</da>
+<intensity>60</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>42.40</theta>
+<da>2.13</da>
+<intensity>70</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>44.14</theta>
+<da>2.05</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>47.83</theta>
+<da>1.90</da>
+<intensity>60</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>55.66</theta>
+<da>1.65</da>
+<intensity>70</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>57.17</theta>
+<da>1.61</da>
+<intensity>70</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

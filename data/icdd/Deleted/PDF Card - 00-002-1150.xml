@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-002-1150</pdf_number>
+<chemical_formula>Mn +2 O</chemical_formula>
+<empirical_formula>Mn O</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Manganosite</mineral_name>
+<dm>5.364</dm>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>4.4354</cell_a>
+<xtlmolwt>70.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>0.7093</lambda>
+<patrad>MoKα1</patrad>
+<temperature>298.0</temperature>
+<melting_points>2058 K</melting_points>
+<spgr_label>Space Group</spgr_label>
+<color>Green</color>
+<optical_data_beta>=2.16</optical_data_beta>
+<pdf_minclass>Halite (group), oxide (subgroup)</pdf_minclass>
+<entry_date>09/01/1952</entry_date>
+<last_mod_date>09/01/2014</last_mod_date>
+<last_modifications>Cell</last_modifications>
+<weight_percent>Mn77.45 O22.55</weight_percent>
+<atomic_percent>Mn50.00 O50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Natural)</subfile_indicator>
+<cross_ref_pdf_numbers>00-001-1206 (Deleted)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>JAY. Private Communication.</reference>
+</reference_group>
+<reference_group>
+<type>Unit Cell</type>
+<reference>Dana's System of Mineralogy, 7th Ed.</reference>
+</reference_group>
+</references>
+<database_comments>Delete duplicate: Deleted: similar to 00-001-1206. Melting Point: 2058 K. Warning: Unindexed pattern.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-002-1150.jpg</chart_name>
+<stick_series type="Mn +2 O - 00-002-1150 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>35.02</theta>
+<da>2.56</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>40.60</theta>
+<da>2.22</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>58.76</theta>
+<da>1.57</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>70.18</theta>
+<da>1.34</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>74.00</theta>
+<da>1.28</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>87.89</theta>
+<da>1.11</da>
+<intensity>70</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>98.08</theta>
+<da>1.02</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>102.17</theta>
+<da>0.99</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>115.66</theta>
+<da>0.91</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

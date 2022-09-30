@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-031-0849</pdf_number>
+<chemical_formula>Mn3 ( V O4 )2</chemical_formula>
+<empirical_formula>Mn3 O8 V2</empirical_formula>
+<chemical_name>Manganese Vanadium Oxide</chemical_name>
+<xstal_system>Orthorhombic</xstal_system>
+<xtldx>4.227</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>6.236(8)</cell_a>
+<cell_b>11.72(1)</cell_b>
+<cell_c>8.485(8)</cell_c>
+<z>4.00</z>
+<cell_vol>620.13</cell_vol>
+<cell_mv>155.03</cell_mv>
+<authcovera>1.361</authcovera>
+<authaoverb>0.532</authaoverb>
+<authcoverb>0.724</authcoverb>
+<xtlvol>620.13</xtlvol>
+<redcellvol>310.07</redcellvol>
+<xtla>8.485</xtla>
+<xtlb>11.720</xtlb>
+<xtlc>6.236</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.735</xtlcovera>
+<xtlaoverb>0.724</xtlaoverb>
+<xtlcoverb>0.532</xtlcoverb>
+<redcell_a>6.236</redcell_a>
+<redcell_b>6.638</redcell_b>
+<redcell_c>8.485</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>118.02</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(14) = 24.0(0.0234, 25)</ss>
+<xtlsg>Amam (63)</xtlsg>
+<xtlmolwt>394.69</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<temperature>298.0</temperature>
+<aspectn>63A</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Cmcm (63)</spgr>
+<color>Reddish brown</color>
+<pearson>oC52.00</pearson>
+<entry_date>09/01/1981</entry_date>
+<weight_percent>Mn41.76 O32.43 V25.81</weight_percent>
+<atomic_percent>Mn23.08 O61.54 V15.38</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Clark, G. et al. J. Inorg. Nucl. Chem. 1977, 39, 1841.</reference>
+</reference_group>
+</references>
+<database_comments>Sample Preparation: Made by heating MnO and ''V2 O5'' at 698 C for 48 hours. Structures: Isostructural with the orthovanadates of Mg, Co, Ni and Zn. Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-031-0849.jpg</chart_name>
+<stick_series type="Mn3 ( V O4 )2 - 00-031-0849 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>15.101</theta>
+<da>5.862</da>
+<intensity>15</intensity>
+<h>0</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>18.315</theta>
+<da>4.840</da>
+<intensity>5</intensity>
+<h>0</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>20.894</theta>
+<da>4.248</da>
+<intensity>5</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>25.909</theta>
+<da>3.436</da>
+<intensity>25</intensity>
+<h>0</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>26.506</theta>
+<da>3.360</da>
+<intensity>45</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.899</theta>
+<da>3.087</da>
+<intensity>55</intensity>
+<h>1</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>30.484</theta>
+<da>2.930</da>
+<intensity>30</intensity>
+<h>0</h>
+<k>4</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.363</theta>
+<da>2.764</da>
+<intensity>5</intensity>
+<h>0</h>
+<k>4</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.484</theta>
+<da>2.754</da>
+<intensity>15</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.195</theta>
+<da>2.620</da>
+<intensity>100</intensity>
+<h>2</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.207</theta>
+<da>2.547</da>
+<intensity>45</intensity>
+<h>0</h>
+<k>2</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.640</theta>
+<da>2.517</da>
+<intensity>25</intensity>
+<h>1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.256</theta>
+<da>2.137</da>
+<intensity>25</intensity>
+<h>2</h>
+<k>4</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.548</theta>
+<da>2.123</da>
+<intensity>35</intensity>
+<h>1</h>
+<k>5</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

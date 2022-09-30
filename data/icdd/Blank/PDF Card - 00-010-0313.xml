@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-010-0313</pdf_number>
+<chemical_formula>V O0.9</chemical_formula>
+<empirical_formula>O0.9 V</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>6.206</xtldx>
+<rep_struc>Na Cl</rep_struc>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.12</cell_a>
+<z>4.00</z>
+<cell_vol>69.93</cell_vol>
+<cell_mv>17.48</cell_mv>
+<xtlvol>69.93</xtlvol>
+<redcellvol>17.48</redcellvol>
+<xtla>4.120</xtla>
+<xtlb>4.120</xtlb>
+<xtlc>4.120</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.913</redcell_a>
+<redcell_b>2.913</redcell_b>
+<redcell_c>2.913</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(8) = 9.3(0.1078, 8)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>65.34</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF7.60</pearson>
+<entry_date>09/01/1960</entry_date>
+<weight_percent>O22.04 V77.96</weight_percent>
+<atomic_percent>O47.37 V52.63</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Klemm, Grimm. Z. Anorg. Allg. Chem. 1942, 250, 42.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: Schonberg, Acta Chem. Scand., 8 221 (1954) finds that the a value increases from 4.042 (''V O0.80'') to 4.126 (''V O1.20''). Above ''V O1.00'' a defect lattice occurs with vacancies in the V atom sites. Results confirmed by Anderson, Acta Chem. Scand., 8 1599 (1954). Homogeneity range ''V O0.5'' - ''V O0.9''. Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-010-0313.jpg</chart_name>
+<stick_series type="V O0.9 - 00-010-0313 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>37.767</theta>
+<da>2.380</da>
+<intensity>30</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.915</theta>
+<da>2.060</da>
+<intensity>80</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.029</theta>
+<da>1.453</da>
+<intensity>100</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>76.807</theta>
+<da>1.240</da>
+<intensity>60</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>80.676</theta>
+<da>1.190</da>
+<intensity>60</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>96.808</theta>
+<da>1.030</da>
+<intensity>50</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>109.368</theta>
+<da>0.944</da>
+<intensity>50</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>113.704</theta>
+<da>0.920</da>
+<intensity>70</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

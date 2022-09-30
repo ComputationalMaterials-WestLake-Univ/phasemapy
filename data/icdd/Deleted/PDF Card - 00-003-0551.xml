@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-003-0551</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Pyrolusite</mineral_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<diameter>114.80</diameter>
+<lambda>1.936</lambda>
+<patrad>FeKα1</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<pdf_minclass>Rutile (supergroup), 1Q (group)</pdf_minclass>
+<entry_date>09/01/1953</entry_date>
+<last_mod_date>09/01/2003</last_mod_date>
+<last_modifications>Quality</last_modifications>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Natural)</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Harcourt. Am. Mineral. 1942, 27, 94.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Delete: see Brindley comments January 27, 1955. Warning: Unindexed pattern.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-003-0551.jpg</chart_name>
+<stick_series type="Mn O2 - 00-003-0551 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>25.88</theta>
+<da>3.44</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>28.68</theta>
+<da>3.11</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>33.80</theta>
+<da>2.65</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>37.28</theta>
+<da>2.41</da>
+<intensity>50</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>40.99</theta>
+<da>2.20</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>42.82</theta>
+<da>2.11</da>
+<intensity>30</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>46.03</theta>
+<da>1.97</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>50.67</theta>
+<da>1.80</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>56.40</theta>
+<da>1.63</da>
+<intensity>60</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>59.18</theta>
+<da>1.56</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>64.68</theta>
+<da>1.44</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>66.76</theta>
+<da>1.40</da>
+<intensity>3</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>72.03</theta>
+<da>1.31</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>94.38</theta>
+<da>1.05</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

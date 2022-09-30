@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-071-4748</pdf_number>
+<chemical_formula>Mn O</chemical_formula>
+<empirical_formula>Mn O</empirical_formula>
+<anx>AX</anx>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Manganosite</mineral_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>5.494</xtldx>
+<ds>5.49</ds>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Alternate</status>
+<cell_a>4.41</cell_a>
+<z>4.00</z>
+<cell_vol>85.77</cell_vol>
+<cell_mv>21.44</cell_mv>
+<xtlvol>85.77</xtlvol>
+<redcellvol>21.44</redcellvol>
+<xtla>4.410</xtla>
+<xtlb>4.410</xtlb>
+<xtlc>4.410</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>3.118</redcell_a>
+<redcell_b>3.118</redcell_b>
+<redcell_c>3.118</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(10) = 999.9(0.0001, 10)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>70.94</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>4.93</iic>
+<iic_nd>1.12</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF8.00</pearson>
+<pdf_minclass>Halite (group), oxide (subgroup)</pdf_minclass>
+<entry_date>09/01/2005</entry_date>
+<last_mod_date>09/01/2015</last_mod_date>
+<last_modifications>Update</last_modifications>
+<weight_percent>Mn77.45 O22.55</weight_percent>
+<atomic_percent>Mn50.00 O50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Forensic, Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Natural)</subfile_indicator>
+<cross_ref_pdf_numbers>00-001-1206 (Deleted), 00-002-1158 (Deleted), 00-003-1145 (Deleted), 00-006-0592 (Deleted), 00-007-0230 (Primary), 01-072-1533 (Alternate), 01-075-0257 (Alternate), 01-075-0625 (Alternate), 01-075-0626 (Alternate), 01-089-2804 (Alternate), 04-001-7707 (Alternate), 04-002-5597 (Alternate), 04-002-5617 (Alternate), 04-002-8159 (Alternate), 04-002-8344 (Alternate), 04-003-5838 (Alternate), 04-003-7148 (Alternate), 04-003-7163 (Alternate), 04-004-8991 (Alternate), 04-005-4310 (Primary), 04-005-4397 (Alternate), 04-005-4473 (Alternate), 04-005-9717 (Alternate), 04-005-9791 (Alternate), 04-006-0700 (Alternate), 04-006-1771 (Alternate), 04-006-1784 (Alternate), 04-006-3696 (Alternate), 04-006-3703 (Alternate), 04-006-5363 (Alternate), 04-007-3408 (Alternate), 04-007-3620 (Alternate), 04-007-8200 (Alternate), 04-007-8377 (Alternate), 04-008-0277 (Alternate), 04-008-2747 (Alternate), 04-008-6796 (Alternate), 04-011-7332 (Alternate), 04-013-0265 (Alternate), 04-015-2351 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Levi, G.R. "The crystal structure of Mn O". Rend. 1st. Lomb. Sci. Lett., Cl. Sci. Mat. Nat. 1924, 57, 619.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Levi, G.R. Gazz. Chim. Ital. 1926, 56, 396.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Levi, G.R. Golden Book of Phase Transitions, Wroclaw 2002, 1, 1.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: AX. Analysis: Mn1 O1. Formula from original source: Mn O. ICSD Collection Code: 53928. Calculated Pattern Original Remarks: Cell from 2nd ref. (Fontana): 4.418. Stable above 118 K (3rd ref., Tomaszewski), below trigonal. Sample Source or Locality: Specimen from Franklin, New Jersey, USA. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: b a (FM3-M). Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-071-4748.jpg</chart_name>
+<stick_series type="Mn O - 01-071-4748 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>35.220</theta>
+<da>2.546110</da>
+<intensity>639</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.893</theta>
+<da>2.205000</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.212</theta>
+<da>1.559170</da>
+<intensity>481</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.803</theta>
+<da>1.329670</da>
+<intensity>168</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>74.467</theta>
+<da>1.273060</da>
+<intensity>121</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>88.640</theta>
+<da>1.102500</da>
+<intensity>45</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>99.168</theta>
+<da>1.011720</da>
+<intensity>51</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>102.729</theta>
+<da>0.986106</da>
+<intensity>113</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>117.672</theta>
+<da>0.900187</da>
+<intensity>85</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>130.350</theta>
+<da>0.848705</da>
+<intensity>42</intensity>
+<h>5</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

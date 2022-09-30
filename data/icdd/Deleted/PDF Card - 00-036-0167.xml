@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-036-0167</pdf_number>
+<chemical_formula>Mn ( V O3 )2</chemical_formula>
+<empirical_formula>Mn O6 V2</empirical_formula>
+<chemical_name>Manganese Vanadium Oxide</chemical_name>
+<common_name>β-Mn ( V O3 )2</common_name>
+<xstal_system>Monoclinic</xstal_system>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>9.63</cell_a>
+<cell_b>3.61</cell_b>
+<cell_c>6.83</cell_c>
+<cell_beta>101.6</cell_beta>
+<cell_vol>232.59</cell_vol>
+<authcovera>0.709</authcovera>
+<authaoverb>2.668</authaoverb>
+<authcoverb>1.892</authcoverb>
+<xtlvol>232.59</xtlvol>
+<redcellvol>232.59</redcellvol>
+<xtla>9.630</xtla>
+<xtlb>3.610</xtlb>
+<xtlc>6.830</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>101.60</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.709</xtlcovera>
+<xtlaoverb>2.668</xtlaoverb>
+<xtlcoverb>1.892</xtlcoverb>
+<redcell_a>3.610</redcell_a>
+<redcell_b>6.830</redcell_b>
+<redcell_c>9.630</redcell_c>
+<redcell_al>101.60</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<ss>F(11) = 1.4(0.1213, 66)</ss>
+<xtlmolwt>252.82</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<pearson>m??</pearson>
+<entry_date>09/01/1986</entry_date>
+<weight_percent>Mn21.73 O37.97 V40.30</weight_percent>
+<atomic_percent>Mn11.11 O66.67 V22.22</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic</subfile_indicator>
+<cross_ref_pdf_numbers>00-040-0165 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Fotiev, A., Surat. Russ. J. Inorg. Chem. (Engl. Transl.) 1982, 27, 608.</reference>
+</reference_group>
+<reference_group>
+<type>Unit Cell</type>
+<reference>Krasnenko, T., Zabara, O., Surat, L., Strepetov, S. Inorg. Mater. (Engl. Transl.) 1987, 23, 1252.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted by 00-040-0165. Sample Preparation: High form, stable above 565 C. Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG.</database_comments>
+<phase>β</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-036-0167.jpg</chart_name>
+<stick_series type="Mn ( V O3 )2 - 00-036-0167 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>19.11</theta>
+<da>4.64</da>
+<intensity>60</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>20.74</theta>
+<da>4.28</da>
+<intensity>30</intensity>
+<h>-2</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>25.43</theta>
+<da>3.50</da>
+<intensity>70</intensity>
+<h>2</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.87</theta>
+<da>3.09</da>
+<intensity>70</intensity>
+<h>-3</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>30.70</theta>
+<da>2.91</da>
+<intensity>65</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.93</theta>
+<da>2.37</da>
+<intensity>100</intensity>
+<h>-3</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.41</theta>
+<da>2.23</da>
+<intensity>45</intensity>
+<h>0</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>47.04</theta>
+<da>1.93</da>
+<intensity>35</intensity>
+<h>-1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>49.21</theta>
+<da>1.85</da>
+<intensity>45</intensity>
+<h>-4</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>50.67</theta>
+<da>1.80</da>
+<intensity>40</intensity>
+<h>1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>53.89</theta>
+<da>1.70</da>
+<intensity>35</intensity>
+<h>1</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

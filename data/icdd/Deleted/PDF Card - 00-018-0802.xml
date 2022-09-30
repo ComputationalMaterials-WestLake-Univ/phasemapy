@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-018-0802</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Birnessite, syn</mineral_name>
+<xstal_system>Hexagonal</xstal_system>
+<xtldx>5.049</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>5.82</cell_a>
+<cell_c>14.62</cell_c>
+<z>15.00</z>
+<cell_vol>428.87</cell_vol>
+<cell_mv>28.59</cell_mv>
+<authcovera>2.512</authcovera>
+<xtlvol>428.87</xtlvol>
+<redcellvol>428.87</redcellvol>
+<xtla>5.820</xtla>
+<xtlb>5.820</xtlb>
+<xtlc>14.620</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>120.00</xtlga>
+<xtlcovera>2.512</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>2.512</xtlcoverb>
+<redcell_a>5.820</redcell_a>
+<redcell_b>5.820</redcell_b>
+<redcell_c>14.620</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>120.00</redcell_ga>
+<xtlz>15.00</xtlz>
+<ss>F(5) = 0.8(0.1082, 55)</ss>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<filttyp>Mn Beta</filttyp>
+<diameter>114.60</diameter>
+<lambda>1.9373</lambda>
+<patrad>FeKα</patrad>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<pearson>h?45.00</pearson>
+<entry_date>09/01/1968</entry_date>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Synthetic)</subfile_indicator>
+<cross_ref_pdf_numbers>00-023-1046 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Bricker. Am. Mineral. 1965, 50, 1296.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted by 00-023-1046. Sample Preparation: Prepared from suspensions of ''Mn3 O4'' by mild acidification, composition ''Mn O1.75-1.81. Warning: One or more of the 4th-8th strongest lines are unindexed. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-018-0802.jpg</chart_name>
+<stick_series type="Mn O2 - 00-018-0802 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>12.28</theta>
+<da>7.20</da>
+<intensity>80</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>18.67</theta>
+<da>4.75</da>
+<intensity>90</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.80</theta>
+<da>2.44</da>
+<intensity>100</intensity>
+<h>0</h>
+<k>0</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.61</theta>
+<da>2.12</da>
+<intensity>40</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>54.94</theta>
+<da>1.67</da>
+<intensity>10</intensity>
+<h>3</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.70</theta>
+<da>1.42</da>
+<intensity>80</intensity>
+<h>1</h>
+<k>1</k>
+<l>9</l>
+<F/>
+</intensity>
+<intensity>
+<theta>74.68</theta>
+<da>1.27</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

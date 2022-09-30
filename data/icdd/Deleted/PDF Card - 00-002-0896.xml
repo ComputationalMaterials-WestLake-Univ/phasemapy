@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-002-0896</pdf_number>
+<chemical_formula>Mn2 O3</chemical_formula>
+<empirical_formula>Mn2 O3</empirical_formula>
+<anx>A2X3</anx>
+<chemical_name>Manganese Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>5.034</xtldx>
+<rep_struc>Mn Fe O3</rep_struc>
+<rep_struc_alpha_order>Fe Mn O3</rep_struc_alpha_order>
+<lpf_rep_struc>( Mn0.5 Fe0.5 )2 O3,cI80,206</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Fe Mn O3,cI80,206</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>9.41</cell_a>
+<z>16.00</z>
+<cell_vol>833.24</cell_vol>
+<cell_mv>52.08</cell_mv>
+<xtlvol>833.24</xtlvol>
+<redcellvol>416.62</redcellvol>
+<xtla>9.410</xtla>
+<xtlb>9.410</xtlb>
+<xtlc>9.410</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>8.149</redcell_a>
+<redcell_b>8.149</redcell_b>
+<redcell_c>8.149</redcell_c>
+<redcell_al>109.47</redcell_al>
+<redcell_be>109.47</redcell_be>
+<redcell_ga>109.47</redcell_ga>
+<xtlz>16.00</xtlz>
+<ss>F(12) = 2.9(0.1417, 29)</ss>
+<xtlsg>Ia-3 (206)</xtlsg>
+<xtlmolwt>157.87</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>1.936</lambda>
+<patrad>FeKα1</patrad>
+<temperature>298.0</temperature>
+<aspectn>206</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Ia-3 (206)</spgr>
+<color>Brownish black</color>
+<pearson>cI80.00</pearson>
+<entry_date>09/01/1952</entry_date>
+<weight_percent>Mn69.60 O30.40</weight_percent>
+<atomic_percent>Mn40.00 O60.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Forensic, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>00-001-1061 (Deleted), 00-031-0825 (Alternate), 00-041-1442 (Primary), 04-005-4578 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Zachariasen. Z. Kristallogr., Kristallgeom., Kristallphys., Kristallchem. 1928, 67, 461.</reference>
+</reference_group>
+<reference_group>
+<type>Unit Cell</type>
+<reference>Wyckoff. The Structure of Crystals, 1st Ed.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: A2X3. Deleted Or Rejected By: Deleted by NBS card Set 10. Deleted by 00-031-0825 and 00-041-1442. General Comments: -1/3 ''O'' at 940 C in air. Warning: One or more of the 4th-8th strongest lines are unindexed.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-002-0896.jpg</chart_name>
+<stick_series type="Mn2 O3 - 00-002-0896 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>23.02</theta>
+<da>3.86</da>
+<intensity>10</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.90</theta>
+<da>2.72</da>
+<intensity>100</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>38.27</theta>
+<da>2.35</da>
+<intensity>10</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.07</theta>
+<da>2.01</da>
+<intensity>20</intensity>
+<h>3</h>
+<k>3</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>49.50</theta>
+<da>1.84</da>
+<intensity>30</intensity>
+<h>4</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.29</theta>
+<da>1.66</da>
+<intensity>90</intensity>
+<h>4</h>
+<k>4</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.18</theta>
+<da>1.45</da>
+<intensity>20</intensity>
+<h>5</h>
+<k>4</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.70</theta>
+<da>1.42</da>
+<intensity>60</intensity>
+<h>6</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>67.31</theta>
+<da>1.39</da>
+<intensity>20</intensity>
+<h>6</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>69.58</theta>
+<da>1.35</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>74.00</theta>
+<da>1.28</da>
+<intensity>10</intensity>
+<h>7</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>80.68</theta>
+<da>1.19</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>81.50</theta>
+<da>1.18</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>83.22</theta>
+<da>1.16</da>
+<intensity>10</intensity>
+<h>8</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>85.01</theta>
+<da>1.14</da>
+<intensity>10</intensity>
+<h>8</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

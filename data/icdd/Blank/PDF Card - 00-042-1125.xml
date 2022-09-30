@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-042-1125</pdf_number>
+<chemical_formula>Nb O</chemical_formula>
+<empirical_formula>Nb O</empirical_formula>
+<chemical_name>Niobium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>7.117</xtldx>
+<rep_struc>Na Cl</rep_struc>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.24</cell_a>
+<z>3.00</z>
+<cell_vol>76.23</cell_vol>
+<cell_mv>25.41</cell_mv>
+<xtlvol>76.23</xtlvol>
+<redcellvol>19.06</redcellvol>
+<xtla>4.240</xtla>
+<xtlb>4.240</xtlb>
+<xtlc>4.240</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.998</redcell_a>
+<redcell_b>2.998</redcell_b>
+<redcell_c>2.998</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>3.00</xtlz>
+<ss>F(7) = 6.7(0.1298, 8)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>108.91</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF6.00</pearson>
+<entry_date>09/01/1992</entry_date>
+<weight_percent>Nb85.31 O14.69</weight_percent>
+<atomic_percent>Nb50.00 O50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Superconducting Material (Conventional Superconductor)</subfile_indicator>
+<cross_ref_pdf_numbers>04-001-7090 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Petrucci, M., Pitt, C., Reynolds, S., Milledge, H., Mendelssohn, M., Dineen, C., Freeman, W. J. Appl. Phys. 1988, 63, 900.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: Identified from diffraction pattern. Referred to as NbO-6C. Sample Preparation: Prepared by molecular beam epitaxy on ''Li Nb O3''. Warning: Lines with abs(delta 2Theta)&gt;0.1 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-042-1125.jpg</chart_name>
+<stick_series type="Nb O - 00-042-1125 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>36.520</theta>
+<da>2.45840</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.514</theta>
+<da>2.12460</da>
+<intensity>80</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>61.645</theta>
+<da>1.50334</da>
+<intensity>20</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>73.930</theta>
+<da>1.28096</da>
+<intensity>10</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>77.976</theta>
+<da>1.22431</da>
+<intensity>10</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>104.880</theta>
+<da>0.97170</da>
+<intensity>5</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>108.572</theta>
+<da>0.94869</da>
+<intensity>20</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

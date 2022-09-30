@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-005-0673</pdf_number>
+<chemical_formula>Mn O1.88</chemical_formula>
+<empirical_formula>Mn O1.88</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Unnamed mineral</mineral_name>
+<xstal_system>Tetragonal</xstal_system>
+<xtldx>6.53</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>6.97</cell_a>
+<cell_c>7.12</cell_c>
+<z>16.00</z>
+<cell_vol>345.90</cell_vol>
+<cell_mv>21.62</cell_mv>
+<authcovera>1.022</authcovera>
+<xtlvol>345.90</xtlvol>
+<redcellvol>345.90</redcellvol>
+<xtla>6.970</xtla>
+<xtlb>6.970</xtlb>
+<xtlc>7.120</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>1.022</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.022</xtlcoverb>
+<redcell_a>6.970</redcell_a>
+<redcell_b>6.970</redcell_b>
+<redcell_c>7.120</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>16.00</xtlz>
+<ss>F(11) = 0.9(0.1882, 64)</ss>
+<xtlsg>P</xtlsg>
+<xtlmolwt>85.02</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>1.9373</lambda>
+<patrad>FeKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>P</spgr>
+<pearson>tP46.08</pearson>
+<entry_date>09/01/1955</entry_date>
+<last_mod_date>09/01/2003</last_mod_date>
+<last_modifications>SpaceGroup, Z, Zsource</last_modifications>
+<weight_percent>Mn64.62 O35.38</weight_percent>
+<atomic_percent>Mn34.72 O65.28</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Natural)</subfile_indicator>
+<cross_ref_pdf_numbers>00-015-0604 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Sampson, Wadsley. Am. Mineral. 1948, 33, 695.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted by 00-015-0604. General Comments: Unnamed mineral from Buchan, Victoria, Australia. Warning: One or more of the 4th-8th strongest lines are unindexed. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-005-0673.jpg</chart_name>
+<stick_series type="Mn O1.88 - 00-005-0673 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>12.653</theta>
+<da>6.990</da>
+<intensity>25</intensity>
+<h>1</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>18.052</theta>
+<da>4.910</da>
+<intensity>25</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>22.262</theta>
+<da>3.990</da>
+<intensity>10</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>25.413</theta>
+<da>3.502</da>
+<intensity>10</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.475</theta>
+<da>3.132</da>
+<intensity>75</intensity>
+<h>2</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.472</theta>
+<da>2.755</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>37.571</theta>
+<da>2.392</da>
+<intensity>100</intensity>
+<h>0</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.947</theta>
+<da>2.152</da>
+<intensity>75</intensity>
+<h>1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.340</theta>
+<da>2.086</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>56.289</theta>
+<da>1.633</da>
+<intensity>25</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>59.938</theta>
+<da>1.542</da>
+<intensity>50</intensity>
+<h>2</h>
+<k>1</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.442</theta>
+<da>1.425</da>
+<intensity>50</intensity>
+<h>0</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>68.537</theta>
+<da>1.368</da>
+<intensity>25</intensity>
+<h>5</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>69.113</theta>
+<da>1.358</da>
+<intensity>25</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>69.699</theta>
+<da>1.348</da>
+<intensity>25</intensity>
+<h>3</h>
+<k>3</k>
+<l>3</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

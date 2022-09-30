@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-075-1042</pdf_number>
+<chemical_formula>V O0.532</chemical_formula>
+<empirical_formula>O0.532 V</empirical_formula>
+<anx>NO2</anx>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Tetragonal</xstal_system>
+<xtldx>6.527</xtldx>
+<ds>6.53</ds>
+<rep_struc>Co O</rep_struc>
+<rep_struc_alpha_order>Co O</rep_struc_alpha_order>
+<lpf_rep_struc>Co O,tI4,139</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Co O,tI4,139</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>2.94</cell_a>
+<cell_c>3.5</cell_c>
+<z>2.00</z>
+<cell_vol>30.25</cell_vol>
+<cell_mv>15.13</cell_mv>
+<authcovera>1.190</authcovera>
+<xtlvol>30.25</xtlvol>
+<redcellvol>15.13</redcellvol>
+<xtla>2.940</xtla>
+<xtlb>2.940</xtlb>
+<xtlc>3.500</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>1.190</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.190</xtlcoverb>
+<redcell_a>2.717</redcell_a>
+<redcell_b>2.717</redcell_b>
+<redcell_c>2.717</redcell_c>
+<redcell_al>99.82</redcell_al>
+<redcell_be>114.50</redcell_be>
+<redcell_ga>114.50</redcell_ga>
+<xtlz>2.00</xtlz>
+<ss>F(16) = 999.9(0.0001, 16)</ss>
+<xtlsg>I4/mmm (139)</xtlsg>
+<xtlmolwt>59.45</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>4.16</iic>
+<iic_nd>0.19</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>139</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>I4/mmm (139)</spgr>
+<pearson>tI3.06</pearson>
+<entry_date>09/01/1998</entry_date>
+<last_mod_date>09/01/2011</last_mod_date>
+<last_modifications>Reflections</last_modifications>
+<weight_percent>O14.32 V85.68</weight_percent>
+<atomic_percent>O34.73 V65.27</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++ 1997.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<doi>10.1016/0001-6160(53)90121-7</doi>
+<reference>Tucker, C.W., Seybolt, A.U., Sumsion, H.T. "The location of oxygen atoms in vanadium-oxygen alloys by means of neutron diffraction". Acta Metall. 1953, 1, 390.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: NO2. Analysis: O0.532 V1. Formula from original source: V O.532. ICSD Collection Code: 30415. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: b a(I4/MMM). Unit Cell Data Source: Single Crystal.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-075-1042.jpg</chart_name>
+<stick_series type="V O0.532 - 01-075-1042 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>40.018</theta>
+<da>2.251170</da>
+<intensity>1000</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.496</theta>
+<da>2.078890</da>
+<intensity>735</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>52.228</theta>
+<da>1.750000</da>
+<intensity>185</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>63.202</theta>
+<da>1.470000</da>
+<intensity>169</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.248</theta>
+<da>1.338800</da>
+<intensity>217</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>77.485</theta>
+<da>1.230830</da>
+<intensity>169</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>86.367</theta>
+<da>1.125590</da>
+<intensity>96</intensity>
+<h>2</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>90.522</theta>
+<da>1.084410</da>
+<intensity>48</intensity>
+<h>1</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>95.641</theta>
+<da>1.039450</da>
+<intensity>33</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>109.418</theta>
+<da>0.943705</da>
+<intensity>29</intensity>
+<h>3</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>111.893</theta>
+<da>0.929710</da>
+<intensity>46</intensity>
+<h>3</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>119.064</theta>
+<da>0.893687</da>
+<intensity>42</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>123.362</theta>
+<da>0.875000</da>
+<intensity>11</intensity>
+<h>0</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>123.937</theta>
+<da>0.872653</da>
+<intensity>49</intensity>
+<h>2</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>139.496</theta>
+<da>0.821037</da>
+<intensity>72</intensity>
+<h>3</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>145.538</theta>
+<da>0.806476</da>
+<intensity>35</intensity>
+<h>1</h>
+<k>1</k>
+<l>4</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

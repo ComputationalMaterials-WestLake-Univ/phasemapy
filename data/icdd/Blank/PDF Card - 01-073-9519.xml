@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-073-9519</pdf_number>
+<chemical_formula>V O1.15</chemical_formula>
+<empirical_formula>O1.15 V</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>6.491</xtldx>
+<ds>6.26</ds>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.14</cell_a>
+<z>4.00</z>
+<cell_vol>70.96</cell_vol>
+<cell_mv>17.74</cell_mv>
+<xtlvol>70.96</xtlvol>
+<redcellvol>17.74</redcellvol>
+<xtla>4.140</xtla>
+<xtlb>4.140</xtlb>
+<xtlc>4.140</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.927</redcell_a>
+<redcell_b>2.927</redcell_b>
+<redcell_c>2.927</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(9) = 999.9(0.0001, 9)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>69.34</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<iic>4.42</iic>
+<iic_nd>0.53</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF8.60</pearson>
+<entry_date>09/01/2007</entry_date>
+<last_mod_date>09/01/2011</last_mod_date>
+<last_modifications>Reflections</last_modifications>
+<weight_percent>O26.53 V73.47</weight_percent>
+<atomic_percent>O53.49 V46.51</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>04-002-5409 (Related Phase)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<doi>10.1007/BF00902443</doi>
+<reference>Dufek, V., Petru, F., Brozek, V. "Ueber Sauerstoff-haltige Verbindungen vom Strukturtyp B1 der ersten vier Uebergangsmetalle". Monatsh. Chem. 1967, 98, 2424.</reference>
+</reference_group>
+</references>
+<database_comments>Analysis: O1.15 V1. Formula from original source: V O1.15. ICSD Collection Code: 61631. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Significant Warning: Density calculated using chemical formula and reported structure differ by 3.5142%. Wyckoff Sequence: b2 a(FM3-M). Unit Cell Data Source: Single Crystal.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-073-9519.jpg</chart_name>
+<stick_series type="V O1.15 - 01-073-9519 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>37.600</theta>
+<da>2.390230</da>
+<intensity>592</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.692</theta>
+<da>2.070000</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>63.505</theta>
+<da>1.463710</da>
+<intensity>449</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>76.207</theta>
+<da>1.248260</da>
+<intensity>146</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>80.260</theta>
+<da>1.195110</da>
+<intensity>113</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>96.186</theta>
+<da>1.035000</da>
+<intensity>44</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>108.389</theta>
+<da>0.949781</da>
+<intensity>50</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>112.625</theta>
+<da>0.925732</da>
+<intensity>120</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>131.425</theta>
+<da>0.845074</da>
+<intensity>98</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

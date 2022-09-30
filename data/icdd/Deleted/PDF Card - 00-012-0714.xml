@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-012-0714</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<common_name>ρ-Mn O2</common_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<cas>1313-13-9</cas>
+<status>Deleted</status>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<filttyp>Mn Beta</filttyp>
+<lambda>1.9373</lambda>
+<patrad>FeKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<entry_date>09/01/1962</entry_date>
+<last_mod_date>09/01/2003</last_mod_date>
+<last_modifications>Quality</last_modifications>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>00-014-0644 (Deleted), 00-017-0510 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Sorem, Cameron. Econ. Geol. 1960, 55, 278.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted by 00-017-0510. Deleted by set 28, 00-014-0644 is superior. Sample Preparation: Chemically prepared material. Warning: Unindexed pattern.</database_comments>
+<phase>ρ</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-012-0714.jpg</chart_name>
+<stick_series type="Mn O2 - 00-012-0714 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>22.21</theta>
+<da>4.00</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>34.47</theta>
+<da>2.60</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>36.96</theta>
+<da>2.43</da>
+<intensity>90</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>38.27</theta>
+<da>2.35</da>
+<intensity>40</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>42.61</theta>
+<da>2.12</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>55.66</theta>
+<da>1.65</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>65.18</theta>
+<da>1.43</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>69.00</theta>
+<da>1.36</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>72.67</theta>
+<da>1.30</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>76.08</theta>
+<da>1.25</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>79.08</theta>
+<da>1.21</da>
+<intensity>5</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>92.09</theta>
+<da>1.07</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

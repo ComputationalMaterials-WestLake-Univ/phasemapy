@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-052-0794</pdf_number>
+<chemical_formula>V2 O5</chemical_formula>
+<empirical_formula>O5 V2</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<xtlmolwt>181.88</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<entry_date>09/01/2002</entry_date>
+<weight_percent>O43.98 V56.02</weight_percent>
+<atomic_percent>O71.43 V28.57</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Battery Material, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<doi>10.1023/A:1006622923899</doi>
+<reference>Yin, D., Wang, M., Huang, W. J. Mater. Sci. Lett. 1999, 18, 1239.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: Thin film with staircase-like microstructure and layered structure. Indexing for layered structure is shown. The microsteps consist of a layered structure with basal spacing about 10.6Å. Sample Preparation: A ''V2 O5'' sol was prepared by quenching from 850 C to room temperature. ''V2 O5'' gel films were deposited on glass substrates, then dried at 300 C for 4 hours and vacuum-annealed at 500 C for 20 hours. Warning: Unindexed pattern.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-052-0794.jpg</chart_name>
+<stick_series type="V2 O5 - 00-052-0794 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>8.333</theta>
+<da>10.60150</da>
+<intensity>100</intensity>
+<h>0</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>9.952</theta>
+<da>8.88052</da>
+<intensity>52</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>18.445</theta>
+<da>4.80617</da>
+<intensity>9</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>20.004</theta>
+<da>4.43505</da>
+<intensity>13</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>24.980</theta>
+<da>3.56173</da>
+<intensity>33</intensity>
+<h>0</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>27.557</theta>
+<da>3.23413</da>
+<intensity>7</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>30.215</theta>
+<da>2.95543</da>
+<intensity>44</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>33.452</theta>
+<da>2.67647</da>
+<intensity>11</intensity>
+<h>0</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.686</theta>
+<da>2.21575</da>
+<intensity>16</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>42.184</theta>
+<da>2.14044</da>
+<intensity>16</intensity>
+<h>0</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>62.884</theta>
+<da>1.47667</da>
+<intensity>3</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

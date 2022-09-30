@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>00-028-0491</pdf_number>
+<chemical_formula>Fe3 O4</chemical_formula>
+<empirical_formula>Fe3 O4</empirical_formula>
+<chemical_name>Iron Oxide</chemical_name>
+<xstal_system>Monoclinic</xstal_system>
+<xtldx>6.234</xtldx>
+<pressure_temperature>Non-ambient Pressure</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.22</cell_a>
+<cell_b>5.43</cell_b>
+<cell_c>5.6</cell_c>
+<cell_beta>106</cell_beta>
+<z>2.00</z>
+<cell_vol>123.35</cell_vol>
+<cell_mv>61.67</cell_mv>
+<authcovera>1.327</authcovera>
+<authaoverb>0.777</authaoverb>
+<authcoverb>1.031</authcoverb>
+<xtlvol>123.35</xtlvol>
+<redcellvol>123.35</redcellvol>
+<xtla>5.600</xtla>
+<xtlb>5.430</xtlb>
+<xtlc>4.220</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>106.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.754</xtlcovera>
+<xtlaoverb>1.031</xtlaoverb>
+<xtlcoverb>0.777</xtlcoverb>
+<redcell_a>4.220</redcell_a>
+<redcell_b>5.430</redcell_b>
+<redcell_c>5.600</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>106.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>2.00</xtlz>
+<ss>F(10) = 1.6(0.0730, 86)</ss>
+<xtlsg>P</xtlsg>
+<xtlmolwt>231.53</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>0.7107</lambda>
+<patrad>MoKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<pressure>25.00000000000</pressure>
+<spgr_label>Space Group</spgr_label>
+<spgr>P</spgr>
+<pearson>mP14.00</pearson>
+<entry_date>09/01/1978</entry_date>
+<weight_percent>Fe72.36 O27.64</weight_percent>
+<atomic_percent>Fe42.86 O57.14</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Mao et al. J. Geophys. Res. 1974, 79, 1165.</reference>
+</reference_group>
+</references>
+<database_comments>Analysis: Electron microprobe analysis: ''Fe +2'', ''Fe +3'' 71.08, Ti, Si, Al, Mg, Ca, Mn, Cr, S, V, traces. General Comments: High-pressure phase at 250 kbar. Isothermal bulk modulus of specimen at 0 pressure calculated at 183 mbar. Intensities from a photograph at 310 kbar. Pressure of Datacollection: Pattern taken at 250 kbar. Sample Source or Locality: Specimen from Mineville, New York, USA. Temperature of Data Collection: 298 K. Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.540593 Å)</wave_length>
+<chart_name>PDF Card - 00-028-0491.jpg</chart_name>
+<stick_series type="Fe3 O4 - 00-028-0491 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>34.47</theta>
+<da>2.60</da>
+<intensity>100</intensity>
+<h>-1</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.81</theta>
+<da>2.44</da>
+<intensity>10</intensity>
+<h>0</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>38.44</theta>
+<da>2.34</da>
+<intensity>30</intensity>
+<h>-1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.19</theta>
+<da>2.14</da>
+<intensity>10</intensity>
+<h>-2</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.60</theta>
+<da>2.03</da>
+<intensity>40</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>47.83</theta>
+<da>1.90</da>
+<intensity>40</intensity>
+<h>2</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>50.98</theta>
+<da>1.79</da>
+<intensity>20</intensity>
+<h>0</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.60</theta>
+<da>1.55</da>
+<intensity>40</intensity>
+<h>-2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>66.76</theta>
+<da>1.40</da>
+<intensity>50</intensity>
+<h>-1</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>77.55</theta>
+<da>1.23</da>
+<intensity>10</intensity>
+<h>1</h>
+<k>4</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

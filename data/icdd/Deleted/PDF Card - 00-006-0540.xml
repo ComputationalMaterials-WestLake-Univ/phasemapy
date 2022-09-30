@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-006-0540</pdf_number>
+<chemical_formula>Mn2 O3</chemical_formula>
+<empirical_formula>Mn2 O3</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<common_name>γ-Mn2 O3</common_name>
+<xstal_system>Tetragonal</xstal_system>
+<xtldx>6.801</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<cas>1317-34-6</cas>
+<status>Deleted</status>
+<cell_a>8.1</cell_a>
+<cell_c>9.4</cell_c>
+<z>16.00</z>
+<cell_vol>616.73</cell_vol>
+<cell_mv>38.55</cell_mv>
+<authcovera>1.160</authcovera>
+<xtlvol>616.73</xtlvol>
+<redcellvol>616.73</redcellvol>
+<xtla>8.100</xtla>
+<xtlb>8.100</xtlb>
+<xtlc>9.400</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>1.160</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.160</xtlcoverb>
+<redcell_a>8.100</redcell_a>
+<redcell_b>8.100</redcell_b>
+<redcell_c>9.400</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>16.00</xtlz>
+<ss>F(10) = 1.1(0.1203, 73)</ss>
+<xtlsg>P</xtlsg>
+<xtlmolwt>157.87</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>P</spgr>
+<color>Black</color>
+<pearson>tP80.00</pearson>
+<entry_date>09/01/1956</entry_date>
+<weight_percent>Mn69.60 O30.40</weight_percent>
+<atomic_percent>Mn40.00 O60.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>00-018-0803 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Moore et al. J. Am. Chem. Soc. 1950, 72, 856.</reference>
+</reference_group>
+<reference_group>
+<type>Unit Cell</type>
+<reference>Verwey, DeBoer. Recl. Trav. Chim. Pays-Bas 1936, 55, 531.</reference>
+</reference_group>
+</references>
+<database_comments>Analysis: Calculated chemical composition: - 69.59% Mn. Deleted Or Rejected By: Deleted by 00-018-0803, less reflections, PB 1992. General Comments: Reflections similar to those of ''Mn3 O4'' (24-734). Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<phase>γ</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-006-0540.jpg</chart_name>
+<stick_series type="Mn2 O3 - 00-006-0540 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>17.98</theta>
+<da>4.93</da>
+<intensity>40</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.97</theta>
+<da>3.08</da>
+<intensity>60</intensity>
+<h>2</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.65</theta>
+<da>2.74</da>
+<intensity>70</intensity>
+<h>2</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.19</theta>
+<da>2.48</da>
+<intensity>100</intensity>
+<h>2</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.60</theta>
+<da>2.39</da>
+<intensity>40</intensity>
+<h>2</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.60</theta>
+<da>2.03</da>
+<intensity>20</intensity>
+<h>2</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>49.79</theta>
+<da>1.83</da>
+<intensity>30</intensity>
+<h>1</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>50.98</theta>
+<da>1.79</da>
+<intensity>20</intensity>
+<h>1</h>
+<k>1</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>57.95</theta>
+<da>1.59</da>
+<intensity>30</intensity>
+<h>5</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.60</theta>
+<da>1.55</da>
+<intensity>60</intensity>
+<h>3</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

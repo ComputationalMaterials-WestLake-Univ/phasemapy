@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-026-0278</pdf_number>
+<chemical_formula>V2 O3</chemical_formula>
+<empirical_formula>O3 V2</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<mineral_name>Karelianite, syn</mineral_name>
+<xstal_system>Rhombohedral</xstal_system>
+<xtldx>5.131</xtldx>
+<rep_struc>Al2 O3</rep_struc>
+<rep_struc_alpha_order>Al2 O3</rep_struc_alpha_order>
+<lpf_rep_struc>Al2 O3,hR30,167</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Al2 O3,hR30,167</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>4.92</cell_a>
+<cell_c>13.883</cell_c>
+<z>6.00</z>
+<cell_vol>291.03</cell_vol>
+<cell_mv>48.50</cell_mv>
+<authcovera>2.822</authcovera>
+<xtlvol>291.03</xtlvol>
+<redcellvol>97.01</redcellvol>
+<xtla>4.920</xtla>
+<xtlb>4.920</xtlb>
+<xtlc>13.883</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>120.00</xtlga>
+<xtlcovera>2.822</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>2.822</xtlcoverb>
+<redcell_a>4.920</redcell_a>
+<redcell_b>4.920</redcell_b>
+<redcell_c>5.430</redcell_c>
+<redcell_al>63.06</redcell_al>
+<redcell_be>63.06</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>6.00</xtlz>
+<ss>F(20) = 4.5(0.1396, 32)</ss>
+<xtlsg>R-3c (167)</xtlsg>
+<xtlmolwt>149.88</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<filttyp>ZrO Beta</filttyp>
+<diameter>406.40</diameter>
+<lambda>0.7093</lambda>
+<patrad>MoKα1</patrad>
+<source>Densiometer</source>
+<temperature>298.0</temperature>
+<aspectn>167</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>R-3c (167)</spgr>
+<pearson>hR10.00</pearson>
+<pdf_minclass>Corundum (supergroup), corundum (group)</pdf_minclass>
+<entry_date>09/01/1976</entry_date>
+<weight_percent>O32.02 V67.98</weight_percent>
+<atomic_percent>O60.00 V40.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Synthetic)</subfile_indicator>
+<cross_ref_pdf_numbers>00-001-1293 (Deleted), 00-034-0187 (Primary), 04-004-2833 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Hanawalt, J., et al. Anal. Chem. 1938, 10, 475.</reference>
+</reference_group>
+<reference_group>
+<type>Optical Data</type>
+<reference>National Research Council.</reference>
+</reference_group>
+<reference_group>
+<type>Unit Cell</type>
+<reference>Wyckoff. The Structure of Crystals, 1st Ed.</reference>
+</reference_group>
+</references>
+<database_comments>Additional Patterns: To replace 00-001-1293. Deleted Or Rejected By: Deleted by 00-034-0187. General Comments: Indexing by B. Post, modified by L. Bruce, CSIRO University of Melbourne, Parkville, Vic 3052, Australia. Refinement gives a=4.927, c=13.920, V=292.74°. Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-026-0278.jpg</chart_name>
+<stick_series type="V2 O3 - 00-026-0278 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>24.37</theta>
+<da>3.65</da>
+<intensity>60</intensity>
+<h>0</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>33.15</theta>
+<da>2.70</da>
+<intensity>80</intensity>
+<h>1</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.34</theta>
+<da>2.47</da>
+<intensity>60</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>38.78</theta>
+<da>2.32</da>
+<intensity>2</intensity>
+<h>0</h>
+<k>0</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.38</theta>
+<da>2.18</da>
+<intensity>20</intensity>
+<h>1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.60</theta>
+<da>2.03</da>
+<intensity>2</intensity>
+<h>2</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>49.79</theta>
+<da>1.83</da>
+<intensity>25</intensity>
+<h>0</h>
+<k>2</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>54.23</theta>
+<da>1.69</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>57.17</theta>
+<da>1.61</da>
+<intensity>2</intensity>
+<h>0</h>
+<k>1</k>
+<l>8</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.76</theta>
+<da>1.57</da>
+<intensity>3</intensity>
+<h>1</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>63.20</theta>
+<da>1.47</da>
+<intensity>25</intensity>
+<h>2</h>
+<k>1</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.18</theta>
+<da>1.43</da>
+<intensity>30</intensity>
+<h>3</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.78</theta>
+<da>1.33</da>
+<intensity>10</intensity>
+<h>1</h>
+<k>0</k>
+<l>10</l>
+<F/>
+</intensity>
+<intensity>
+<theta>76.81</theta>
+<da>1.24</da>
+<intensity>4</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>78.30</theta>
+<da>1.22</da>
+<intensity>2</intensity>
+<h>3</h>
+<k>0</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>80.68</theta>
+<da>1.19</da>
+<intensity>2</intensity>
+<h>2</h>
+<k>2</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>82.35</theta>
+<da>1.17</da>
+<intensity>6</intensity>
+<h>3</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>85.95</theta>
+<da>1.13</da>
+<intensity>3</intensity>
+<h>1</h>
+<k>3</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>89.93</theta>
+<da>1.09</da>
+<intensity>6</intensity>
+<h>3</h>
+<k>1</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>93.22</theta>
+<da>1.06</da>
+<intensity>6</intensity>
+<h>0</h>
+<k>4</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

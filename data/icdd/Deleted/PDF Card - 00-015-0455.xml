@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-015-0455</pdf_number>
+<chemical_formula>V O0.53</chemical_formula>
+<empirical_formula>O0.53 V</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<xtlmolwt>59.42</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<entry_date>09/01/1965</entry_date>
+<weight_percent>O14.27 V85.73</weight_percent>
+<atomic_percent>O34.64 V65.36</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>00-025-1004 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Westman, Nordmark. Acta Chem. Scand. 1960, 14, 465.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted by 00-025-1004. Reason O Quality Was Assigned: O assigned because unindexed; 1.90 reflection used for Hanawalt classification because the 2.28 reflection is close so the 2.27 reflection. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-015-0455.jpg</chart_name>
+<stick_series type="V O0.53 - 00-015-0455 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>11.341</theta>
+<da>7.796</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>22.842</theta>
+<da>3.890</da>
+<intensity>1</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>39.437</theta>
+<da>2.283</da>
+<intensity>50</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>39.745</theta>
+<da>2.266</da>
+<intensity>80</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>42.029</theta>
+<da>2.148</da>
+<intensity>1</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>43.626</theta>
+<da>2.073</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>44.855</theta>
+<da>2.019</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>47.887</theta>
+<da>1.898</da>
+<intensity>50</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>50.583</theta>
+<da>1.803</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>50.854</theta>
+<da>1.794</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>63.202</theta>
+<da>1.470</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>63.540</theta>
+<da>1.463</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>68.997</theta>
+<da>1.360</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>69.405</theta>
+<da>1.353</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>77.101</theta>
+<da>1.236</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>77.547</theta>
+<da>1.230</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

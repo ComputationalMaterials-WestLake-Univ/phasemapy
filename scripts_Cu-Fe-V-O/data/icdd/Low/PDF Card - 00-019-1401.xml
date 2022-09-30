@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>00-019-1401</pdf_number>
+<chemical_formula>V O2</chemical_formula>
+<empirical_formula>O2 V</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Triclinic (Anorthic)</xstal_system>
+<xtldx>4.483</xtldx>
+<rep_struc>V O2</rep_struc>
+<rep_struc_alpha_order>O2 V</rep_struc_alpha_order>
+<lpf_rep_struc>V O2,aP12,2</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>O2 V,aP12,2</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>5.8</cell_a>
+<cell_b>4.52</cell_b>
+<cell_c>5.58</cell_c>
+<cell_alpha>91.55</cell_alpha>
+<cell_beta>122.8</cell_beta>
+<cell_gamma>90</cell_gamma>
+<z>4.00</z>
+<cell_vol>122.90</cell_vol>
+<cell_mv>30.73</cell_mv>
+<authcovera>0.962</authcovera>
+<authaoverb>1.283</authaoverb>
+<authcoverb>1.235</authcoverb>
+<xtlvol>122.90</xtlvol>
+<redcellvol>122.90</redcellvol>
+<xtla>5.451</xtla>
+<xtlb>5.580</xtlb>
+<xtlc>4.520</xtlc>
+<xtlal>91.55</xtlal>
+<xtlbe>91.59</xtlbe>
+<xtlga>63.43</xtlga>
+<xtlcovera>0.829</xtlcovera>
+<xtlaoverb>0.977</xtlaoverb>
+<xtlcoverb>0.810</xtlcoverb>
+<redcell_a>4.520</redcell_a>
+<redcell_b>5.451</redcell_b>
+<redcell_c>5.580</redcell_c>
+<redcell_al>63.43</redcell_al>
+<redcell_be>88.45</redcell_be>
+<redcell_ga>88.41</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(17) = 1.1(0.1512, 107)</ss>
+<xtlsg>P*,-1</xtlsg>
+<xtlmolwt>82.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>2.2909</lambda>
+<patrad>CrKα</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<aspectn>2</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgraspect>P*,-1 (2)</spgraspect>
+<pearson>aP12.00</pearson>
+<entry_date>09/01/1969</entry_date>
+<weight_percent>O38.58 V61.42</weight_percent>
+<atomic_percent>O66.67 V33.33</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Common Phase, Forensic, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>04-007-0459 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Mitsuishi. Jpn. J. Appl. Phys. 1967, 6, 1060.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: Doping with Al, Fe, Cr and reduction promote formation of T phase. Designated as T phase by authors. Warning: One or more of the three strongest lines are unindexed. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.540593 Å)</wave_length>
+<chart_name>PDF Card - 00-019-1401.jpg</chart_name>
+<stick_series type="V O2 - 00-019-1401 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>26.668</theta>
+<da>3.340</da>
+<intensity>10</intensity>
+<h>1</h>
+<k>-1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>27.421</theta>
+<da>3.250</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.309</theta>
+<da>3.150</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>33.408</theta>
+<da>2.680</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>36.806</theta>
+<da>2.440</da>
+<intensity>50</intensity>
+<h>-2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.874</theta>
+<da>2.259</da>
+<intensity>20</intensity>
+<h>0</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.664</theta>
+<da>2.166</da>
+<intensity>20</intensity>
+<h>-2</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.340</theta>
+<da>2.133</da>
+<intensity>20</intensity>
+<h>2</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.210</theta>
+<da>2.047</da>
+<intensity>10</intensity>
+<h>-1</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.402</theta>
+<da>1.996</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>48.050</theta>
+<da>1.892</da>
+<intensity>10</intensity>
+<h>-3</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>54.794</theta>
+<da>1.674</da>
+<intensity>50</intensity>
+<h>2</h>
+<k>-2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.807</theta>
+<da>1.646</da>
+<intensity>50</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.592</theta>
+<da>1.625</da>
+<intensity>20</intensity>
+<h>3</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.601</theta>
+<da>1.574</da>
+<intensity>20</intensity>
+<h>-3</h>
+<k>-1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.129</theta>
+<da>1.451</da>
+<intensity>10</intensity>
+<h>-3</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.427</theta>
+<da>1.445</da>
+<intensity>20</intensity>
+<h>1</h>
+<k>-3</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.807</theta>
+<da>1.418</da>
+<intensity>20</intensity>
+<h>0</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.298</theta>
+<da>1.338</da>
+<intensity>20</intensity>
+<h>-2</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.419</theta>
+<da>1.336</da>
+<intensity>50</intensity>
+<h>-2</h>
+<k>-3</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

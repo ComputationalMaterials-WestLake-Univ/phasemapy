@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>00-039-0773</pdf_number>
+<chemical_formula>V2 O</chemical_formula>
+<empirical_formula>O V2</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<xtlmolwt>117.88</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<lambda>2.2909</lambda>
+<patrad>CrKα</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<entry_date>09/01/1989</entry_date>
+<weight_percent>O13.57 V86.43</weight_percent>
+<atomic_percent>O33.33 V66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Mukherjee, A. J. Less-Common Met. 1985, 107, 89.</reference>
+</reference_group>
+</references>
+<database_comments>Reason O Quality Was Assigned: O assigned because unindexed.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.540593 Å)</wave_length>
+<chart_name>PDF Card - 00-039-0773.jpg</chart_name>
+<stick_series type="V2 O - 00-039-0773 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>24.380</theta>
+<da>3.648</da>
+<intensity>50</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>26.989</theta>
+<da>3.301</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>33.140</theta>
+<da>2.701</da>
+<intensity>50</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>36.312</theta>
+<da>2.472</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>40.605</theta>
+<da>2.220</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>41.266</theta>
+<da>2.186</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>41.785</theta>
+<da>2.160</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>42.930</theta>
+<da>2.105</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>49.961</theta>
+<da>1.824</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>54.059</theta>
+<da>1.695</da>
+<intensity>60</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>62.213</theta>
+<da>1.491</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>65.186</theta>
+<da>1.430</da>
+<intensity>10</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>76.809</theta>
+<da>1.240</da>
+<intensity>50</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

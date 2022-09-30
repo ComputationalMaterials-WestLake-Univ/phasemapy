@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>04-006-3704</pdf_number>
+<chemical_formula>Mn O</chemical_formula>
+<empirical_formula>Mn O</empirical_formula>
+<anx>AX</anx>
+<chemical_name>Manganese Oxide</chemical_name>
+<xstal_system>Rhombohedral</xstal_system>
+<xtldx>5.471</xtldx>
+<ds>5.47</ds>
+<rep_struc_alpha_order>Ge Te</rep_struc_alpha_order>
+<lpf_rep_struc>Ge Te,hR6,160</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Ge Te,hR6,160</lpf_rep_struc_alpha_order>
+<pressure_temperature>Non-ambient Temperature</pressure_temperature>
+<status>Alternate</status>
+<cell_a>3.1223</cell_a>
+<cell_c>7.6501</cell_c>
+<z>3.00</z>
+<cell_vol>64.59</cell_vol>
+<cell_mv>21.53</cell_mv>
+<authcovera>2.450</authcovera>
+<xtlvol>64.59</xtlvol>
+<redcellvol>21.53</redcellvol>
+<xtla>3.122</xtla>
+<xtlb>3.122</xtlb>
+<xtlc>7.650</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>120.00</xtlga>
+<xtlcovera>2.450</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>2.450</xtlcoverb>
+<redcell_a>3.122</redcell_a>
+<redcell_b>3.122</redcell_b>
+<redcell_c>3.123</redcell_c>
+<redcell_al>60.01</redcell_al>
+<redcell_be>60.01</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<metric_symmetry_warning>Warning: Metric Symmetry Exceeds Crystal Symmetry</metric_symmetry_warning>
+<metric_symmetry_warning_comments>
+<metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment>Crystal Data Bravais Lattice = RH Reduced Cell Bravais Lattice = CF</metric_symmetry_warning_comment>
+</metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment>CF Cell Parameters: 4.416 4.416 4.416 90.01 89.99 90.01</metric_symmetry_warning_comment>
+</metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment>Matrix (Initial To CF):-0.7 0.7-0.3/ 0.7 1.3 0.3/ 1.3 0.7-0.3</metric_symmetry_warning_comment>
+</metric_symmetry_warning_comment_group>
+</metric_symmetry_warning_comments>
+<xtlz>3.00</xtlz>
+<ss>F(10) = 72.7(0.0060, 23)</ss>
+<xtlsg>R3m (160)</xtlsg>
+<xtlmolwt>70.94</xtlmolwt>
+<quality_mark>Prototyping</quality_mark>
+<iic>4.85</iic>
+<iic_nd>0.83</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>50.0</temperature>
+<aspectn>160</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>R3m (160)</spgr>
+<pearson>hR2.00</pearson>
+<entry_date>09/01/2005</entry_date>
+<last_mod_date>09/01/2011</last_mod_date>
+<last_modifications>Reflections</last_modifications>
+<weight_percent>Mn77.45 O22.55</weight_percent>
+<atomic_percent>Mn50.00 O50.00</atomic_percent>
+<sg_sym_ops>
+<sg_sym_op>
+<seq>1</seq>
+<operator>x,y,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>2</seq>
+<operator>-y,x-y,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>3</seq>
+<operator>-x+y,-x,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>4</seq>
+<operator>-y,-x,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>5</seq>
+<operator>x,x-y,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>6</seq>
+<operator>-x+y,y,z</operator>
+</sg_sym_op>
+</sg_sym_ops>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<atomic_coords>
+<atomic_coord>
+<atom>O</atom>
+<num>1</num>
+<wyckoff>3a</wyckoff>
+<symmetry>3m</symmetry>
+<x>0.0</x>
+<y>0.0</y>
+<z>0.0</z>
+<sof>1.0</sof>
+<aet>6-a</aet>
+</atomic_coord>
+<atomic_coord>
+<atom>Mn</atom>
+<num>2</num>
+<wyckoff>3a</wyckoff>
+<symmetry>3m</symmetry>
+<x>0.0</x>
+<y>0.0</y>
+<z>0.4752</z>
+<sof>1.0</sof>
+<aet>6-a</aet>
+</atomic_coord>
+</atomic_coords>
+<ani_temp_facs/>
+<ac_space_group>R3mH (160)</ac_space_group>
+<ac_unit_cell_a>3.1223</ac_unit_cell_a>
+<ac_unit_cell_b>3.1223</ac_unit_cell_b>
+<ac_unit_cell_c>7.6501</ac_unit_cell_c>
+<ac_unit_cell_alpha>90</ac_unit_cell_alpha>
+<ac_unit_cell_beta>90</ac_unit_cell_beta>
+<ac_unit_cell_gamma>120</ac_unit_cell_gamma>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>04-002-0951 (Alternate), 04-002-2936 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from LPF using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Rodbell D.S., Osika L.M., Lawrence P.E. "Low-Temperature Lattice Distortions in MnO and EuTe". J. Appl. Phys. 1965, 36, 666.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: AX. LPF Collection Code: 554904. Polymorphism: Low temperature phase. Temperature of Data Collection: 50 K. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Non-centrosymmetric - Pyro / Piezo (p), Piezo (2nd Harm.)</crystal_properties>
+<phase>Low temperature phase.</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 04-006-3704.jpg</chart_name>
+<stick_series type="Mn O - 04-006-3704 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>35.172</theta>
+<da>2.549420</da>
+<intensity>671m</intensity>
+<h>0</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.172</theta>
+<da>2.549420</da>
+<intensity>671m</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.835</theta>
+<da>2.208000</da>
+<intensity>1000</intensity>
+<h>0</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.129</theta>
+<da>1.561150</da>
+<intensity>465m</intensity>
+<h>1</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.129</theta>
+<da>1.561150</da>
+<intensity>465m</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.694</theta>
+<da>1.331450</da>
+<intensity>186m</intensity>
+<h>0</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.694</theta>
+<da>1.331450</da>
+<intensity>186m</intensity>
+<h>1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>74.354</theta>
+<da>1.274710</da>
+<intensity>114m</intensity>
+<h>0</h>
+<k>0</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>74.354</theta>
+<da>1.274710</da>
+<intensity>114m</intensity>
+<h>2</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>88.488</theta>
+<da>1.104000</da>
+<intensity>44</intensity>
+<h>0</h>
+<k>2</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>98.997</theta>
+<da>1.013010</da>
+<intensity>57m</intensity>
+<h>2</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>98.997</theta>
+<da>1.013010</da>
+<intensity>57m</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>102.545</theta>
+<da>0.987376</da>
+<intensity>104m</intensity>
+<h>1</h>
+<k>1</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>102.545</theta>
+<da>0.987376</da>
+<intensity>104m</intensity>
+<h>1</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>117.421</theta>
+<da>0.901384</da>
+<intensity>76m</intensity>
+<h>2</h>
+<k>1</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>117.421</theta>
+<da>0.901384</da>
+<intensity>76m</intensity>
+<h>3</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>130.016</theta>
+<da>0.849853</da>
+<intensity>50m</intensity>
+<h>0</h>
+<k>3</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>130.016</theta>
+<da>0.849853</da>
+<intensity>50m</intensity>
+<h>1</h>
+<k>2</k>
+<l>5</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

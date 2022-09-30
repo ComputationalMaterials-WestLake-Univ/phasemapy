@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-003-0583</pdf_number>
+<chemical_formula>O2</chemical_formula>
+<empirical_formula>O2</empirical_formula>
+<anx>N</anx>
+<chemical_name>Oxygen</chemical_name>
+<common_name>β-O2</common_name>
+<xstal_system>Cubic</xstal_system>
+<dm>1.426</dm>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<cell_a>6.83</cell_a>
+<cell_vol>318.61</cell_vol>
+<xtlvol>318.61</xtlvol>
+<redcellvol>318.61</redcellvol>
+<xtla>6.830</xtla>
+<xtlb>6.830</xtlb>
+<xtlc>6.830</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>6.830</redcell_a>
+<redcell_b>6.830</redcell_b>
+<redcell_c>6.830</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<ss>F(7) = 4.1(0.1150, 15)</ss>
+<xtlmolwt>32.00</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>1.5405</lambda>
+<patrad>CuKα1</patrad>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<pearson>c??</pearson>
+<entry_date>09/01/1953</entry_date>
+<last_mod_date>09/01/2007</last_mod_date>
+<last_modifications>CellParamSource</last_modifications>
+<weight_percent>O100.00</weight_percent>
+<atomic_percent>O100.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Pharmaceutical</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Vegard. Z. Phys. 1936, 98, 5.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: N. Deleted Or Rejected By: Delete: Post parcel of November 10, 1957. General Comments: Stable between 24 K and 44 K. Density measured at -252.5 C. Warning: One or more of the 4th-8th strongest lines are unindexed.</database_comments>
+<phase>β</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-003-0583.jpg</chart_name>
+<stick_series type="O2 - 00-003-0583 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>25.96</theta>
+<da>3.43</da>
+<intensity>60</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>29.16</theta>
+<da>3.06</da>
+<intensity>100</intensity>
+<h>2</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>31.94</theta>
+<da>2.80</da>
+<intensity>80</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>47.83</theta>
+<da>1.90</da>
+<intensity>20</intensity>
+<h>3</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>49.79</theta>
+<da>1.83</da>
+<intensity>60</intensity>
+<h>3</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>53.55</theta>
+<da>1.71</da>
+<intensity>40</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.29</theta>
+<da>1.66</da>
+<intensity>20</intensity>
+<h>4</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.03</theta>
+<da>1.64</da>
+<intensity>20</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-012-0720</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Groutellite, syn</mineral_name>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Deleted</status>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Low-Precision</quality_mark>
+<filttyp>Ni Beta</filttyp>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<entry_date>09/01/1962</entry_date>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Synthetic)</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Klingsberg, Roy. Am. Mineral. 1959, 44, 819.</reference>
+</reference_group>
+</references>
+<database_comments>Deleted Or Rejected By: Deleted. General Comments: A synthetic phase intermediate between ramsdellite and groutite, formed during reduction of ramsdellite. A poorly characterized phase probably with disordered structure. Warning: Unindexed pattern. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-012-0720.jpg</chart_name>
+<stick_series type="Mn O2 - 00-012-0720 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>21.03</theta>
+<da>4.22</da>
+<intensity>100</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>34.06</theta>
+<da>2.63</da>
+<intensity>60</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>37.77</theta>
+<da>2.38</da>
+<intensity>40</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

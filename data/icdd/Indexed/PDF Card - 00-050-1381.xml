@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-050-1381</pdf_number>
+<chemical_formula>O2</chemical_formula>
+<empirical_formula>O2</empirical_formula>
+<chemical_name>Oxygen</chemical_name>
+<xstal_system>Monoclinic</xstal_system>
+<xtldx>4.687</xtldx>
+<pressure_temperature>Non-ambient Pressure</pressure_temperature>
+<status>Primary</status>
+<cell_a>3.332</cell_a>
+<cell_b>4.426</cell_b>
+<cell_c>6.866</cell_c>
+<cell_beta>116.4</cell_beta>
+<z>8.00</z>
+<cell_vol>90.70</cell_vol>
+<cell_mv>11.34</cell_mv>
+<authcovera>2.061</authcovera>
+<authaoverb>0.753</authaoverb>
+<authcoverb>1.551</authcoverb>
+<xtlvol>90.70</xtlvol>
+<redcellvol>45.35</redcellvol>
+<xtla>6.156</xtla>
+<xtlb>4.426</xtlb>
+<xtlc>3.332</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>92.60</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.541</xtlcovera>
+<xtlaoverb>1.391</xtlaoverb>
+<xtlcoverb>0.753</xtlcoverb>
+<redcell_a>3.332</redcell_a>
+<redcell_b>4.084</redcell_b>
+<redcell_c>4.084</redcell_c>
+<redcell_al>65.61</redcell_al>
+<redcell_be>68.05</redcell_be>
+<redcell_ga>68.05</redcell_ga>
+<xtlz>8.00</xtlz>
+<ss>F(6) = 67.6(0.0047, 19)</ss>
+<xtlsg>I</xtlsg>
+<xtlmolwt>32.00</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<lambda>0.4817</lambda>
+<patrad>Sync</patrad>
+<source>Visual</source>
+<temperature>298.0</temperature>
+<pressure>116.00000000000</pressure>
+<spgr_label>Space Group</spgr_label>
+<spgr>A</spgr>
+<pearson>mC16.00</pearson>
+<entry_date>09/01/2000</entry_date>
+<weight_percent>O100.00</weight_percent>
+<atomic_percent>O100.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy, Pharmaceutical</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Akahama, Y., Kawamura, H., Hausermann, D., Hanfland, M., Shimomura, O. Phys. Rev. Lett. 1995, 74, 4690.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: Phase forms above 96 GPa. ζ-Phase. Pattern taken with a diamond anvil press and image plate detector. Sample Preparation: Liquid oxygen was loaded into a diamond anvil cell. Pressure was increased at room temperature. Pressure of Datacollection: Pattern taken at 116 GPa. Warning: Lower quality mark was set by the editor.</database_comments>
+<phase>ε</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-050-1381.jpg</chart_name>
+<stick_series type="O2 - 00-050-1381 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>29.907</theta>
+<da>2.9852</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.906</theta>
+<da>1.9752</da>
+<intensity>1</intensity>
+<h>-1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>48.926</theta>
+<da>1.8601</da>
+<intensity>15</intensity>
+<h>0</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>51.339</theta>
+<da>1.7782</da>
+<intensity>20</intensity>
+<h>1</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>53.482</theta>
+<da>1.7119</da>
+<intensity>10</intensity>
+<h>-1</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>62.142</theta>
+<da>1.4925</da>
+<intensity>45</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-004-0326</pdf_number>
+<chemical_formula>Mn O</chemical_formula>
+<empirical_formula>Mn O</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<xstal_system>Orthorhombic</xstal_system>
+<xtldx>5.433</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.42</cell_a>
+<cell_b>10.4</cell_b>
+<cell_c>2.83</cell_c>
+<z>6.00</z>
+<cell_vol>130.09</cell_vol>
+<cell_mv>21.68</cell_mv>
+<authcovera>0.640</authcovera>
+<authaoverb>0.425</authaoverb>
+<authcoverb>0.272</authcoverb>
+<xtlvol>130.09</xtlvol>
+<redcellvol>130.09</redcellvol>
+<xtla>4.420</xtla>
+<xtlb>10.400</xtlb>
+<xtlc>2.830</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.640</xtlcovera>
+<xtlaoverb>0.425</xtlaoverb>
+<xtlcoverb>0.272</xtlcoverb>
+<redcell_a>2.830</redcell_a>
+<redcell_b>4.420</redcell_b>
+<redcell_c>10.400</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>6.00</xtlz>
+<ss>F(13) = 0.9(0.2372, 59)</ss>
+<xtlsg>P</xtlsg>
+<xtlmolwt>70.94</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>P</spgr>
+<pearson>oP12.00</pearson>
+<entry_date>09/01/1954</entry_date>
+<weight_percent>Mn77.45 O22.55</weight_percent>
+<atomic_percent>Mn50.00 O50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Forensic, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Cowley, Walkley. Nature (London) 1948, 161, 173.</reference>
+</reference_group>
+</references>
+<database_comments>Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-004-0326.jpg</chart_name>
+<stick_series type="Mn O - 00-004-0326 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>17.374</theta>
+<da>5.100</da>
+<intensity>20</intensity>
+<h>0</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>20.211</theta>
+<da>4.390</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>21.551</theta>
+<da>4.120</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>26.667</theta>
+<da>3.340</da>
+<intensity>20</intensity>
+<h>1</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.357</theta>
+<da>2.469</da>
+<intensity>100</intensity>
+<h>0</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>38.353</theta>
+<da>2.345</da>
+<intensity>50</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.715</theta>
+<da>2.069</da>
+<intensity>35</intensity>
+<h>0</h>
+<k>5</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>52.551</theta>
+<da>1.740</da>
+<intensity>50</intensity>
+<h>2</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.781</theta>
+<da>1.620</da>
+<intensity>50</intensity>
+<h>1</h>
+<k>6</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.559</theta>
+<da>1.575</da>
+<intensity>35</intensity>
+<h>1</h>
+<k>5</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>62.027</theta>
+<da>1.495</da>
+<intensity>20</intensity>
+<h>0</h>
+<k>7</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>72.673</theta>
+<da>1.300</da>
+<intensity>20</intensity>
+<h>0</h>
+<k>8</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>74.677</theta>
+<da>1.270</da>
+<intensity>35</intensity>
+<h>3</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

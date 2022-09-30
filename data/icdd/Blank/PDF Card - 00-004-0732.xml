@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-004-0732</pdf_number>
+<chemical_formula>Mn3 O4</chemical_formula>
+<empirical_formula>Mn3 O4</empirical_formula>
+<structural_formula>Mn O · Mn2 O3</structural_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>4.616</xtldx>
+<rep_struc>Fe3 O4</rep_struc>
+<rep_struc_alpha_order>Fe3 O4</rep_struc_alpha_order>
+<lpf_rep_struc>Fe3 O4,cF56,227</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Fe3 O4,cF56,227</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<cas>1317-35-7</cas>
+<status>Primary</status>
+<cell_a>8.7</cell_a>
+<z>8.00</z>
+<cell_vol>658.50</cell_vol>
+<cell_mv>82.31</cell_mv>
+<xtlvol>658.50</xtlvol>
+<redcellvol>164.63</redcellvol>
+<xtla>8.700</xtla>
+<xtlb>8.700</xtlb>
+<xtlc>8.700</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>6.152</redcell_a>
+<redcell_b>6.152</redcell_b>
+<redcell_c>6.152</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>8.00</xtlz>
+<ss>F(8) = 6.9(0.1291, 9)</ss>
+<xtlsg>Fd-3m (227)</xtlsg>
+<xtlmolwt>228.81</xtlmolwt>
+<quality_mark>Blank</quality_mark>
+<lambda>1.9373</lambda>
+<patrad>FeKα</patrad>
+<source>Diffractometer - Peak</source>
+<temperature>298.0</temperature>
+<aspectn>227</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fd-3m (227)</spgr>
+<pearson>cF56.00</pearson>
+<entry_date>09/01/1954</entry_date>
+<weight_percent>Mn72.03 O27.97</weight_percent>
+<atomic_percent>Mn42.86 O57.14</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>04-002-5633 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>McMurdie, Golovato. J. Res. Natl. Bur. Stand. (U. S. ) 1948, 41, 589.</reference>
+</reference_group>
+</references>
+<database_comments>Structures: Spinel structure formed at 1170 C. Warning: Lines with abs(delta 2Theta)&gt;0.2 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-004-0732.jpg</chart_name>
+<stick_series type="Mn3 O4 - 00-004-0732 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>17.547</theta>
+<da>5.050</da>
+<intensity>80</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.870</theta>
+<da>3.090</da>
+<intensity>20</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.061</theta>
+<da>2.630</da>
+<intensity>100</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.743</theta>
+<da>2.510</da>
+<intensity>15</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.583</theta>
+<da>2.170</da>
+<intensity>15</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>51.594</theta>
+<da>1.770</da>
+<intensity>10</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>54.935</theta>
+<da>1.670</da>
+<intensity>20</intensity>
+<h>5</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>60.110</theta>
+<da>1.538</da>
+<intensity>18</intensity>
+<h>4</h>
+<k>4</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>
