@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>01-075-0277</pdf_number>
+<chemical_formula>Al2 O</chemical_formula>
+<empirical_formula>Al2 O</empirical_formula>
+<anx>NO2</anx>
+<chemical_name>Aluminum Oxide</chemical_name>
+<common_name>aluminum(I) oxide</common_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>3.763</xtldx>
+<ds>3.762</ds>
+<rep_struc_alpha_order>Ca F2</rep_struc_alpha_order>
+<lpf_rep_struc>Ca F2,cF12,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Ca F2,cF12,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Non-ambient Temperature</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.98</cell_a>
+<z>4.00</z>
+<cell_vol>123.51</cell_vol>
+<cell_mv>30.88</cell_mv>
+<xtlvol>123.51</xtlvol>
+<redcellvol>30.88</redcellvol>
+<xtla>4.980</xtla>
+<xtlb>4.980</xtlb>
+<xtlc>4.980</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>3.521</redcell_a>
+<redcell_b>3.521</redcell_b>
+<redcell_c>3.521</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(13) = 999.9(0.0001, 13)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>69.96</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>3.16</iic>
+<iic_nd>0.96</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>1373.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF12.00</pearson>
+<entry_date>09/01/1998</entry_date>
+<last_mod_date>09/01/2020</last_mod_date>
+<last_modifications>Update</last_modifications>
+<weight_percent>Al77.13 O22.87</weight_percent>
+<atomic_percent>Al66.67 O33.33</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<doi>10.1021/ja01638a076</doi>
+<reference>Hoch, M., Johnston, H.L. "Formation, Stability and Crystal Structure of the Solid Aluminium Suboxides. Al2 O and Al O". J. Am. Chem. Soc. 1954, 76, 2560.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: NO2. Analysis: Al2 O1. Formula from original source: Al2 O. ICSD Collection Code: 28919. Temperature of Data Collection: 1373 K. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: c a. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<wyckoff_sequence>c a</wyckoff_sequence>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.54056 Å)</wave_length>
+<chart_name>PDF Card - 01-075-0277.jpg</chart_name>
+<stick_series type="Al2 O - 01-075-0277 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>31.079</theta>
+<da>2.875200</da>
+<intensity>212</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.040</theta>
+<da>2.490000</da>
+<intensity>508</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>51.887</theta>
+<da>1.760700</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>61.727</theta>
+<da>1.501530</da>
+<intensity>39</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.798</theta>
+<da>1.437600</da>
+<intensity>107</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>76.442</theta>
+<da>1.245000</da>
+<intensity>107</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>84.786</theta>
+<da>1.142490</da>
+<intensity>9</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>87.534</theta>
+<da>1.113560</da>
+<intensity>109</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>98.532</theta>
+<da>1.016540</da>
+<intensity>173</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>106.972</theta>
+<da>0.958401</da>
+<intensity>5</intensity>
+<h>5</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>122.083</theta>
+<da>0.880348</da>
+<intensity>54</intensity>
+<h>4</h>
+<k>4</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>132.431</theta>
+<da>0.841774</da>
+<intensity>5</intensity>
+<h>5</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>136.265</theta>
+<da>0.830000</da>
+<intensity>51</intensity>
+<h>4</h>
+<k>4</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

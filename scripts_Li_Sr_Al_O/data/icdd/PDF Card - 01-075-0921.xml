@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>01-075-0921</pdf_number>
+<chemical_formula>( Al2 O3 )1.333</chemical_formula>
+<empirical_formula>Al2.666 O3.999</empirical_formula>
+<refined_formula>Al2.665 O4</refined_formula>
+<anx>A3X4</anx>
+<chemical_name>Aluminum Oxide</chemical_name>
+<common_name>γ`-( Al2 O3 )1.333</common_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>3.662</xtldx>
+<ds>3.661</ds>
+<rep_struc_alpha_order>Bi F3</rep_struc_alpha_order>
+<lpf_rep_struc>Bi F3,cF16,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Bi F3,cF16,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>3.95</cell_a>
+<z>1.00</z>
+<cell_vol>61.63</cell_vol>
+<cell_mv>61.63</cell_mv>
+<xtlvol>61.63</xtlvol>
+<redcellvol>15.41</redcellvol>
+<xtla>3.950</xtla>
+<xtlb>3.950</xtlb>
+<xtlc>3.950</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.793</redcell_a>
+<redcell_b>2.793</redcell_b>
+<redcell_c>2.793</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>1.00</xtlz>
+<ss>F(9) = 999.9(0.0001, 9)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>135.91</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>1.08</iic>
+<iic_nd>1.12</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF6.66</pearson>
+<entry_date>09/01/1998</entry_date>
+<last_mod_date>09/01/2020</last_mod_date>
+<last_modifications>Update</last_modifications>
+<weight_percent>Al52.93 O47.07</weight_percent>
+<atomic_percent>Al40.00 O60.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>04-016-1445 (Related Phase)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Verwey, E.J.W. "The Structure of the electrolytical Oxide Layer on Aluminium". Z. Kristallogr. 1935, 91, 317.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: A3X4. Analysis: Al2.666 O3.999. Formula from original source: (Al2 O3)1.333. ICSD Collection Code: 30267. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: c b a. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<phase>γ`</phase>
+<wyckoff_sequence>c b a</wyckoff_sequence>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.54056 Å)</wave_length>
+<chart_name>PDF Card - 01-075-0921.jpg</chart_name>
+<stick_series type="( Al2 O3 )1.333 - 01-075-0921 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>39.481</theta>
+<da>2.280530</da>
+<intensity>49</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.911</theta>
+<da>1.975000</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>66.949</theta>
+<da>1.396540</da>
+<intensity>957</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>80.597</theta>
+<da>1.190970</da>
+<intensity>1</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>84.990</theta>
+<da>1.140270</da>
+<intensity>96</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>102.527</theta>
+<da>0.987500</da>
+<intensity>95</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>116.427</theta>
+<da>0.906192</da>
+<intensity>1</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>121.407</theta>
+<da>0.883247</da>
+<intensity>105</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>145.623</theta>
+<da>0.806290</da>
+<intensity>219</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>
