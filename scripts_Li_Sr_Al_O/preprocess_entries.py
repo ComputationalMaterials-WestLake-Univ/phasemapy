@@ -23,22 +23,18 @@ def main():
         df = pd.DataFrame(data)
         return df
 
-    def check_oxi(comp, chemsys):
-        c1 = comp[Element(chemsys[0])] * np.min(Element(chemsys[0]).common_oxidation_states) \
-             + comp[Element(chemsys[1])] * np.min(Element(chemsys[1]).common_oxidation_states) \
-             + comp[Element(chemsys[2])] * np.min(Element(chemsys[2]).common_oxidation_states) \
-             - comp[Element('O')] * 2
-        c2 = comp[Element(chemsys[0])] * np.max(Element(chemsys[0]).common_oxidation_states) \
-             + comp[Element(chemsys[1])] * np.max(Element(chemsys[1]).common_oxidation_states) \
-             + comp[Element(chemsys[2])] * np.max(Element(chemsys[2]).common_oxidation_states) \
-             - comp[Element('O')] * 2
-        return c1 * c2 <= 0
-
-    pdfs = glob('./data/icdd/*.xml')
-    icdd_entries = [ICDDEntry.from_icdd_xml(pdf) for pdf in pdfs]
+    pdfs_icdd = glob('./data/icdd/*.xml')
+    icdd_entries = [ICDDEntry.from_icdd_xml(pdf) for pdf in pdfs_icdd]
     icdd_entries = [_ for _ in icdd_entries if _.name != 'O2']
-
     precess = ICDDEntryPreprocessor(deepcopy(icdd_entries), chemsys, oxide_system)
+
+    pdfs_icsd = glob('./data/icsd/*.cif')
+    icsd_entries = [ICDDEntry.from_icsd_cif(pdf) for pdf in pdfs_icsd]
+    precess_icsd = ICDDEntryPreprocessor(deepcopy(icsd_entries), chemsys, oxide_system)
+    precess_icsd.get_xrd()
+    icsd_entries = precess_icsd.entries
+
+
     df = get_dataframe(precess.entries,
                        ['entry_id', 'name', 'pressure_temperature', 'cross_refs', 'status', 'quality_mark', 'name',
                         'spgr', 'common_name'])
@@ -60,8 +56,8 @@ def main():
 #     icdd_entries = [_ for _ in icdd_entries if _.structure]
 #     print('[ICDD] after remove no-struct entries', len(icdd_entries))
 
-    icdd_entries = [_ for _ in icdd_entries if check_oxi(_.composition,chemsys)]
-    print('[ICDD] after remove weird-valence entries', len(icdd_entries))
+    # icdd_entries = [_ for _ in icdd_entries if check_oxi(_.composition,chemsys)]
+    # print('[ICDD] after remove weird-valence entries', len(icdd_entries))
 
     precess = ICDDEntryPreprocessor(deepcopy(icdd_entries), chemsys, oxide_system)
     precess.process_frac_name()
@@ -76,24 +72,24 @@ def main():
 
     print(len([_ for _ in precess.entries if _.structure.is_ordered]), 'ordered structures')
     print(len([_ for _ in precess.entries if not _.structure.is_ordered]), 'disordered structures')
-#     print(len([_ for _ in precess.entries if _.structure.composition.as_dict().keys() == {'V', 'O'}]))
-
-
 
     all_entries = precess.entries
     entries_nostruct = [_ for _ in all_entries  if _.structure == None]
-    if len(entries_nostruct) == 0:
-        df = get_dataframe([_ for _ in all_entries ],
+    # if len(entries_nostruct) != 0:
+    #     # all_entries = precess.check_structure(R_cutoff)
+    #     pass
+    nostability_entries, all_entries = precess.check_stability(0.3)
+    df = get_dataframe([_ for _ in all_entries ],
                        ['entry_id', 'name', 'pressure_temperature', 'cross_refs', 'status', 'quality_mark', 'name',
-                        'spgr', 'common_name', 'leader'])
-        print(df)
-        df.to_excel('./data/output_candidate_pool.xlsx')
+                        'spgr', 'common_name', 'leader', 'stability'])
+    print(df)
+    print('[ICDD] entries without stability', [_.entry_id for _ in nostability_entries])
+    df.to_excel('./data/output_candidate_pool.xlsx')
 
-        with open('./data/icdd_entries.json', 'w') as f:
+    with open('./data/entries_dft.json', 'w') as f:
             json.dump(all_entries, f, cls=MontyEncoder)
 
-    else:
-        pass
+
 
 if __name__ == "__main__":
     main()
