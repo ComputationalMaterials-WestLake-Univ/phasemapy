@@ -7,6 +7,8 @@ from copy import deepcopy
 from glob import glob
 from monty.json import MontyDecoder, MSONable, MontyEncoder
 from pymatgen.core import Element, Composition
+from  pymatgen.core.structure import Structure
+from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 from scipy.optimize import curve_fit, minimize_scalar, minimize
 from scipy.special._ufuncs import wofz
 from scipy.stats import entropy
@@ -20,7 +22,8 @@ import torch.nn as nn
 from torch.nn.functional import conv2d, relu, normalize, softmax
 from torch.distributions import Categorical
 
-chemsys = ['Cu', 'Bi', 'V']  #origin ['V', 'Mn', 'Nb']
+# chemsys = ['Cu', 'Bi', 'V']  #origin ['V', 'Mn', 'Nb']
+chemsys = ['Cu', 'Bi', 'V']
 oxide_system = True
 photon_e = 13e3
 max_q_shift = 0.02
@@ -87,7 +90,7 @@ class Autoencoder(nn.Module):
 
     def cal_xrd_loss(self):
         x = self.exp_xrd
-        return th.sum(self.weight * (self(x) - x) ** 2) / th.sum(x)
+        return th.sum((self(x) - x) ** 2) / th.sum(x)
         # return nn.L1Loss(reduction='sum')(self(x), x) / th.sum(x)
 
     def cal_entropy_loss(self):
@@ -135,6 +138,7 @@ class Autoencoder(nn.Module):
         normed_encoded = encoded / np.maximum(1e-6, fractions).reshape(-1, 1)
         shifts = np.sum(np.dot(normed_encoded, np.arange(-self.shifts, self.shifts + 1).reshape(-1, 1)), axis=1)
         stds = np.sqrt(np.mean(np.arange(-self.shifts, self.shifts + 1).reshape(1, -1) ** 2 * normed_encoded, axis=1))
+
 
         return fractions, shifts, stds
 
@@ -225,6 +229,12 @@ class Sample(MSONable):
     def entries(self):
         return [_.entry for _ in self.solution]
 
+    # @property
+    # def SnO2_amp(self):
+    #     SnO2_amp = np.loadtxt('../scripts_Cu-Fe-V-O/data/RietveldRefinement/SnO2_texture.txt')
+    #     SnO2_amp = SnO2_amp/np.max(SnO2_amp)
+    #     return SnO2_amp
+
     def prune_candidates_based_on_composition(self, cutoff=0.05):
         basis_comp = np.array([[e.composition[Element(el)] for el in self.chemsys] for e in self.entries])
         basis_comp /= np.sum(basis_comp, axis=1, keepdims=True)
@@ -260,7 +270,6 @@ class Sample(MSONable):
 
             amp, weight = self.get_voigt_xrd(wider_q, *phase.entry.data['xrd'], initial_alphagamma, self.wavelength)
             amp = amp / np.max(amp) * 100
-
             # plt.plot(wider_q, amp, 'r', alpha=0.6)
 
             shifted_amps = np.array(
@@ -284,7 +293,7 @@ class Sample(MSONable):
             amp = shifted_amps[anchor]
 
             fraction = np.min(ratio[anchor])  # * np.max(amp) / np.max(self.exp_xrd)
-
+            # fraction = np.max(amp) / np.max(self.exp_xrd)
             phase.fraction = fraction
             phase.shift = (anchor - extension) * self.log_q_spacing
             phase.amp = shifted_amps[anchor]
@@ -323,6 +332,7 @@ class Sample(MSONable):
         phase_fractions = basis_xrd_weight * fractions
         phase_fractions /= np.sum(phase_fractions)
         return phase_fractions
+
 
     @property
     def recon_comp(self):
@@ -363,6 +373,7 @@ class Sample(MSONable):
     def to_autoencoder(self, shifts, loss_weight):
 
         wider_q = np.exp(self.wider_log_q(extension=shifts))
+        # wider_q = np.exp(self.wider_log_q(extension=None))
         basis_xrds_np, basis_xrd_weight_np = [], []
 
         for phase in self.solution:
@@ -412,16 +423,22 @@ class Sample(MSONable):
             return self
 
     def update_solution(self, frac_cutoff, width_cutoff, shift):
-        self.solution = [_ for _ in self.solution if _.fraction > frac_cutoff]
+        s = sum([_.fraction for _ in self.solution])
+        self.solution = [_ for _ in self.solution if _.fraction/s > frac_cutoff]
         self.solution = [_ for _ in self.solution if _.width < width_cutoff - 1e-8]
         self.solution = [_ for _ in self.solution if abs(_.shift) < shift - 1e-8]
 
+        return
+
+
     def print_solution(self):
         self.solution.sort(key=lambda x: x.fraction, reverse=True)
+        s = sum([_.fraction for _ in self.solution])
         data = {
             'Name': [_.entry.name for _ in self.solution],
             'Entry_id': [_.entry.entry_id for _ in self.solution],
-            'fraction': self.phase_fractions,
+            'fraction': [_.fraction/s for _ in self.solution],
+            'phase_fraction': self.phase_fractions,
             'shift': [_.shift for _ in self.solution],
             'width': [_.width for _ in self.solution],
         }
@@ -430,9 +447,10 @@ class Sample(MSONable):
         # df.reset_index(drop=True, inplace=True)
         print(f'Sample: # {self.sample_id}')
         print(df)
-        print(f'Current R^2 = {self.R}')
+        print(f'Current R = {self.R}')
 
-        return
+        return len(df)
+
 
     @property
     def current_model(self):
@@ -470,16 +488,16 @@ class Sample(MSONable):
             recon += np.sum(ys, axis=0)
             recon -= ys[index]
             w = 1 / (self.exp_xrd + 0.01 * np.max(self.exp_xrd))
-            R = np.sum(w * (recon - self.exp_xrd) ** 2) / np.sum(self.exp_xrd)
+            # R = np.sum((recon - self.exp_xrd)**2) / len(self.exp_xrd)
+            R = np.sum(w*(recon - self.exp_xrd) ** 2) / np.sum(self.exp_xrd)
+
             return R
 
         # print(self.max_q_shift)
         # print(shift, width)
-        # res = minimize(fit_function, x0=[shift, width], bounds=[(-self.max_q_shift, self.max_q_shift), (0, 0.3)])
 
         res = minimize(fit_function, x0=np.array([shift, width]),
-                       bounds=([-self.max_q_shift, self.max_q_shift], [0, 0.3]))
-
+                           bounds=([-self.max_q_shift, self.max_q_shift], [0, 0.3]))
         self.solution[index].shift, self.solution[index].width = res.x
 
     def refine_one_by_one(self):
@@ -499,7 +517,9 @@ class Sample(MSONable):
             for frac, y in zip(fracs, unscaled_ys):
                 recon += frac * y
             w = 1 / (self.exp_xrd + 0.01 * np.max(self.exp_xrd))
-            R = np.sum(w * (recon - self.exp_xrd) ** 2) / np.sum(self.exp_xrd)
+            # R = np.sum((recon - self.exp_xrd)**2) / len(self.exp_xrd)
+            R = np.sum(w*(recon - self.exp_xrd) ** 2) / np.sum(self.exp_xrd)
+
             return R
 
         res = minimize(fit_function, x0=fractions, bounds=[(0, np.inf) for _ in fractions])  # method='bound'
@@ -519,8 +539,9 @@ class Sample(MSONable):
         # w /= np.sum(w)
         # w *= len(w)
         # print (w)
-
+        # R = np.sum((self.recon - self.exp_xrd)**2) / len(self.exp_xrd)
         R = np.sum(w * (self.recon - self.exp_xrd) ** 2) / np.sum(self.exp_xrd)
+
         return R
 
     def plot(self, show=False, saveplot=None, perphase=False):
@@ -528,14 +549,15 @@ class Sample(MSONable):
             fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8 * 2, 6), sharey=True)
             for phase, y in zip(self.solution, self.current_model):
                 if phase.fraction:
-                    ax2.plot(self.q, y, label=phase.entry.entry_id + ' ' + phase.entry.name, lw=1)
+                    sub_map = str.maketrans('0123456789', '₀₁₂₃₄₅₆₇₈₉')
+                    ax2.plot(self.q, y, label=phase.entry.entry_id + ' ' + phase.entry.name.translate(sub_map), lw=1)
             ax2.legend()
         else:
             fig, ax1 = plt.subplots(1, 1, figsize=(8, 6))
 
-        ax1.plot(self.q, self.exp_xrd, label='orig.', lw=1)
-        ax1.plot(self.q, self.recon, label='recon.', alpha=0.5, lw=1)
-        ax1.legend(title=f'#{self.sample_id:03d} R={np.sqrt(self.R):.3f}')
+        ax1.plot(self.q, self.exp_xrd, color='k', label='orig.', lw=1)
+        ax1.plot(self.q, self.recon, color='r',label='recon.', alpha=0.8, lw=1)
+        ax1.legend(title=f'#{self.sample_id:03d} R={self.R:.3f}')
 
         if saveplot:
             plt.savefig(saveplot, format='pdf', bbox_inches='tight', transparent=True)
@@ -544,6 +566,43 @@ class Sample(MSONable):
             plt.show()
         else:
             return plt
+
+    @staticmethod
+    def solution_statistics(samples):
+        from collections import defaultdict
+        #     set(sample.entries)
+        activated_entries = set()
+        for sample in samples:
+            activated_entries = activated_entries | set(sample.entries)
+
+        max_act = defaultdict(float)
+        min_act = defaultdict(float)
+        tot_act = defaultdict(float)
+        count_act = defaultdict(int)
+        ref = defaultdict(list)
+        for sample in samples:
+            norm = sum([p.fraction for p in sample.solution])
+            for phase in sample.solution:
+                tot_act[phase.entry.entry_id] += phase.fraction / norm
+                count_act[phase.entry.entry_id] += 1
+                max_act[phase.entry.entry_id] = max(phase.fraction / norm, max_act[phase.entry.entry_id])
+                min_act[phase.entry.entry_id] = min(phase.fraction / norm, max_act[phase.entry.entry_id])
+                ref[phase.entry.entry_id].append([phase.fraction / norm, sample.sample_id])
+                ref[phase.entry.entry_id] = sorted(ref[phase.entry.entry_id], reverse=True)
+        from pandas import DataFrame
+        entry_ids = [_.entry_id for _ in activated_entries]
+        df = DataFrame(data={
+            'entry_id': entry_ids,
+            'tot': [tot_act[i] for i in entry_ids],
+            'max': [max_act[i] for i in entry_ids],
+            'min': [min_act[i] for i in entry_ids],
+            'count': [count_act[i] for i in entry_ids],
+            'names': [_.name for _ in activated_entries],
+            #     'sample':[ref[i] for i in entry_ids]
+        })
+        df.sort_values(by=['tot', 'count'], ascending=False, inplace=True)
+        df.reset_index(drop=True, inplace=True)
+        print(df)
 
 
 class Phase(MSONable):
@@ -556,10 +615,131 @@ class Phase(MSONable):
         self.amp = amp
         self.weight = weight
 
+
     @classmethod
     def from_entry_and_instance_data(cls, entry, fraction, instance_data, shift=0, width=initial_alphagamma):
         amp, weight = Sample.get_voigt_xrd(instance_data.q, *entry.data['xrd'], width, instance_data.wavelength)
         return cls(entry, fraction, shift, width, instance_data.q, amp, weight)
+
+    @classmethod
+    def theta_to_q(cls, entries):
+        for e in entries:
+            if len(e.entry_id) == 11:
+                e.data['xrd'][0] = 4 * np.pi / 1.54056 * np.sin(np.radians(e.data['xrd'][0]) / 2) * 10
+
+    @classmethod
+    def mask_entry(cls, entries):
+        for e in entries:
+            mask = e.data['xrd'][0] > 35
+            e.data['xrd'][0][mask] = 35
+            e.data['xrd'][1][mask] = 0.01
+            mask = e.data['xrd'][0] < 16
+            e.data['xrd'][0][mask] = 16
+            e.data['xrd'][1][mask] = 0.01
+
+
+class Texture():
+    def __init__(self, sample):
+        self.sample = sample
+
+    @property
+    def entry(self):
+        _, entry_index = self.get_preferred_phase()
+        return self.sample.solution[entry_index].entry
+
+    @property
+    def entry_index(self):
+        _, entry_index = self.get_preferred_phase()
+        return entry_index
+
+    @property
+    def preferred_orientation(self):
+        diff_group, _ = self.get_preferred_phase()
+        q_index = np.argmax(diff_group[self.entry_index])
+        closest = min(self.entry.data['xrd'][0], key=lambda y: abs(y - self.sample.q[q_index]))
+        orientation_index = np.where(self.entry.data['xrd'][0] == closest)[0]
+        preferred_orientation = self.entry.hkl[orientation_index[0]]
+
+        return preferred_orientation
+
+    @property
+    def cif_path(self):
+        if len(self.entry.entry_id) == 11:
+            cif_path = f'./data/icdd/PDF Card - {self.entry.entry_id}.cif'
+        else:
+            cif_path = f'./data/icsd/CollCode{self.entry.entry_id}.cif'
+        return cif_path
+
+    def get_preferred_phase(self):
+        diff = self.sample.exp_xrd - self.sample.recon
+        diff_group = []
+        for i in range(len(self.sample.solution)):
+            diff_one = diff - self.sample.current_model[i]
+            diff_group.append(diff_one)
+            sum_group = [np.sum(_) for _ in diff_group]
+
+        return diff_group, np.argmin(sum_group)
+
+    def get_texture(self, march=1):
+        def get_recip_latt(cif_file):
+            structure = Structure.from_file(cif_file)
+            finder = SpacegroupAnalyzer(structure)
+            structure = finder.get_refined_structure()
+            latt = structure.lattice
+            recip_latt = latt.reciprocal_lattice_crystallographic
+
+            return recip_latt
+
+        def get_Q_space(hkl, recip_latt):
+            hkl = np.array(hkl)
+            Q = np.matmul(recip_latt.matrix, hkl.T).T
+
+            return Q
+
+        R = get_recip_latt(self.cif_path)
+        H = get_Q_space(self.preferred_orientation, R)
+        Q = get_Q_space(self.entry.hkl, R)
+        I = self.entry.data['xrd'][1]
+        I_pref = deepcopy(I)
+        for i in range(len(Q)):
+            h = np.array(Q[i])
+            alpha = np.arccos(
+                max(min(np.dot(H, h) / np.linalg.norm(H) / np.linalg.norm(h), 1.0), -1.0)
+            )
+            W = (march ** 2 * (np.cos(alpha) ** 2) + (1 / march) * np.sin(alpha) ** 2) ** (-3.0 / 2)
+            I_pref[i] *= W
+
+        return I_pref / np.max(I_pref)
+
+    def get_texture_group(self, march=[0, 1], march_stride=0.02):
+        group = []
+        for parameter in np.arange(march[0], march[1], march_stride)[1:]:
+            I_texture = self.get_texture(march=float(parameter))
+            e = deepcopy(self.entry)
+            e.data['xrd'][1] = I_texture
+            group.append(e)
+        return group
+
+    def optimize_by_texture(self, texture_group, plot=True):
+        R_list = []
+        sample_texture = []
+        for entry_texture in texture_group:
+            new_sample = deepcopy(self.sample)
+            new_sample.solution[self.entry_index].entry.data['xrd'] = entry_texture.data['xrd']
+            #             new_sample = new_sample.optimize(num_epoch=50, print_prog=True,loss_weight=loss_weight)
+            new_sample.refine_all_fractions()
+            new_sample.refine_one_by_one()
+            new_sample.plot(perphase=True)
+            R_list.append(new_sample.R)
+            sample_texture.append(new_sample)
+        if plot:
+            sample_texture[np.argmin(R_list)].plot(perphase=True)
+            self.sample.plot(perphase=True)
+        return R_list, sample_texture
+
+
+
+
 
 
 def main():
