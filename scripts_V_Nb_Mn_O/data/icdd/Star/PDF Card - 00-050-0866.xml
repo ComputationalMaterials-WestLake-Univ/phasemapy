@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-050-0866</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<xstal_system>Orthorhombic</xstal_system>
+<xtldx>5.273</xtldx>
+<rep_struc>Ca Cl2</rep_struc>
+<rep_struc_alpha_order>Ca Cl2</rep_struc_alpha_order>
+<lpf_rep_struc>Ca Cl2,oP6,58</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Ca Cl2,oP6,58</lpf_rep_struc_alpha_order>
+<pressure_temperature>Non-ambient Pressure</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.437(3)</cell_a>
+<cell_b>4.312(3)</cell_b>
+<cell_c>2.862(2)</cell_c>
+<z>2.00</z>
+<cell_vol>54.76</cell_vol>
+<cell_mv>27.38</cell_mv>
+<authcovera>0.645</authcovera>
+<authaoverb>1.029</authaoverb>
+<authcoverb>0.664</authcoverb>
+<xtlvol>54.76</xtlvol>
+<redcellvol>54.76</redcellvol>
+<xtla>4.312</xtla>
+<xtlb>4.437</xtlb>
+<xtlc>2.862</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.664</xtlcovera>
+<xtlaoverb>0.972</xtlaoverb>
+<xtlcoverb>0.645</xtlcoverb>
+<redcell_a>2.862</redcell_a>
+<redcell_b>4.312</redcell_b>
+<redcell_c>4.437</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>2.00</xtlz>
+<ss>F(16) = 241.1(0.0037, 18)</ss>
+<xtlsg>Pnnm (58)</xtlsg>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Star</quality_mark>
+<filttyp>Zr Beta</filttyp>
+<lambda>0.7107</lambda>
+<patrad>MoKα</patrad>
+<source>Integrated</source>
+<temperature>298.0</temperature>
+<pressure>7.30000000000</pressure>
+<aspectn>58A</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Pnnm (58)</spgr>
+<pearson>oP6.00</pearson>
+<entry_date>09/01/2000</entry_date>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<structure_info>Atomic parameters are cross-referenced from PDF entry 04-007-3892</structure_info>
+<sg_sym_ops>
+<sg_sym_op>
+<seq>1</seq>
+<operator>x,y,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>2</seq>
+<operator>-x,-y,-z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>3</seq>
+<operator>-x,-y,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>4</seq>
+<operator>x,y,-z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>5</seq>
+<operator>x+1/2,-y+1/2,-z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>6</seq>
+<operator>-x+1/2,y+1/2,z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>7</seq>
+<operator>-x+1/2,y+1/2,-z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>8</seq>
+<operator>x+1/2,-y+1/2,z+1/2</operator>
+</sg_sym_op>
+</sg_sym_ops>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<atomic_coords>
+<atomic_coord>
+<atom>Mn</atom>
+<num>1</num>
+<wyckoff>2a</wyckoff>
+<symmetry>..2/m</symmetry>
+<x>0.0</x>
+<y>0.0</y>
+<z>0.0</z>
+<sof>1.0</sof>
+<aet>6-a</aet>
+</atomic_coord>
+<atomic_coord>
+<atom>O</atom>
+<num>2</num>
+<wyckoff>4g</wyckoff>
+<symmetry>..m</symmetry>
+<x>0.339</x>
+<y>0.278</y>
+<z>0.0</z>
+<sof>1.0</sof>
+<aet>3#a</aet>
+</atomic_coord>
+</atomic_coords>
+<ani_temp_facs/>
+<ac_space_group>Pnnm (58)</ac_space_group>
+<ac_unit_cell_a>4.437(3)</ac_unit_cell_a>
+<ac_unit_cell_b>4.312(3)</ac_unit_cell_b>
+<ac_unit_cell_c>2.862(2)</ac_unit_cell_c>
+<ac_unit_cell_alpha>90</ac_unit_cell_alpha>
+<ac_unit_cell_beta>90</ac_unit_cell_beta>
+<ac_unit_cell_gamma>90</ac_unit_cell_gamma>
+<subfile_indicator>Battery Material, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>00-024-0735 (Primary), 04-007-3892 (Primary)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Haines, J., Leger, J., Hoyau, S. J. Phys. Chem. Solids 1995, 56, 965.</reference>
+</reference_group>
+<reference_group>
+<type>Crystal Structure</type>
+<reference>Crystal Structure Source: LPF.</reference>
+</reference_group>
+</references>
+<database_comments>Additional Patterns: See also very similar pattern 00-024-0735 indexed on a tetragonal cell. General Comments: High-pressure form transforms to β-''Mn O2'' below 0.3 GPa. Bulk Modulus: B0 = 328 (18) GPa B0` = 4(2). In Situ Condition: Atmosphere:Silicone oil and vacuum grease. Powdered sample was placed in stainless steel gasket of diamond anvil cell. Powdered ruby was added to measure pressure. Silicone oil and vacumm grease were used as pressure-transmitting medium. Sample Preparation: Powdered commercial (Alfa Products) β-''Mn O2'' was packed in a diamond anvil cell. Pressure of Datacollection: Pattern taken at 7.3 GPa. Temperature of Data Collection: 298 K. Unit Cell Data Source: Rietveld or profile fit analysis.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-050-0866.jpg</chart_name>
+<stick_series type="Mn O2 - 00-050-0866 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>28.851</theta>
+<da>3.092</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.360</theta>
+<da>2.405</da>
+<intensity>14</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.685</theta>
+<da>2.385</da>
+<intensity>25</intensity>
+<h>0</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.643</theta>
+<da>2.218</da>
+<intensity>11</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.866</theta>
+<da>2.156</da>
+<intensity>4</intensity>
+<h>0</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.037</theta>
+<da>2.100</da>
+<intensity>13</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.960</theta>
+<da>1.973</da>
+<intensity>6</intensity>
+<h>2</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.629</theta>
+<da>1.624</da>
+<intensity>20</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>57.361</theta>
+<da>1.605</da>
+<intensity>27</intensity>
+<h>1</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.767</theta>
+<da>1.546</da>
+<intensity>13</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.133</theta>
+<da>1.431</da>
+<intensity>4</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>66.815</theta>
+<da>1.399</da>
+<intensity>5</intensity>
+<h>3</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>68.594</theta>
+<da>1.367</da>
+<intensity>3</intensity>
+<h>1</h>
+<k>3</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>71.777</theta>
+<da>1.314</da>
+<intensity>8</intensity>
+<h>3</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>72.737</theta>
+<da>1.299</da>
+<intensity>6</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>73.726</theta>
+<da>1.284</da>
+<intensity>3</intensity>
+<h>0</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

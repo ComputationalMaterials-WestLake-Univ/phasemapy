@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>00-058-0430</pdf_number>
+<chemical_formula>Bi3 V4.2 O15.5</chemical_formula>
+<empirical_formula>Bi3 O15.5 V4.2</empirical_formula>
+<chemical_name>Bismuth Vanadium Oxide</chemical_name>
+<xstal_system>Monoclinic</xstal_system>
+<xtldx>5.881</xtldx>
+<rep_struc>V Bi O4</rep_struc>
+<rep_struc_alpha_order>Bi O4 V</rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>5.174</cell_a>
+<cell_b>5.09</cell_b>
+<cell_c>11.674</cell_c>
+<cell_gamma>90.27</cell_gamma>
+<z>1.00</z>
+<cell_vol>307.44</cell_vol>
+<cell_mv>307.44</cell_mv>
+<authcovera>2.256</authcovera>
+<authaoverb>1.017</authaoverb>
+<authcoverb>2.294</authcoverb>
+<xtlvol>307.44</xtlvol>
+<redcellvol>153.72</redcellvol>
+<xtla>5.174</xtla>
+<xtlb>11.674</xtlb>
+<xtlc>5.090</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.27</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.984</xtlcovera>
+<xtlaoverb>0.443</xtlaoverb>
+<xtlcoverb>0.436</xtlcoverb>
+<redcell_a>5.090</redcell_a>
+<redcell_b>5.174</redcell_b>
+<redcell_c>6.869</redcell_c>
+<redcell_al>112.02</redcell_al>
+<redcell_be>111.64</redcell_be>
+<redcell_ga>90.27</redcell_ga>
+<xtlz>1.00</xtlz>
+<ss>F(17) = 4.6(0.0548, 67)</ss>
+<xtlsg>I2/a (15)</xtlsg>
+<xtlmolwt>1088.88</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<lower>11.10</lower>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<aspectn>15M</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>I2/a (15)</spgr>
+<color>Greenish yellow</color>
+<pearson>mC22.70</pearson>
+<entry_date>09/01/2008</entry_date>
+<weight_percent>Bi57.58 O22.77 V19.65</weight_percent>
+<atomic_percent>Bi13.22 O68.28 V18.50</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Zyryanov, V. "Mechanochemical synthesis of crystalline compounds in the \Bi\-\V\-\O\ system." Inorg. Mater. (Engl. Transl.) 2005, 41, 156.</reference>
+</reference_group>
+</references>
+<database_comments>Sample Preparation: A 2:3 mixture of ''B2 O3'' and ''V2 O5'' was ball-milled for 20 minutes. Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.54056 Å)</wave_length>
+<chart_name>PDF Card - 00-058-0430.jpg</chart_name>
+<stick_series type="Bi3 V4.2 O15.5 - 00-058-0430 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>15.169</theta>
+<da>5.836</da>
+<intensity>&lt;1</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>18.845</theta>
+<da>4.705</da>
+<intensity>26</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.918</theta>
+<da>3.085</da>
+<intensity>100</intensity>
+<h>-1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>30.580</theta>
+<da>2.921</da>
+<intensity>19</intensity>
+<h>0</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.645</theta>
+<da>2.587</da>
+<intensity>11</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.235</theta>
+<da>2.545</da>
+<intensity>11</intensity>
+<h>0</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.929</theta>
+<da>2.256</da>
+<intensity>19</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.485</theta>
+<da>2.126</da>
+<intensity>8</intensity>
+<h>1</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.886</theta>
+<da>1.976</da>
+<intensity>14</intensity>
+<h>-1</h>
+<k>2</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>47.097</theta>
+<da>1.928</da>
+<intensity>25</intensity>
+<h>2</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>50.284</theta>
+<da>1.813</da>
+<intensity>10</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>53.344</theta>
+<da>1.716</da>
+<intensity>16</intensity>
+<h>-1</h>
+<k>1</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.102</theta>
+<da>1.638</da>
+<intensity>2</intensity>
+<h>2</h>
+<k>1</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>59.177</theta>
+<da>1.560</da>
+<intensity>38</intensity>
+<h>-1</h>
+<k>3</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>63.783</theta>
+<da>1.458</da>
+<intensity>1</intensity>
+<h>0</h>
+<k>0</k>
+<l>8</l>
+<F/>
+</intensity>
+<intensity>
+<theta>66.016</theta>
+<da>1.414</da>
+<intensity>3</intensity>
+<h>3</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>69.699</theta>
+<da>1.348</da>
+<intensity>5</intensity>
+<h>-1</h>
+<k>2</k>
+<l>7</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

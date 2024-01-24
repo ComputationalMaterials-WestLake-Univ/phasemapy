@@ -1,0 +1,72 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_34417-ICSD
+_database_code_ICSD 34417
+_audit_creation_date 1980-01-01
+_audit_update_record 2003-04-01
+_chemical_name_common 'Vanadium(IV) oxide - doped with chromium'
+_chemical_formula_structural 'V O2'
+_chemical_formula_sum 'O2 V1'
+_chemical_name_structure_type CrPS4
+_exptl_crystal_density_diffrn 4.63
+_diffrn_ambient_temperature 180.
+_citation_title
+'Structural aspects of the metal-insulator transition in Cr-doped V O2'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Physical Review  B: Solid State' 1972 5 2541 2551 PLRBAQ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Marezio, M.'
+primary 'McWhan, D.B.'
+primary 'Remeika, J.P.'
+primary 'Dernier, P.D.'
+_cell_length_a 9.0664
+_cell_length_b 5.797
+_cell_length_c 4.5255
+_cell_angle_alpha 90.
+_cell_angle_beta 91.88
+_cell_angle_gamma 90.
+_cell_volume 237.72
+_cell_formula_units_Z 8
+_space_group_name_H-M_alt 'C 1 2/m 1'
+_space_group_IT_number 12
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, y, -z'
+2 '-x, -y, -z'
+3 'x, -y, z'
+4 'x, y, z'
+5 '-x+1/2, y+1/2, -z'
+6 '-x+1/2, -y+1/2, -z'
+7 'x+1/2, -y+1/2, z'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+V4+ 4
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+V1 V4+ 4 h 0. 0.2798 0.5 0.55 1.
+V2 V4+ 4 i 0.2323 0. 0.0268 0.46 1.
+O1 O2- 8 j 0.3524 0.2527 0.2073 0.34 1.
+O2 O2- 4 i 0.6034 0. 0.2932 0.37 1.
+O3 O2- 4 i 0.0992 0. 0.3001 0.32 1.
+#End of TTdata_34417-ICSD

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-085-4551</pdf_number>
+<chemical_formula>( V O1.2 )0.833</chemical_formula>
+<empirical_formula>O0.9996 V0.833</empirical_formula>
+<anx>N3O4</anx>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>5.525</xtldx>
+<ds>5.525</ds>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.126</cell_a>
+<z>4.00</z>
+<cell_vol>70.24</cell_vol>
+<cell_mv>17.56</cell_mv>
+<xtlvol>70.24</xtlvol>
+<redcellvol>17.56</redcellvol>
+<xtla>4.126</xtla>
+<xtlb>4.126</xtlb>
+<xtlc>4.126</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.918</redcell_a>
+<redcell_b>2.918</redcell_b>
+<redcell_c>2.918</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(9) = 999.9(0.0001, 9)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>58.43</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>3.85</iic>
+<iic_nd>0.59</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF7.33</pearson>
+<entry_date>09/01/2018</entry_date>
+<weight_percent>O27.37 V72.63</weight_percent>
+<atomic_percent>O54.55 V45.45</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<reference>Schoenberg, Nils "X-ray studies on vanadium and chromium oxides with low oxygen content". Acta Chem. Scand. 1954, 8, 221.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: N3O4. Analysis: O0.9996 V0.833. Formula from original source: ( V O1.2 )0.833. ICSD Collection Code: 196916. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: b a (FM-3M). Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-085-4551.jpg</chart_name>
+<stick_series type="( V O1.2 )0.833 - 01-085-4551 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>37.732</theta>
+<da>2.382150</da>
+<intensity>438</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.848</theta>
+<da>2.063000</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>63.746</theta>
+<da>1.458760</da>
+<intensity>442</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>76.512</theta>
+<da>1.244040</da>
+<intensity>114</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>80.588</theta>
+<da>1.191070</da>
+<intensity>111</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>96.620</theta>
+<da>1.031500</da>
+<intensity>43</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>108.930</theta>
+<da>0.946569</da>
+<intensity>40</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>113.211</theta>
+<da>0.922602</da>
+<intensity>117</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>132.294</theta>
+<da>0.842216</da>
+<intensity>95</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

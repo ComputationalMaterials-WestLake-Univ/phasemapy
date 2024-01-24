@@ -1,0 +1,113 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_195438-ICSD
+_database_code_ICSD 195438
+_audit_creation_date 2016-02-01
+_chemical_name_common 'Tetracopper(II) tetrakis(trioxovanadate(IV))'
+_chemical_formula_structural 'Cu Cu3 (V4 O12)'
+_chemical_formula_sum 'Cu4 O12 V4'
+_chemical_name_structure_type Quadruple_Perovskite#NaMn7O12
+_exptl_crystal_density_diffrn 5.67
+_diffrn_ambient_temperature 300.
+_citation_title 'Rattling in the quadruple perovskite Cu Cu3 V4 O12'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Angewandte Chemie, International Edition' 2015 54 10870 10874 ACIEF5
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Akizuki, Yasuhide'
+primary 'Yamada, Ikuya'
+primary 'Fujita, Koji'
+primary 'Taga, Kazuya'
+primary 'Kawakami, Takateru'
+primary 'Mizumaki, Masaichiro'
+primary 'Tanaka, Katsuhisa'
+_cell_length_a 7.2483
+_cell_length_b 7.2483
+_cell_length_c 7.2483
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 380.81
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'I m -3'
+_space_group_IT_number 204
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-z, x, y'
+2 'z, x, -y'
+3 'z, -x, y'
+4 '-z, -x, -y'
+5 'y, -z, x'
+6 '-y, z, x'
+7 'y, z, -x'
+8 '-y, -z, -x'
+9 'x, y, -z'
+10 'x, -y, z'
+11 '-x, y, z'
+12 '-x, -y, -z'
+13 'z, -x, -y'
+14 '-z, -x, y'
+15 '-z, x, -y'
+16 'z, x, y'
+17 '-y, z, -x'
+18 'y, -z, -x'
+19 '-y, -z, x'
+20 'y, z, x'
+21 '-x, -y, z'
+22 '-x, y, -z'
+23 'x, -y, -z'
+24 'x, y, z'
+25 '-z+1/2, x+1/2, y+1/2'
+26 'z+1/2, x+1/2, -y+1/2'
+27 'z+1/2, -x+1/2, y+1/2'
+28 '-z+1/2, -x+1/2, -y+1/2'
+29 'y+1/2, -z+1/2, x+1/2'
+30 '-y+1/2, z+1/2, x+1/2'
+31 'y+1/2, z+1/2, -x+1/2'
+32 '-y+1/2, -z+1/2, -x+1/2'
+33 'x+1/2, y+1/2, -z+1/2'
+34 'x+1/2, -y+1/2, z+1/2'
+35 '-x+1/2, y+1/2, z+1/2'
+36 '-x+1/2, -y+1/2, -z+1/2'
+37 'z+1/2, -x+1/2, -y+1/2'
+38 '-z+1/2, -x+1/2, y+1/2'
+39 '-z+1/2, x+1/2, -y+1/2'
+40 'z+1/2, x+1/2, y+1/2'
+41 '-y+1/2, z+1/2, -x+1/2'
+42 'y+1/2, -z+1/2, -x+1/2'
+43 '-y+1/2, -z+1/2, x+1/2'
+44 'y+1/2, z+1/2, x+1/2'
+45 '-x+1/2, -y+1/2, z+1/2'
+46 '-x+1/2, y+1/2, -z+1/2'
+47 'x+1/2, -y+1/2, -z+1/2'
+48 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu2+ 2
+V4+ 4
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Cu1 Cu2+ 2 a 0. 0. 0. 0.0446 1.
+Cu2 Cu2+ 6 b 0. 0.5 0.5 0.0033 1.
+V1 V4+ 8 c 0.25 0.25 0.25 0.0052 1.
+O1 O2- 24 g 0. 0.1812 0.3023 0.0027 1.
+#End of TTdata_195438-ICSD

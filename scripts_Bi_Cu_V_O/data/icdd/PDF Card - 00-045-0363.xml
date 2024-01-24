@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>00-045-0363</pdf_number>
+<chemical_formula>Bi11 V O19</chemical_formula>
+<empirical_formula>Bi11 O19 V</empirical_formula>
+<chemical_name>Bismuth Vanadium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>16.6434(5)</cell_a>
+<cell_vol>4610.27</cell_vol>
+<xtlvol>4610.27</xtlvol>
+<redcellvol>1152.57</redcellvol>
+<xtla>16.643</xtla>
+<xtlb>16.643</xtlb>
+<xtlc>16.643</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>11.769</redcell_a>
+<redcell_b>11.769</redcell_b>
+<redcell_c>11.769</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<ss>F(15) = 41.0(0.0049, 74)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>2653.70</xtlmolwt>
+<quality_mark>Star</quality_mark>
+<filttyp>Ni Beta</filttyp>
+<iic>4.6</iic>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<internal_standard>Si</internal_standard>
+<temperature>293.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<color>Yellow</color>
+<pearson>cF?</pearson>
+<entry_date>09/01/1995</entry_date>
+<weight_percent>Bi86.63 O11.45 V1.92</weight_percent>
+<atomic_percent>Bi35.48 O61.29 V3.23</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Jie, Y., Eysel, W., Mineralogisch-Petrogr. Inst., Univ. Heidelberg, Germany. ICDD Grant-in-Aid 1993.</reference>
+</reference_group>
+<reference_group>
+<type>Additional Pattern</type>
+<reference>Zhou, W. J. Solid State Chem. 1988, 76, 290.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: Space group from powder extinctions. Small unknown peaks at d=2.9229, d=2.7058. Sample Preparation: Stoichiometric mixture of ''Bi2 O3'' (Heraeus, 99.999%), ''V2 O5'' (Alfa, &gt;99.995%) heated for one day at 300 C, then at 800 C for 4 days in an open gold crucible. Temperature of Data Collection: 293 K. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.54056 Å)</wave_length>
+<chart_name>PDF Card - 00-045-0363.jpg</chart_name>
+<stick_series type="Bi11 V O19 - 00-045-0363 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>9.208</theta>
+<da>9.59653</da>
+<intensity>4</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>15.052</theta>
+<da>5.88122</da>
+<intensity>4</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>17.660</theta>
+<da>5.01813</da>
+<intensity>4</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>27.833</theta>
+<da>3.20269</da>
+<intensity>100</intensity>
+<h>5</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>31.786</theta>
+<da>2.81285</da>
+<intensity>4</intensity>
+<h>5</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.241</theta>
+<da>2.77419</da>
+<intensity>30</intensity>
+<h>6</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.540</theta>
+<da>2.22339</da>
+<intensity>2</intensity>
+<h>6</h>
+<k>4</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.652</theta>
+<da>2.16657</da>
+<intensity>3</intensity>
+<h>7</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>46.248</theta>
+<da>1.96139</da>
+<intensity>30</intensity>
+<h>8</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>54.842</theta>
+<da>1.67260</da>
+<intensity>30</intensity>
+<h>9</h>
+<k>3</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>57.495</theta>
+<da>1.60157</da>
+<intensity>9</intensity>
+<h>10</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>67.463</theta>
+<da>1.38714</da>
+<intensity>3</intensity>
+<h>12</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>74.489</theta>
+<da>1.27273</da>
+<intensity>8</intensity>
+<h>13</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>76.763</theta>
+<da>1.24059</da>
+<intensity>7</intensity>
+<h>12</h>
+<k>6</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>85.717</theta>
+<da>1.13245</da>
+<intensity>9</intensity>
+<h>14</h>
+<k>4</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

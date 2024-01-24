@@ -1,0 +1,99 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_136146-ICSD
+_database_code_ICSD 136146
+_audit_creation_date 2022-02-01
+_chemical_name_common 'Aluminium oxide'
+_chemical_formula_structural '(Al2 O3)1.333'
+_chemical_formula_sum 'Al2.666 O3.999'
+_exptl_crystal_density_diffrn 3.54
+_citation_title
+
+;
+Structure of boehmite-derived Î³-alumina and its transformation mechanism
+revealed by electron crystallography
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary
+
+;
+Acta Crystallographica, Section B: Structural Science, Crystal Engineering and
+Materials
+; 2021 77 772 784 ACSBDA
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Luo, Zhiping'
+_cell_length_a 5.6872
+_cell_length_b 5.6872
+_cell_length_c 7.8803
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 254.88
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'I 41/a m d Z'
+_space_group_IT_number 141
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y+1/4, x+3/4, -z+1/4'
+2 'y+1/4, -x+3/4, -z+1/4'
+3 'x, y+1/2, -z'
+4 'x, -y, -z'
+5 '-y+3/4, x+3/4, -z+1/4'
+6 '-y+3/4, -x+3/4, -z+1/4'
+7 '-x, y+1/2, -z'
+8 '-x, -y, -z'
+9 '-y+3/4, -x+1/4, z+3/4'
+10 '-y+3/4, x+1/4, z+3/4'
+11 '-x, -y+1/2, z'
+12 '-x, y, z'
+13 'y+1/4, -x+1/4, z+3/4'
+14 'y+1/4, x+1/4, z+3/4'
+15 'x, -y+1/2, z'
+16 'x, y, z'
+17 'y+3/4, x+1/4, -z+3/4'
+18 'y+3/4, -x+1/4, -z+3/4'
+19 'x+1/2, y, -z+1/2'
+20 'x+1/2, -y+1/2, -z+1/2'
+21 '-y+1/4, x+1/4, -z+3/4'
+22 '-y+1/4, -x+1/4, -z+3/4'
+23 '-x+1/2, y, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/4, -x+3/4, z+1/4'
+26 '-y+1/4, x+3/4, z+1/4'
+27 '-x+1/2, -y, z+1/2'
+28 '-x+1/2, y+1/2, z+1/2'
+29 'y+3/4, -x+3/4, z+1/4'
+30 'y+3/4, x+3/4, z+1/4'
+31 'x+1/2, -y, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+O2- -2
+Al3+ 3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+O1 O2- 16 h 0. 0.51131 0.23541 0.01267 1.
+Al1 Al3+ 4 b 0. 0.25 0.375 0.0038 0.486
+Al2 Al3+ 8 d 0. 0. 0.5 0.0038 0.263
+Al3 Al3+ 8 c 0. 0. 0. 0.0038 0.611
+Al4 Al3+ 16 g 0.25 0.5 0.875 0.0038 0.109
+#End of TTdata_136146-ICSD

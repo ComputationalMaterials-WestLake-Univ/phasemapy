@@ -1,0 +1,91 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_430184-ICSD
+_database_code_ICSD 430184
+_audit_creation_date 2016-08-01
+_chemical_name_common 'Lithium aluminium dioxide - gamma phase'
+_chemical_formula_structural 'Li Al O2'
+_chemical_formula_sum 'Al1 Li1 O2'
+_chemical_name_structure_type Î³âˆ’LiAlO2
+_exptl_crystal_density_diffrn 2.62
+_diffrn_ambient_temperature 298.
+_citation_title
+
+;
+Single-crystal neutron diffraction on gamma - Li Al O2. Structure
+determination and estimation of lithium diffusion pathway
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Zeitschrift fuer Kristallographie - Crystalline Materials' 2016 231 189
+193 ZKCMAJ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Wiedemann, Dennis'
+primary 'Indris, Sylvio'
+primary 'Meven, Martin'
+primary 'Pedersen, Bjoern'
+primary 'Boysen, Hans'
+primary 'Uecker, Reinhard'
+primary 'Heitjans, Paul'
+primary 'Lerch, Martin'
+_cell_length_a 5.1685
+_cell_length_b 5.1685
+_cell_length_c 6.2565
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 167.13
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P 41 21 2'
+_space_group_IT_number 92
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x+1/2, -y+1/2, -z+3/4'
+2 '-x+1/2, y+1/2, -z+1/4'
+3 '-y, -x, -z+1/2'
+4 'y, x, -z'
+5 'y+1/2, -x+1/2, z+3/4'
+6 '-y+1/2, x+1/2, z+1/4'
+7 '-x, -y, z+1/2'
+8 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Li1+ 1
+Al3+ 3
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Li1 Li1+ 4 a 0.3096 0.3096 0. 0.0138 1.
+Al1 Al3+ 4 a 0.6761 0.6761 0. 0.0074 1.
+O1 O2- 8 b 0.1624 0.2099 0.2726 0.0094 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li1 Li1+ 0.017 0.017 0.008 -0.0028 0.0004 -0.0004
+Al1 Al3+ 0.0091 0.0091 0.0039 0.003 -0.0005 0.0005
+O1 O2- 0.0098 0.0127 0.0057 -0.0026 0.0003 0.0004
+#End of TTdata_430184-ICSD

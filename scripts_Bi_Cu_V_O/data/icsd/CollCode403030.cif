@@ -1,0 +1,84 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_403030-ICSD
+_database_code_ICSD 403030
+_audit_creation_date 1996-10-14
+_audit_update_record 2013-02-01
+_chemical_name_common 'Copper vanadium oxide (3.64/4/11)'
+_chemical_formula_structural 'Cu3.64 (V4 O11)'
+_chemical_formula_sum 'Cu3.64 O11 V4'
+_exptl_crystal_density_diffrn 5.12
+_citation_title 'Die modulierte Struktur von Cux V4 O11 (X= 2,12)'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Zeitschrift fuer Kristallographie' 1996 211 522 527 ZEKRDZ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Kato, K.'
+primary 'Kosuda, K.'
+primary 'Saito, Y.'
+primary 'Nagasawa, H.'
+_cell_length_a 15.3004
+_cell_length_b 3.6087
+_cell_length_c 7.3357
+_cell_angle_alpha 90.
+_cell_angle_beta 101.851
+_cell_angle_gamma 90.
+_cell_volume 396.4
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'C 1 m 1'
+_space_group_IT_number 8
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y, z'
+2 'x, y, z'
+3 'x+1/2, -y+1/2, z'
+4 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu2+ 2
+V3+ 3.68
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Cu1 Cu2+ 4 b 0.252 0.203 0.066 0.0555 0.808
+Cu2 Cu2+ 2 a 0.7712 0. 0.0367 0.033 0.05
+Cu3 Cu2+ 2 a 0.7328 0. 0.0953 0.033 0.05
+Cu4 Cu2+ 2 a 0.2673 0. 0.102 0.033 0.054
+Cu5 Cu2+ 2 a 0.2367 0. 0.03 0.033 0.054
+Cu6 Cu2+ 2 a 0.4942 0. 0.1159 0.041 0.305
+Cu7 Cu2+ 2 a 0. 0. 0. 0.001 0.082
+Cu8 Cu2+ 4 b 0.0012 0.158 0.0443 0.016 0.717
+V1 V3+ 2 a 0.1378 0. 0.4107 0.0145 1.
+V2 V3+ 2 a 0.9252 0. 0.4258 0.0119 1.
+V3 V3+ 2 a 0.5778 0. 0.7152 0.0123 1.
+V4 V3+ 2 a 0.3555 0. 0.7128 0.0121 1.
+O1 O2- 2 a 0.6229 0. 0.4654 0.016 1.
+O2 O2- 2 a 0.4394 0. 0.5012 0.016 1.
+O3 O2- 2 a 0.0636 0. 0.6373 0.014 1.
+O4 O2- 2 a 0.8807 0. 0.6698 0.015 1.
+O5 O2- 2 a 0.2502 0. 0.5724 0.0175 1.
+O6 O2- 2 a 0.1674 0. 0.2096 0.023 1.
+O7 O2- 2 a 0.005 0. 0.2772 0.017 1.
+O8 O2- 2 a 0.8321 0. 0.2744 0.023 1.
+O9 O2- 2 a 0.6729 0. 0.8621 0.017 1.
+O10 O2- 2 a 0.5003 0. 0.8625 0.018 1.
+O11 O2- 2 a 0.3364 0. 0.9293 0.021 1.
+#End of TTdata_403030-ICSD

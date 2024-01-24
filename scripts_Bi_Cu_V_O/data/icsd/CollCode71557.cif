@@ -1,0 +1,85 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_71557-ICSD
+_database_code_ICSD 71557
+_audit_creation_date 1993-01-06
+_chemical_name_common 'Tetrabismuth divanadate'
+_chemical_formula_structural 'Bi4 (V2 O11)'
+_chemical_formula_sum 'Bi4 O11 V2'
+_exptl_crystal_density_diffrn 7.81
+_citation_title 'Structure of dibismuth vanadate Bi2 V O5.5'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Acta Crystallographica, Section C: Crystal Structure Communications'
+1992 48 1176 1179 ACSCEE
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Touboul, M.'
+primary 'Lokaj, J.'
+primary 'Tessier, L.'
+primary 'Kettmann, V.'
+primary 'Vrabel, V.'
+_cell_length_a 5.598
+_cell_length_b 15.292
+_cell_length_c 5.532
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 473.56
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'A b a 2'
+_space_group_IT_number 41
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x+1/2, -y+1/2, z'
+2 '-x+1/2, y+1/2, z'
+3 '-x, -y, z'
+4 'x, y, z'
+5 'x+1/2, -y, z+1/2'
+6 '-x+1/2, y, z+1/2'
+7 '-x, -y+1/2, z+1/2'
+8 'x, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+V5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 8 b 0.4293 0.1689 0. . 1.
+V1 V5+ 4 a 0. 0. 0.0508 . 1.
+O1 O2- 8 b 0.2423 0.2494 0.3064 . 1.
+O2 O2- 8 b 0.245 0.4943 0.352 . 1.
+O3 O2- 8 b 0.4826 0.3774 0.117 . 0.75
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_beta_11
+_atom_site_aniso_beta_22
+_atom_site_aniso_beta_33
+_atom_site_aniso_beta_12
+_atom_site_aniso_beta_13
+_atom_site_aniso_beta_23
+Bi1 Bi3+ 0.0123 0.0016 0.0118 0.0001 -0.0017 -0.0003
+V1 V5+ 0.0192 0.0023 0.0166 0.0004 0.0031 0.0009
+O1 O2- 0.0216 0.0025 0.0257 0.0085 0.0047 -0.0019
+O2 O2- 0.0175 0.0032 0.0283 -0.0001 -0.0045 0.013
+O3 O2- 0.0301 0.0024 0.0105 -0.0077 -0.0024 -0.003
+#End of TTdata_71557-ICSD

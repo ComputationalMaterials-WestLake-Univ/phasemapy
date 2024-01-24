@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-039-0039</pdf_number>
+<chemical_formula>Mn1.5 V1.5 O4</chemical_formula>
+<empirical_formula>Mn1.5 O4 V1.5</empirical_formula>
+<chemical_name>Manganese Vanadium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>8.56</cell_a>
+<cell_vol>627.22</cell_vol>
+<xtlvol>627.22</xtlvol>
+<redcellvol>156.81</redcellvol>
+<xtla>8.560</xtla>
+<xtlb>8.560</xtlb>
+<xtlc>8.560</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>6.053</redcell_a>
+<redcell_b>6.053</redcell_b>
+<redcell_c>6.053</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<ss>F(7) = 23.7(0.0269, 11)</ss>
+<xtlsg>F</xtlsg>
+<xtlmolwt>222.82</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>F</spgr>
+<pearson>cF?</pearson>
+<entry_date>09/01/1989</entry_date>
+<weight_percent>Mn36.98 O28.72 V34.29</weight_percent>
+<atomic_percent>Mn21.43 O57.14 V21.43</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Manthiram, A. Polyhedron 1985, 4, 967.</reference>
+</reference_group>
+</references>
+<database_comments>Warning: Not enough reflections above the intensity cut off to meet higher quality mark criteria.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-039-0039.jpg</chart_name>
+<stick_series type="Mn1.5 V1.5 O4 - 00-039-0039 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>17.905</theta>
+<da>4.950</da>
+<intensity>10</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>29.464</theta>
+<da>3.029</da>
+<intensity>55</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.742</theta>
+<da>2.580</da>
+<intensity>100</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.173</theta>
+<da>2.141</da>
+<intensity>35</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>52.292</theta>
+<da>1.748</da>
+<intensity>16</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.732</theta>
+<da>1.648</da>
+<intensity>31</intensity>
+<h>3</h>
+<k>3</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>61.254</theta>
+<da>1.512</da>
+<intensity>84</intensity>
+<h>4</h>
+<k>4</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

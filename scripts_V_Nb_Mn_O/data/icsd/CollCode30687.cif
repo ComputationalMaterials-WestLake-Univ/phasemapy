@@ -1,0 +1,68 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_30687-ICSD
+_database_code_ICSD 30687
+_audit_creation_date 1984-12-31
+_audit_update_record 2005-10-01
+_chemical_name_common 'Dimanganese divanadate - HT'
+_chemical_formula_structural 'Mn2 (V2 O7)'
+_chemical_formula_sum 'Mn2 O7 V2'
+_chemical_name_structure_type Sc2Si2O7
+_exptl_crystal_density_diffrn 4.13
+_citation_title 'Possible disorder in the thortveitite-type Mn2 V2 O7 structure'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Neues Jahrbuch fuer Mineralogie, Monatshefte' 1984 1984 283 288 NJMMAW
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Nord, A.G.'
+_cell_length_a 6.179
+_cell_length_b 8.719
+_cell_length_c 4.966
+_cell_angle_alpha 90.
+_cell_angle_beta 103.6
+_cell_angle_gamma 90.
+_cell_volume 260.04
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'C 1 2/m 1'
+_space_group_IT_number 12
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, y, -z'
+2 '-x, -y, -z'
+3 'x, -y, z'
+4 'x, y, z'
+5 '-x+1/2, y+1/2, -z'
+6 '-x+1/2, -y+1/2, -z'
+7 'x+1/2, -y+1/2, z'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn2+ 2
+V5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Mn1 Mn2+ 4 g 0. 0.19 0. 0.7 1.
+V1 V5+ 4 i 0.259 0. 0.596 -2. 1.
+O1 O2- 4 h 0. 0.474 0.5 1.4 0.5
+O2 O2- 4 i 0.089 0. 0.281 0.5 1.
+O3 O2- 8 j 0.231 0.339 0.214 0.8 1.
+#End of TTdata_30687-ICSD

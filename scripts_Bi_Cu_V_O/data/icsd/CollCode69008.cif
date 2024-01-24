@@ -1,0 +1,107 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_69008-ICSD
+_database_code_ICSD 69008
+_audit_creation_date 1992-01-20
+_audit_update_record 2012-08-01
+_chemical_name_common 'Bismuth bismuth(V) vanadium oxide (12/.7/.05/20)'
+_chemical_formula_structural 'Bi12 (Bi0.675 V0.045) O20'
+_chemical_formula_sum 'Bi12.675 O20 V0.045'
+_chemical_name_structure_type Sillenite#Bi12SiO20
+_exptl_crystal_density_diffrn 9.12
+_citation_title
+
+;
+Etude par diffraction neutronique de la phase Bi12(Bi0.75(V)V0.05(V)x0.20)O 20
+de structure sillenite
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 1990 86 59 63 JSSCBI
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Soubeyroux, J.L.'
+primary 'Devalette, M.'
+primary 'Khachani, N.'
+primary 'Hagenmuller, P.'
+_cell_length_a 10.265
+_cell_length_b 10.265
+_cell_length_c 10.265
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 1081.63
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'I 2 3'
+_space_group_IT_number 197
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-z, -x, y'
+2 '-y, -z, x'
+3 '-x, -y, z'
+4 '-z, x, -y'
+5 '-y, z, -x'
+6 '-x, y, -z'
+7 'z, -x, -y'
+8 'y, -z, -x'
+9 'x, -y, -z'
+10 'z, x, y'
+11 'y, z, x'
+12 'x, y, z'
+13 '-z+1/2, -x+1/2, y+1/2'
+14 '-y+1/2, -z+1/2, x+1/2'
+15 '-x+1/2, -y+1/2, z+1/2'
+16 '-z+1/2, x+1/2, -y+1/2'
+17 '-y+1/2, z+1/2, -x+1/2'
+18 '-x+1/2, y+1/2, -z+1/2'
+19 'z+1/2, -x+1/2, -y+1/2'
+20 'y+1/2, -z+1/2, -x+1/2'
+21 'x+1/2, -y+1/2, -z+1/2'
+22 'z+1/2, x+1/2, y+1/2'
+23 'y+1/2, z+1/2, x+1/2'
+24 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi5+ 5
+V5+ 5
+Bi3+ 3
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi5+ 2 a 0. 0. 0. . 0.675
+V1 V5+ 2 a 0. 0. 0. . 0.045
+Bi2 Bi3+ 24 f 0.1795 0.3234 0.4904 . 1.
+O1 O2- 24 f 0.0203 0.2498 0.3653 . 1.
+O2 O2- 8 c 0.3112 0.3112 0.3112 . 1.
+O3 O2- 8 c 0.1124 0.1124 0.1124 . 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_beta_11
+_atom_site_aniso_beta_22
+_atom_site_aniso_beta_33
+_atom_site_aniso_beta_12
+_atom_site_aniso_beta_13
+_atom_site_aniso_beta_23
+Bi2 Bi3+ 0.027 0.0063 0.0066 0.0008 0.0012 0.0009
+O1 O2- 0.0056 0.0024 0.0086 0.0015 -0.0017 0.0029
+O2 O2- 0.0122 0.0122 0.0122 0.0027 0.0027 0.0027
+O3 O2- 0.0257 0.0257 0.0257 0.0104 0.0104 0.0104
+#End of TTdata_69008-ICSD

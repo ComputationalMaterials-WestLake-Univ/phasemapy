@@ -1,10 +1,12 @@
 import os
 import re
 import xml.etree.cElementTree as ET
+from collections import Counter
 from itertools import combinations
 
 import matplotlib.pyplot as plt
 import numpy as np
+from numpy import arange
 import pandas as pd
 from pymatgen.analysis.diffraction.xrd import XRDCalculator
 from pymatgen.analysis.structure_matcher import StructureMatcher, ElementComparator
@@ -13,7 +15,9 @@ from scipy.cluster.hierarchy import fcluster, linkage
 from monty.json import MSONable
 from pymatgen.io.cif import CifParser
 from scipy.ndimage import gaussian_filter1d
-
+from pymatgen.core import Lattice, Structure, PeriodicSite
+from pymatgen.analysis.structure_matcher import StructureMatcher
+import qmpy_rester as qr
 
 SITE_OCC_TOL = 0.15
 COMP_TOL = 0.1
@@ -23,11 +27,12 @@ pd.set_option('display.max_rows', None)
 
 
 class ICDDEntry(MSONable):
-    def __init__(self, entry_id, empirical_formula, status, quality_mark, pressure_temperature, database_comments,
-                 spgr, common_name, cross_refs, structure, name=None, leader=None, data=None):
+    def __init__(self, entry_id, chemical_formula, empirical_formula, status, quality_mark, pressure_temperature, database_comments,
+                 spgr, common_name, cross_refs, structure, data, hkl, name=None, leader=None, stability=None):
         # # composition,
         # name, atomic_coords, has_struct, struct, ):
         self.entry_id = entry_id
+        self.chemical_formula = "".join(chemical_formula.split())
         self.empirical_formula = empirical_formula
         self.composition = Composition(empirical_formula)
         self.status = status
@@ -35,18 +40,31 @@ class ICDDEntry(MSONable):
         self.pressure_temperature = pressure_temperature
         self.database_comments = database_comments
         self.spgr = spgr
-        self.name = name if name else self.composition.reduced_formula
+        self.name = name if name else self.chemical_formula
         self.common_name = common_name
         self.cross_refs = cross_refs
         self.structure = structure
         self.data = data if data else {}
+        self.hkl = hkl if hkl else []
         self.leader = leader if leader else self.entry_id
+        self.stability = stability
+
+    # @classmethod
+    # def from_icdd_json(cls, jsonfile):
+    #     data = {}
+    #     data['xrd'] = [np.array(jsonfile['entries_info']['q']), np.array(jsonfile['entries_info']['amp'])]
+    #     entry_id = jsonfile['entries_info']['entry_id']
+    #     chemical_formula = jsonfile['entries_info']['name']
+    #     common_name = jsonfile['entries_info']['name']
+    #     status = quality_mark = pressure_temperature = database_comments = spgr = cross_refs = structure = name = leader = stability = None
+    #     return cls(entry_id, chemical_formula, status, quality_mark, pressure_temperature, database_comments,
+    #                spgr, common_name, cross_refs, structure, name, leader, data, stability)
 
     @classmethod
     def from_icdd_xml(cls, xmlfile):
         root = ET.parse(xmlfile).getroot()[0]
 
-        labels = ['pdf_number', 'empirical_formula', 'status', 'quality_mark', 'pressure_temperature',
+        labels = ['pdf_number', 'chemical_formula', 'empirical_formula', 'status', 'quality_mark', 'pressure_temperature',
                   'database_comments',
                   'spgr', 'common_name', 'cross_ref_pdf_numbers']
 
@@ -69,10 +87,44 @@ class ICDDEntry(MSONable):
         try_cif = '.'.join(xmlfile.split('.')[:-1]) + '.cif'
         if os.path.exists(try_cif):
             struct = CifParser(try_cif, occupancy_tolerance=1.1).get_structures(primitive=False)[0]
+            data = None
         else:
             struct = None
+        root = ET.parse(xmlfile).getroot()[1][2]
+        theta = np.array([float(_.text) for _ in root.iter('theta')])
+        try:
+            h = np.array([int(_.text) for _ in root.iter('h')])
+            k = np.array([int(_.text) for _ in root.iter('k')])
+            l = np.array([int(_.text) for _ in root.iter('l')])
+            hkl = list(map(lambda x, y, z: (x, y, z), h, k, l))
+        except Exception as e:
+            hkl = []
+        intensity = np.array(
+            [float(''.join(list(filter(str.isdigit, _.text)))) for _ in root.iter('intensity') if _.text is not '\n'])
+        element_counts = Counter(theta)
+        multi_counts = [element_counts[element] for element in theta]
+        intensity = np.array(intensity) / np.array(multi_counts)
+        intensity = intensity / np.max(intensity)
+        d = (theta, intensity)
+        data = {}
+        data['xrd'] = d
 
-        return cls(*params, struct)
+        stability = None
+
+        return cls(*params, struct, data, hkl, stability)
+
+    @classmethod
+    def from_icsd_cif(cls, cif_file):
+        struct = CifParser(cif_file, occupancy_tolerance=2).get_structures(primitive=False)[0]
+        entry_id = cif_file.split('Code')[1].split('.')[0]
+        chemical_formula = Composition(struct.formula).reduced_formula
+        empirical_formula = chemical_formula
+        common_name = chemical_formula
+        structure = struct
+        status = quality_mark = pressure_temperature = database_comments = spgr = cross_refs = name = leader = data = hkl = stability = None
+
+        return cls(entry_id, chemical_formula, empirical_formula, status, quality_mark, pressure_temperature, database_comments,
+                   spgr, common_name, cross_refs, structure, name, leader, data, hkl, stability)
 
     @property
     def has_icsd_ref(self):
@@ -90,16 +142,26 @@ class ICDDEntry(MSONable):
 
     @property
     def qm_rank(self):
-        return {'Star': 2, 'Indexed': 1, 'Prototyping': 1, 'Calculated': 1, 'Hypothetical': 0, 'Blank': 0,
-                'Low-Precision': 0}[self.quality_mark]
+        if self.quality_mark is None:
+            return 0
+        else:
+            return {'Star': 2, 'Indexed': 1, 'Prototyping': 1, 'Calculated': 1, 'Hypothetical': 0, 'Blank': 0,
+                    'Low-Precision': 0}[self.quality_mark]
 
     @property
     def status_rank(self):
-        return {'Primary': 2, 'Alternate': 1, 'Deleted': 0}[self.status]
+        if self.status is None:
+            return 0
+        else:
+            return {'Primary': 2, 'Alternate': 1, 'Deleted': 0}[self.status]
 
     @property
     def rank(self):
-        return (100 * (self.structure.is_ordered) + self.status_rank * 1 + self.qm_rank * 10, self.entry_id)
+        if self.structure is None:
+            rank = (self.status_rank * 1 + self.qm_rank * 10, self.entry_id)
+        else:
+            rank = (100 + 50*(self.structure.is_ordered) + self.status_rank * 1 + self.qm_rank * 10, self.entry_id)
+        return rank
 
     @property
     def icsd_id(self):
@@ -128,6 +190,11 @@ class ICDDEntryPreprocessor:
     @property
     def entries(self):
         return [_ for _ in self.all_entries if _.leader == _.entry_id]
+
+    @property
+    def ordered_entries(self):
+        return [_ for _ in self.entries if _.structure is not None and _.structure.is_ordered]
+
 
     def merge_by_cross_ref(self):
 
@@ -161,7 +228,7 @@ class ICDDEntryPreprocessor:
 
     def process_disorder(self):
         global SITE_OCC_TOL
-        for e in [_ for _ in self.entries if not _.structure.is_ordered]:
+        for e in [_ for _ in self.entries if _.structure is not None and not _.structure.is_ordered]:
             remove_index = []
             for i, site in enumerate(e.structure):
                 if site.is_ordered:
@@ -223,6 +290,14 @@ class ICDDEntryPreprocessor:
                 e.composition = comp1.reduced_composition
                 e.name = e.composition.reduced_formula
 
+    def theta_to_q(self):
+        for e in self.entries:
+            if len(e.entry_id) == 11:
+                q_vectors = 4 * np.pi / 1.54056 * np.sin(np.radians(e.data['xrd'][0]) / 2) * 10
+                data = (q_vectors, e.data['xrd'][1])
+                e.data['xrd'] = data
+
+
     def get_xrd(self, leader_only=True):
         if leader_only:
             entries = self.entries
@@ -230,14 +305,18 @@ class ICDDEntryPreprocessor:
             entries = self.all_entries
 
         for e in entries:
-            xrdcal = XRDCalculator()
-            s = e.structure
-            xrd = xrdcal.get_pattern(s, scaled=False)
-            d = np.array(xrd.d_hkls)
-            amplitude = np.array(xrd.y) / s.volume ** 2  # This is irrelevant of volume
-            q_vectors = 4 * np.pi / (2 * d) * 10
-            data = (q_vectors, amplitude)
-            e.data['xrd'] = data
+            if e.structure is not None:
+                xrdcal = XRDCalculator()
+                s = e.structure
+                xrd = xrdcal.get_pattern(s, scaled=False)
+                d = np.array(xrd.d_hkls)
+                amplitude = np.array(xrd.y) / s.volume ** 2  # This is irrelevant of volume
+                amplitude = amplitude / np.max(amplitude)
+                q_vectors = 4 * np.pi / (2 * d) * 10
+                data = (q_vectors, amplitude)
+                e.data['xrd'] = data
+                e.hkl = [xrd.hkls[i][0]['hkl'] for i in range(len(xrd.hkls))]
+
 
     def merge_by_structure(self, plot=False):
         sm = StructureMatcher(comparator=ElementComparator(), attempt_supercell=True)
@@ -286,7 +365,7 @@ class ICDDEntryPreprocessor:
                         color = e.color
                         leader = e.entry_id
 
-    def merge_by_xrd(self, bin_number, gaussian_filter, R_cutoff, plot=False):
+    def merge_by_polymorph(self, bin_number, gaussian_filter, R_cutoff, plot=False):
         names = set([_.name for _ in self.entries])
         name_dict = {name: [_ for _ in self.entries if _.name == name] for name in names}
 
@@ -343,24 +422,297 @@ class ICDDEntryPreprocessor:
                     else:
                         color = e.color
                         leader = e.entry_id
-# added by Dongfang Yu  to get the Bi-Cu-V ICDDEntries
-class ICDDEntriesBiCuV(ICDDEntry):
-    def __init__ (self,common_name, composition, data, formula, entry_id, name, q, amp, crystal_system):
-        self.common_name = common_name
-        self.comp = composition
-        self.data = data
-        self.formula = formula
-        self.composition = Composition(formula)
-        self.entry_id = entry_id
-        self.name = name
-        self.q = q
-        self.amp = amp
-        self.crystal_system = crystal_system
-    @classmethod
-    def from_ICDD_Bi_Cu_V(cls, entry):
-        data = {}
-        data['xrd'] = [np.array(entry['entries_info']['q']), np.array(entry['entries_info']['amp'])]
-        return cls(entry['entries_info']['name'],entry['entries_info']['comp'],
-                   data,entry['entries_info'][ 'name'],
-                   entry['entries_info']['entry_id'],entry['entries_info']['name'],entry['entries_info']['q'],
-                   entry['entries_info']['amp'],entry['entries_info']['crystal_system'])
+
+    def merge_by_xrd(self, bin_number, gaussian_filter, R1_cutoff, R2_cutoff, plot=False):
+        def smooth_hist(q, amp, bins):
+            hist, bin_edges = np.histogram(q, bins=bins, weights=amp)
+            smoothed = gaussian_filter1d(hist, gaussian_filter)
+            return smoothed
+
+        def merge(xrd_match_lst):
+            sts = [set(l) for l in xrd_match_lst]
+            i = 0
+            while i < len(sts):
+                j = i + 1
+                while j < len(sts):
+                    if len(sts[i].intersection(sts[j])) > 0:
+                        sts[i] = sts[i].union(sts[j])
+                        sts.pop(j)
+                    else:
+                        j += 1
+                i += 1
+            lst = [list(s) for s in sts]
+            return lst
+
+        # bins = np.linspace(min([_.data['xrd'][0][0] for _ in self.entries]) - 0.01,
+        #                    max([_.data['xrd'][0][-1] for _ in self.entries]) + 0.01, bin_number)
+        xrd_match = []
+
+        for i, j in combinations(range(len(self.entries)), 2):
+            e1, e2 = self.entries[i], self.entries[j]
+            if e1.structure and e2.structure:
+                bins = np.linspace(min([_.data['xrd'][0][0] for _ in [e1, e2]]) - 1,
+                                   max([_.data['xrd'][0][-1] for _ in [e1, e2]]) + 1, bin_number)
+                R_cutoff = R1_cutoff
+            else:
+                bins = np.linspace(min([_.data['xrd'][0][0] for _ in [e1, e2]]) - 1,
+                                   min([_.data['xrd'][0][-1] for _ in [e1, e2]]) + 1, bin_number)
+                R_cutoff = R2_cutoff
+            q, amp = e1.data['xrd'][0], e1.data['xrd'][1]
+            smooth_xrds_i = smooth_hist(q, amp, bins)
+            q, amp = e2.data['xrd'][0], e2.data['xrd'][1]
+            smooth_xrds_j = smooth_hist(q, amp, bins)
+            smooth_xrds_i = smooth_xrds_i / np.max(smooth_xrds_i) * 100
+            smooth_xrds_j = smooth_xrds_j / np.max(smooth_xrds_j) * 100
+
+            abs_diff = np.abs(smooth_xrds_i - smooth_xrds_j)
+            R = np.sqrt(np.sum(abs_diff ** 2) / max(np.sum(smooth_xrds_i ** 2), np.sum(smooth_xrds_j ** 2)))
+
+            e1_comp = np.array([e1.composition[Element(el)] for el in self.chemsys])
+            e1_comp = e1_comp / np.sum(e1_comp)
+            e2_comp = np.array([e2.composition[Element(el)] for el in self.chemsys])
+            e2_comp = e2_comp / np.sum(e2_comp)
+            comp_distance = np.linalg.norm(e1_comp - e2_comp, ord=1)
+
+            if R < R_cutoff and comp_distance < 1:
+
+                xrd_match.append([i, j])
+                if plot:
+                    # print([R], [e1.name, e1.entry_id], [e2.name, e2.entry_id])
+                    plt.plot(bins[0:-1], smooth_xrds_i, label=f'{e1.name}_{e1.entry_id}')
+                    plt.plot(bins[0:-1], smooth_xrds_j, label=f'{e2.name}_{e2.entry_id}')
+                    plt.title(f'{R}_unshift')
+                    plt.legend()
+                    plt.savefig(f'data/{e1.entry_id}_{e2.entry_id}.jpg', bbox_inches='tight')
+                    plt.show()
+
+
+            else:
+                for shift in arange(-0.5, 0.5, 0.01):
+                    q, amp = e1.data['xrd'][0] + shift, e1.data['xrd'][1]
+                    smooth_xrds_i = smooth_hist(q, amp, bins)
+                    q, amp = e2.data['xrd'][0], e2.data['xrd'][1]
+                    smooth_xrds_j = smooth_hist(q, amp, bins)
+                    smooth_xrds_i = smooth_xrds_i / np.max(smooth_xrds_i) * 100
+                    smooth_xrds_j = smooth_xrds_j / np.max(smooth_xrds_j) * 100
+
+                    abs_diff = np.abs(smooth_xrds_i - smooth_xrds_j)
+                    R = np.sqrt(np.sum(abs_diff ** 2) / max(np.sum(smooth_xrds_i ** 2), np.sum(smooth_xrds_j ** 2)))
+
+                    if R < R_cutoff:
+                        xrd_match.append([i, j])
+                        if plot:
+                            # print([R], [e1.name, e1.entry_id], [e2.name, e2.entry_id])
+                            plt.title(f'{R}_shift')
+                            plt.plot(bins[0:-1], smooth_xrds_i, label=f'{e1.name}_{e1.entry_id}')
+                            plt.plot(bins[0:-1], smooth_xrds_j, label=f'{e2.name}_{e2.entry_id}')
+                            plt.legend()
+                            plt.show()
+                        break
+        groups_index = merge(xrd_match)
+        for i in range(len(groups_index)):
+            groups_index[i] = np.sort(groups_index[i]).tolist()
+
+        # groups = groups_index
+        # for k in range(len(groups_index)):
+        #     for i in range(len(groups_index[k])):
+        #         groups[k][i] = self.entries[groups_index[k][i]]
+
+        groups_id = []
+        groups = []
+        for k in range(len(groups_index)):
+            en_id = []
+            en = []
+            for i in groups_index[k]:
+                e = self.entries[i]
+                en_id.append(e.entry_id)
+                en.append(e)
+            groups_id.append(en_id)
+            groups.append(en)
+
+
+        # for m in range(len(groups_index)):
+        #     for i in groups_index[m][1:]:
+        #         self.all_entries[i].leader = self.all_entries[groups_index[m][0]].entry_id
+
+        for i in range(len(groups)):
+            groups[i].sort(key=lambda x: x.rank[0], reverse=True)
+            print(i,groups[i][0].rank)
+            leader = groups[i][0].entry_id
+            for e in groups[i][1:]:
+                print(e.rank)
+                e.leader = leader
+
+
+        return groups_index, groups_id
+
+    def merge_by_icsd(self, bin_number, gaussian_filter, R_cutoff, icdd_entries, icsd_entries):
+        def smooth_hist(q, amp, bins):
+            hist, bin_edges = np.histogram(q, bins=bins, weights=amp)
+            smoothed = gaussian_filter1d(hist, gaussian_filter)
+            return smoothed
+
+        xrd_match = []
+        for i, e1 in enumerate(icdd_entries):
+            if e1.structure is None:
+                e1_copy = e1
+                for e2 in icsd_entries:
+                    q, amp = 4 * np.pi / 1.54056 * np.sin(np.radians(e1.data['xrd'][0]) / 2) * 10, e1.data['xrd'][1]
+                    bins = np.linspace(q[0] - 1, q[-1] + 1, bin_number)
+                    smooth_xrds_i = smooth_hist(q, amp, bins)
+                    q, amp = e2.data['xrd'][0], e2.data['xrd'][1]
+                    smooth_xrds_j = smooth_hist(q, amp, bins)
+                    smooth_xrds_i = smooth_xrds_i / np.max(smooth_xrds_i) * 100
+                    smooth_xrds_j = smooth_xrds_j / np.max(smooth_xrds_j) * 100
+                    abs_diff = np.abs(smooth_xrds_i - smooth_xrds_j)
+                    R = np.sqrt(np.sum(abs_diff ** 2) / max(np.sum(smooth_xrds_i ** 2), np.sum(smooth_xrds_j ** 2)))
+
+                    e1_comp = np.array([e1.composition[Element(el)] for el in self.chemsys])
+                    e1_comp = e1_comp / np.sum(e1_comp)
+                    e2_comp = np.array([e2.composition[Element(el)] for el in self.chemsys])
+                    e2_comp = e2_comp / np.sum(e2_comp)
+                    comp_distance = np.linalg.norm(e1_comp - e2_comp, ord=1)
+
+                    if R < R_cutoff and comp_distance < 1.5:
+                        # print(self.chemsys)
+                        # print(e1.composition, e1_comp)
+                        # print(e2.composition, e2_comp)
+                        # print(comp_distance)
+                        xrd_match.append(e1.entry_id)
+                        plt.plot(bins[0:999], smooth_xrds_i, label=f'icdd {e1_copy.name} id: {e1_copy.entry_id}')
+                        plt.plot(bins[0:999], smooth_xrds_j, label=f'icsd {e2.name} id: {e2.entry_id}')
+                        plt.legend()
+                        plt.show()
+                        s = self.get_stability(e2)
+                        if s is None:
+                            if icdd_entries[i].stability is None:
+                                icdd_entries[i] = e2
+                        else:
+                            if icdd_entries[i].stability is None or icdd_entries[i].stability > s:
+                                icdd_entries[i] = e2
+                    else:
+                        for shift in arange(-0.5, 0.5, 0.01):
+                            q, amp = e1.data['xrd'][0] + shift, e1.data['xrd'][1]
+                            smooth_xrds_i = smooth_hist(q, amp, bins)
+                            q, amp = e2.data['xrd'][0], e2.data['xrd'][1]
+                            smooth_xrds_j = smooth_hist(q, amp, bins)
+                            smooth_xrds_i = smooth_xrds_i / np.max(smooth_xrds_i) * 100
+                            smooth_xrds_j = smooth_xrds_j / np.max(smooth_xrds_j) * 100
+
+                            abs_diff = np.abs(smooth_xrds_i - smooth_xrds_j)
+                            R = np.sqrt(
+                                np.sum(abs_diff ** 2) / max(np.sum(smooth_xrds_i ** 2), np.sum(smooth_xrds_j ** 2)))
+
+                            if R < R_cutoff and comp_distance < 1.5:
+                                # print(self.chemsys)
+                                # print(e1.composition, e1_comp)
+                                # print(e2.composition, e2_comp)
+                                # print(comp_distance)
+                                xrd_match.append(e1.entry_id)
+                                plt.plot(bins[0:-1], smooth_xrds_i, label=f'icdd {e1_copy.name} id: {e1_copy.entry_id}')
+                                plt.plot(bins[0:-1], smooth_xrds_j, label=f'icsd {e2.name} id: {e2.entry_id}')
+                                plt.legend()
+                                plt.show()
+                                s = self.get_stability(e2)
+                                if s is None:
+                                    if icdd_entries[i].stability is None:
+                                        icdd_entries[i] = e2
+                                else:
+                                    if icdd_entries[i].stability is None or icdd_entries[i].stability > s:
+                                        icdd_entries[i] = e2
+                                break
+        s = set(xrd_match)
+
+        return s, icdd_entries
+
+    def check_oxi(self):
+        c1 = self.composition[Element(self.chemsys[0])] * np.min(Element(self.chemsys[0]).common_oxidation_states) \
+             + self.composition[Element(self.chemsys[1])] * np.min(Element(self.chemsys[1]).common_oxidation_states) \
+             + self.composition[Element(self.chemsys[2])] * np.min(Element(self.chemsys[2]).common_oxidation_states) \
+             - self.composition[Element('O')] * 2
+        c2 = self.composition[Element(self.chemsys[0])] * np.max(Element(self.chemsys[0]).common_oxidation_states) \
+             + self.composition[Element(self.chemsys[1])] * np.max(Element(self.chemsys[1]).common_oxidation_states) \
+             + self.composition[Element(self.chemsys[2])] * np.max(Element(self.chemsys[2]).common_oxidation_states) \
+             - self.composition[Element('O')] * 2
+
+        return c1 * c2 <= 0
+
+    def get_stability(self, entry):
+        def oqmd2pymatgen_struct(d):
+            sites = []
+            lat = Lattice(d['unit_cell'])
+            for s in d['sites']:
+                sp, _, x, y, z = s.split()
+                x, y, z = map(float, [x, y, z])
+                site = PeriodicSite(sp, [x, y, z], lat)
+                sites.append(site)
+            struct = Structure.from_sites(sites)
+            return struct
+
+        with qr.QMPYRester() as q:
+            kwargs = {
+                "composition": entry.name,
+            }
+            list_of_data = q.get_oqmd_phases(verbose=False, **kwargs)
+
+        sm = StructureMatcher(comparator=ElementComparator(), attempt_supercell=True)
+
+        s1 = entry.structure
+        try:
+            if len(list_of_data['data'])!=0:
+                for i in range(len(list_of_data['data'])):
+                    s2 = oqmd2pymatgen_struct(list_of_data['data'][i])
+                    if sm.fit(s1, s2):
+                        entry.stability = list_of_data['data'][i]['stability']
+                        break
+        except Exception as e:
+            pass
+
+
+        return entry.stability
+
+    def check_stability(self, S_cutoff):
+        def oqmd2pymatgen_struct(d):
+            sites = []
+            lat = Lattice(d['unit_cell'])
+            for s in d['sites']:
+                sp, _, x, y, z = s.split()
+                x, y, z = map(float, [x, y, z])
+                site = PeriodicSite(sp, [x, y, z], lat)
+                sites.append(site)
+            struct = Structure.from_sites(sites)
+            return struct
+
+        oqmd_data = []
+        with qr.QMPYRester() as q:
+            for i in range(len(self.ordered_entries)):
+                kwargs = {
+                    "composition": self.ordered_entries[i].name,
+                }
+                list_of_data = q.get_oqmd_phases(verbose=False, **kwargs)
+                oqmd_data.append(list_of_data)
+                # while oqmd_data[i] is None:
+                #     list_of_data = q.get_oqmd_phases(verbose=False, **kwargs)
+                #     oqmd_data[i] = list_of_data
+
+        sm = StructureMatcher(comparator=ElementComparator(), attempt_supercell=True)
+        for i in range(len(self.ordered_entries)):
+            s1 = self.ordered_entries[i].structure
+            try:
+                if len(oqmd_data[i]['data']) !=0:
+                    for j in range(len(oqmd_data[i]['data'])):
+                        s2 = oqmd2pymatgen_struct(oqmd_data[i]['data'][j])
+                        # groups = sm.group_structures([s1, s2])
+                        if sm.fit(s1, s2):
+                            self.ordered_entries[i].stability = oqmd_data[i]['data'][j]['stability']
+                            break
+            except Exception as e:
+                pass
+            continue
+
+        null_stability = [_ for _ in self.ordered_entries if _.stability is None]  # should be removed at last
+
+        stable_entires = [_ for _ in self.ordered_entries if _.stability is not None and _.stability < S_cutoff]
+        unstable_entries = [_ for _ in self.ordered_entries if _.stability is not None and _.stability > S_cutoff]
+        candidates_entires = [_ for _ in self.entries if _.stability is None or _.stability < S_cutoff]
+        return null_stability, stable_entires, unstable_entries, candidates_entires

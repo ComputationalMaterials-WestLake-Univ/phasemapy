@@ -38,26 +38,40 @@ class InstanceData:
                 amp = np.array(list(map(float, line.split('=')[1].split(','))))
                 amps.append(amp)
 
+
         sample_xrd = np.array(amps)
         return InstanceData(chemsys, photon_e, np.log(q), sample_xrd, comp_dict)
 
-    # added by Dongfang Yu  to get the Bi-Cu-V instances
+    # added by Dongfang Yu
     @classmethod
-    def from_file_BiCuV (cls, instancefile, chemsys, photon_e):
+    def from_json (cls, instancefile, chemsys, photon_e,XRD_mask=None):
         with open(f'{instancefile}.json') as f:
             Instance_data = json.load(f, cls=MontyDecoder)
         sample_xrd = [Instance_data[i]['Instance_data_info']['sample_xrd'] for i in range(len(Instance_data))]
         comp_dict = {}
-        comp_dict['Bi'] = np.array([Instance_data[i]['Instance_data_info']['comp'][0] for i in range(len(Instance_data))])
-        comp_dict['Cu'] = np.array([Instance_data[i]['Instance_data_info']['comp'][1] for i in range(len(Instance_data))])
-        comp_dict['V'] = np.array([Instance_data[i]['Instance_data_info']['comp'][2] for i in range(len(Instance_data))])
+        comp_dict[chemsys[0]] = np.array([Instance_data[i]['Instance_data_info']['comp'][0] for i in range(len(Instance_data))])
+        comp_dict[chemsys[1]] = np.array([Instance_data[i]['Instance_data_info']['comp'][1] for i in range(len(Instance_data))])
+        comp_dict[chemsys[2]] = np.array([Instance_data[i]['Instance_data_info']['comp'][2] for i in range(len(Instance_data))])
         q = np.array(Instance_data[0]['Instance_data_info']['q'])
+        if XRD_mask:
+            mask = q < XRD_mask[0]
+            q[mask] = XRD_mask[0]
+            for i in range(len(Instance_data)):
+                np.array(sample_xrd[i])[mask] = 0.001
+            mask = q > XRD_mask[1]
+            q[mask] = XRD_mask[1]
+            for i in range(len(Instance_data)):
+                np.array(sample_xrd[i])[mask] = 0.001
+
         return InstanceData(chemsys, photon_e, np.log(q), np.array(sample_xrd), comp_dict)
 
 
 
     def renormalize(self, norm):
         self.sample_xrd = self.sample_xrd / np.sum(self.sample_xrd, axis=1, keepdims=True) * norm
+
+    def normalize(self):
+        self.sample_xrd = [_/np.max(_) for _ in self.sample_xrd]
 
 
     @property

@@ -1,0 +1,98 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_401559-ICSD
+_database_code_ICSD 401559
+_audit_creation_date 1996-04-22
+_audit_update_record 2000-07-15
+_chemical_name_common 'Bismuth copper vanadium oxide (1.9/4/4/16)'
+_chemical_formula_structural 'Bi1.9 (Cu4 V4 O16)'
+_chemical_formula_sum 'Bi1.9 Cu4 O16 V4'
+_chemical_name_structure_type Hollandite(tet)-frame#Ba1.15(Cr2.3Ti5.7)O16
+_exptl_crystal_density_diffrn 6.4
+_citation_title
+
+;
+Kristallstrukturuntersuchung an einem wismuthaltigen Hollandit: Bi1.9 Cu4 V4
+O16
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Zeitschrift fuer Naturforschung, B: A Journal of Chemical Sciences'
+1995 50 1163 1166 ZNBSEN
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Feldmann, J.'
+primary 'Mueller Buschbaum, H.'
+_cell_length_a 9.945
+_cell_length_b 9.945
+_cell_length_c 2.915
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 288.3
+_cell_formula_units_Z 1
+_space_group_name_H-M_alt 'I 4/m'
+_space_group_IT_number 87
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-y, x, -z'
+2 'y, -x, -z'
+3 'x, y, -z'
+4 '-x, -y, -z'
+5 'y, -x, z'
+6 '-y, x, z'
+7 '-x, -y, z'
+8 'x, y, z'
+9 '-y+1/2, x+1/2, -z+1/2'
+10 'y+1/2, -x+1/2, -z+1/2'
+11 'x+1/2, y+1/2, -z+1/2'
+12 '-x+1/2, -y+1/2, -z+1/2'
+13 'y+1/2, -x+1/2, z+1/2'
+14 '-y+1/2, x+1/2, z+1/2'
+15 '-x+1/2, -y+1/2, z+1/2'
+16 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+Cu2+ 2
+V4+ 4.56
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 4 e 0. 0. 0.07351 . 0.475
+Cu1 Cu2+ 8 h 0.35482 0.16978 0. . 0.5
+V1 V4+ 8 h 0.35482 0.16978 0. . 0.5
+O1 O2- 8 h 0.15311 0.19384 0. . 1.
+O2 O2- 8 h 0.16524 0.45857 0. . 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Bi1 Bi3+ 0.022 0.022 0.02884 0. 0. 0.
+Cu1 Cu2+ 0.00623 0.00686 0.00652 -0.00015 0. 0.
+V1 V4+ 0.00623 0.00686 0.00652 -0.00015 0. 0.
+O1 O2- 0.0116 0.0174 0.0173 0.00194 0. 0.
+O2 O2- 0.0104 0.0184 0.0123 0.0011 0. 0.
+#End of TTdata_401559-ICSD

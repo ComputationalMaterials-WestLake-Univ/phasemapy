@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-053-0633</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<common_name>α-Mn O2</common_name>
+<xstal_system>Tetragonal</xstal_system>
+<xtldx>3.808</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>10.308(2)</cell_a>
+<cell_c>2.854(1)</cell_c>
+<z>8.00</z>
+<cell_vol>303.25</cell_vol>
+<cell_mv>37.91</cell_mv>
+<authcovera>0.277</authcovera>
+<xtlvol>303.25</xtlvol>
+<redcellvol>151.63</redcellvol>
+<xtla>10.308</xtla>
+<xtlb>10.308</xtlb>
+<xtlc>2.854</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.277</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>0.277</xtlcoverb>
+<redcell_a>2.854</redcell_a>
+<redcell_b>7.427</redcell_b>
+<redcell_c>7.427</redcell_c>
+<redcell_al>87.88</redcell_al>
+<redcell_be>78.92</redcell_be>
+<redcell_ga>78.92</redcell_ga>
+<xtlz>8.00</xtlz>
+<ss>F(13) = 35.7(0.0192, 19)</ss>
+<xtlsg>I</xtlsg>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Star</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>I</spgr>
+<pearson>tI24.00</pearson>
+<entry_date>09/01/2003</entry_date>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Ceramic, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Muraoka, Y., Chiba, H., Atou, T., Kikuchi, M., Hiraga, K., Syono, Y., Sugiyama, S., Yamamoto, S., Grenier, J.-C. J. Solid State Chem. 1999, 144, 136.</reference>
+</reference_group>
+</references>
+<database_comments>Sample Preparation: ''( N H4 )x Mn8 O16'' was heated under argon at 440 C, then quenched. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<phase>α</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-053-0633.jpg</chart_name>
+<stick_series type="Mn O2 - 00-053-0633 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>12.114</theta>
+<da>7.300</da>
+<intensity>13</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>17.204</theta>
+<da>5.150</da>
+<intensity>36</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>24.434</theta>
+<da>3.640</da>
+<intensity>9</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>27.334</theta>
+<da>3.260</da>
+<intensity>70</intensity>
+<h>3</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.484</theta>
+<da>2.754</da>
+<intensity>8</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.784</theta>
+<da>2.577</da>
+<intensity>18</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.009</theta>
+<da>2.427</da>
+<intensity>100m</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.009</theta>
+<da>2.427</da>
+<intensity>100m</intensity>
+<h>3</h>
+<k>3</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.045</theta>
+<da>2.305</da>
+<intensity>6</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.049</theta>
+<da>2.197</da>
+<intensity>19</intensity>
+<h>3</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.832</theta>
+<da>2.020</da>
+<intensity>14</intensity>
+<h>3</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>48.375</theta>
+<da>1.880</da>
+<intensity>21</intensity>
+<h>4</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>53.310</theta>
+<da>1.717</da>
+<intensity>11</intensity>
+<h>6</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>57.993</theta>
+<da>1.589</da>
+<intensity>32</intensity>
+<h>5</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

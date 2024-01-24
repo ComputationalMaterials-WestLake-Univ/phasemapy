@@ -1,0 +1,126 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_87271-ICSD
+_database_code_ICSD 87271
+_audit_creation_date 2000-12-16
+_audit_update_record 2003-04-01
+_chemical_name_common 'Bismuth vanadium oxide (46/8/89)'
+_chemical_formula_structural 'Bi46 V8 O89'
+_chemical_formula_sum 'Bi46 O89 V8'
+_exptl_crystal_density_diffrn 8.32
+_citation_title
+
+;
+X-ray study of the cation distribution in the ternary oxide, 6(Bi2 O3) - (V2
+O5)
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 1996 122 358 363 JSSCBI
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Kashida, S.'
+primary 'Hori, T.'
+_cell_length_a 11.668
+_cell_length_b 20.023
+_cell_length_c 20.471
+_cell_angle_alpha 107.13
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 4570.44
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'P -1'
+_space_group_IT_number 2
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, -y, -z'
+2 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+V5+ 5
+Bi3+ 3
+V5+ 5
+Bi3+ 3
+V5+ 5
+Bi3+ 3
+V5+ 5
+Bi3+ 3
+V5+ 5
+Bi3+ 3
+V5+ 5
+Bi3+ 3
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+V1 V5+ 2 i 0.6246 0.2505 0.6006 0.029 1.
+V2 V5+ 2 i 0.3888 0.43 0.3857 0.003 1.
+Bi1 Bi3+ 2 i 0.4022 0.1161 0.4053 0.013 1.
+Bi2 Bi3+ 2 i 0.7579 0.0698 0.5974 0.032 1.
+Bi3 Bi3+ 2 i 0.2066 0.5996 0.4155 0.003 1.
+Bi4 Bi3+ 2 i 0.2205 0.2679 0.4037 0.016 1.
+Bi5 Bi3+ 2 i 0.0491 0.771 0.4099 0.013 1.
+Bi6 Bi3+ 2 i 0.0457 0.452 0.4289 0.012 1.
+Bi7 Bi3+ 2 i 0.0773 0.0949 0.42 0.052 1.
+V3 V5+ 2 i 0.0796 0.0522 0.5854 0.003 1.
+Bi8 Bi3+ 2 i 0.1294 0.3812 0.5908 0.008 1.
+V4 V5+ 2 i 0.1071 0.7317 0.5766 0.003 1.
+Bi9 Bi3+ 2 i 0.277 0.2217 0.5804 0.011 1.
+Bi10 Bi3+ 2 i 0.2527 0.5598 0.5867 0.003 1.
+Bi11 Bi3+ 2 i 0.7104 0.1069 0.4283 0.041 1.
+Bi12 Bi3+ 2 i 0.4468 0.0603 0.5874 0.002 1.
+Bi13 Bi3+ 2 i 0.4325 0.404 0.5843 0.002 1.
+Bi14 Bi3+ 2 i 0.5566 0.2785 0.4281 0.003 1.
+Bi15 Bi3+ 2 i 0.3955 0.8431 0.2572 0.004 1.
+Bi16 Bi3+ 2 i 0.3851 0.5026 0.2579 0.018 1.
+Bi17 Bi3+ 2 i 0.4026 0.1531 0.2374 0.015 1.
+Bi18 Bi3+ 2 i 0.2183 0.6768 0.2724 0.02 1.
+Bi19 Bi3+ 2 i 0.2208 0.3268 0.2281 0.032 1.
+Bi20 Bi3+ 2 i 0.2004 0.0021 0.236 0.021 1.
+Bi21 Bi3+ 2 i 0.0661 0.8276 0.2422 0.003 1.
+Bi22 Bi3+ 2 i 0.0675 0.4916 0.2375 0.015 1.
+Bi23 Bi3+ 2 i 0.0707 0.1796 0.2643 0.015 1.
+Bi24 Bi3+ 2 i 0.1157 0.0026 0.7579 0.012 1.
+Bi25 Bi3+ 2 i 0.0977 0.3363 0.7496 0.005 1.
+Bi26 Bi3+ 2 i 0.0888 0.6604 0.7461 0.031 1.
+Bi27 Bi3+ 2 i 0.2911 0.1776 0.7784 0.021 1.
+Bi28 Bi3+ 2 i 0.7025 0.4996 0.2594 0.016 1.
+Bi29 Bi3+ 2 i 0.7063 0.1766 0.2808 0.024 1.
+Bi30 Bi3+ 2 i 0.5703 0.6683 0.2525 0.002 1.
+Bi31 Bi3+ 2 i 0.5721 0.3256 0.2433 0.036 1.
+Bi32 Bi3+ 2 i 0.5679 0.0098 0.266 0.025 1.
+Bi33 Bi3+ 2 i 0.3741 0.8783 0.0928 0.022 1.
+V5 V5+ 2 i 0.3906 0.5613 0.1133 0.002 1.
+V6 V5+ 2 i 0.35 0.2351 0.0517 0.115 1.
+Bi34 Bi3+ 2 i 0.2099 0.7347 0.0893 0.031 1.
+Bi35 Bi3+ 2 i 0.2113 0.4007 0.0855 0.002 1.
+Bi36 Bi3+ 2 i 0.2457 0.0603 0.0821 0.002 1.
+Bi37 Bi3+ 2 i 0.0672 0.9086 0.0863 0.011 1.
+Bi38 Bi3+ 2 i 0.0499 0.5481 0.0706 0.024 1.
+Bi39 Bi3+ 2 i 0.0606 0.2301 0.0855 0.095 1.
+V7 V5+ 2 i 0.1129 0.2554 0.9068 0.003 1.
+Bi40 Bi3+ 2 i 0.8945 0.3868 0.0915 0.009 1.
+V8 V5+ 2 i 0.8812 0.0786 0.1016 0.051 1.
+Bi41 Bi3+ 2 i 0.2924 0.1074 0.9278 0.027 1.
+Bi42 Bi3+ 2 i 0.745 0.5671 0.1005 0.012 1.
+Bi43 Bi3+ 2 i 0.7292 0.221 0.0875 0.005 1.
+Bi44 Bi3+ 2 i 0.5493 0.7218 0.0787 0.003 1.
+Bi45 Bi3+ 2 i 0.5752 0.399 0.0809 0.025 1.
+Bi46 Bi3+ 2 i 0.5481 0.0584 0.0852 0.003 1.
+#End of TTdata_87271-ICSD

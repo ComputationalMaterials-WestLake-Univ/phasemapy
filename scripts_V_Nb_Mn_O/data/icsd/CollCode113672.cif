@@ -1,0 +1,97 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_113672-ICSD
+_database_code_ICSD 113672
+_audit_creation_date 2022-08-01
+_chemical_name_common 'Trimanganese tetraoxide'
+_chemical_formula_structural 'Mn3 O4'
+_chemical_formula_sum 'Mn3 O4'
+_chemical_name_structure_type CaMn2O4
+_exptl_crystal_density_diffrn 5.8
+_diffrn_ambient_temperature 293.
+_diffrn_ambient_pressure 15500000.
+_citation_title
+
+;
+Structural stability and properties of marokite-type
+\(\gamma\)-Mn\(_3\)O\(_4\)
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Inorganic Chemistry' 2021 60 13440 13452 INOCAJ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Ovsyannikov, Sergey V.'
+primary 'Aslandukova, Alena A.'
+primary 'Aslandukov, Andrey'
+primary 'Chariton, Stella'
+primary 'Tsirlin, Alexander A.'
+primary 'Korobeynikov, Igor V.'
+primary 'Morozova, Natalia V.'
+primary 'Fedotenko, Timofey'
+primary 'Khandarkhaeva, Saiana'
+primary 'Dubrovinsky, Leonid'
+_cell_length_a 2.9279
+_cell_length_b 9.5531
+_cell_length_c 9.373
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 262.17
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P b c m'
+_space_group_IT_number 57
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y+1/2, z+1/2'
+2 '-x, y+1/2, z'
+3 'x, y, -z+1/2'
+4 '-x, -y, -z'
+5 '-x, y+1/2, -z+1/2'
+6 'x, -y+1/2, -z'
+7 '-x, -y, z+1/2'
+8 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn3+ 3
+Mn2+ 2
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Mn1 Mn3+ 8 e 0.21523 0.38466 0.07 0.0128 1.
+Mn2 Mn2+ 4 d 0.2958 0.64192 0.25 0.0156 1.
+O1 O2- 4 c 0.6469 0.25 0. 0.016 1.
+O2 O2- 8 e 0.2124 0.0288 0.1118 0.013 1.
+O3 O2- 4 d 0.2038 0.3017 0.25 0.017 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn1 Mn3+ 0.0073 0.0069 0.0241 -0.00062 0.0004 -0.0003
+Mn2 Mn2+ 0.0073 0.0077 0.0317 0.00005 0. 0.
+O1 O2- 0.0077 0.007 0.035 0. 0. 0.0013
+O2 O2- 0.0094 0.0081 0.022 -0.0004 0.0018 -0.0004
+O3 O2- 0.0081 0.0097 0.034 -0.0002 0. 0.
+#End of TTdata_113672-ICSD

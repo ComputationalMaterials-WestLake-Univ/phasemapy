@@ -1,0 +1,71 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_39595-ICSD
+_database_code_ICSD 39595
+_audit_creation_date 1993-08-22
+_chemical_name_common 'Tetraniobium pentaoxide'
+_chemical_formula_structural 'Nb4 O5'
+_chemical_formula_sum 'Nb4 O5'
+_exptl_crystal_density_diffrn 7.04
+_citation_title 'Crystal structure of a new niobium oxide Nb4O5.'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary Kristallografiya 1992 37 589 597 KRISAJ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Arakcheeva, A.V.'
+_cell_length_a 6.651
+_cell_length_b 6.651
+_cell_length_c 4.814
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 212.95
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'P 42/n m c Z'
+_space_group_IT_number 137
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y+1/2, x+1/2, -z+1/2'
+2 '-y, x+1/2, -z+1/2'
+3 'y+1/2, -x, -z+1/2'
+4 '-y, -x, -z+1/2'
+5 'x+1/2, y+1/2, -z'
+6 '-x, y+1/2, -z'
+7 'x+1/2, -y, -z'
+8 '-x, -y, -z'
+9 '-y+1/2, -x+1/2, z+1/2'
+10 'y, -x+1/2, z+1/2'
+11 '-y+1/2, x, z+1/2'
+12 'y, x, z+1/2'
+13 '-x+1/2, -y+1/2, z'
+14 'x, -y+1/2, z'
+15 '-x+1/2, y, z'
+16 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Nb2+ 2.5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Nb1 Nb2+ 8 g 0.25 0.04505 0.04452 0.4 1.
+O1 O2- 2 a 0.75 0.25 0.75 0.62 1.
+O2 O2- 8 f 0.5367 0.4633 0.25 0.22 1.
+#End of TTdata_39595-ICSD

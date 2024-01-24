@@ -1,0 +1,93 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_164847-ICSD
+_database_code_ICSD 164847
+_audit_creation_date 2010-02-01
+_chemical_name_common 'Bismuth vanadium oxide (3.76/2.17/11.27)'
+_chemical_formula_structural 'Bi3.76 V2.17 O11.27'
+_chemical_formula_sum 'Bi3.76 O11.27 V2.17'
+_exptl_crystal_density_diffrn 7.56
+_citation_title
+
+;
+Preparation, structure, and charge transport characteristics of BIFEVOX
+ultrafine powders
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Zhurnal Neorganicheskoi Khimii' 2009 54 1257 1270 ZNOKAQ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Buyanova, E.S.'
+primary 'Petrova, S.A.'
+primary 'Emel'yanova, Yu.V.'
+primary 'Blinova, A.L.'
+primary 'Morozova, M.V.'
+primary 'Zhukovskii, V.M.'
+primary 'Zhuravlev, V.D.'
+_cell_length_a 5.592
+_cell_length_b 15.329
+_cell_length_c 16.5602
+_cell_angle_alpha 90.
+_cell_angle_beta 90.02
+_cell_angle_gamma 90.
+_cell_volume 1419.54
+_cell_formula_units_Z 6
+_space_group_name_H-M_alt 'C 1 2/m 1'
+_space_group_IT_number 12
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, y, -z'
+2 '-x, -y, -z'
+3 'x, -y, z'
+4 'x, y, z'
+5 '-x+1/2, y+1/2, -z'
+6 '-x+1/2, -y+1/2, -z'
+7 'x+1/2, -y+1/2, z'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3.1
+V5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 4 g 0. 0.3299 0. 0.5 0.94
+Bi2 Bi3+ 8 j 0.01 0.3308 0.3332 0.6 0.95
+Bi3 Bi3+ 4 h 0. 0.1664 0.5 0.5 0.96
+Bi4 Bi3+ 8 j 0.4592 0.3289 0.1623 0.7 0.92
+V1 V5+ 2 a 0. 0. 0. 0.8 1.
+V2 V5+ 4 i 0.0741 0. 0.3157 1.3 0.51
+V3 V5+ 8 j 0.3226 0.0768 0.5498 0.8 0.64
+V4 V5+ 4 i 0.5474 0. 0.15917 0.5 0.97
+O1 O2- 8 j 0.419 0.133 0.127 1.9 0.8
+O2 O2- 8 j 0.24 0.253 0.413 2.5 1.
+O3 O2- 8 j 0.262 0.451 0.093 2.3 0.8
+O4 O2- 4 i 0.34 0. 0.069 1.5 0.9
+O5 O2- 8 j 0.117 0.183 0.171 1.5 0.4
+O6 O2- 4 i 0.614 0. 0.271 1.5 1.
+O7 O2- 4 i 0.316 0. 0.163 2.8 1.
+O8 O2- 4 i 0.179 0. 0.534 2.5 1.
+O9 O2- 8 j 0.163 0.026 0.403 1.7 0.5
+O10 O2- 8 j 0.196 0.065 0.337 1.5 0.5
+O11 O2- 8 j 0.404 0.401 0.303 1.5 1.
+O12 O2- 8 j 0.286 0.249 0.252 0.5 1.
+O13 O2- 4 h 0. 0.4 0.5 1.5 1.
+#End of TTdata_164847-ICSD

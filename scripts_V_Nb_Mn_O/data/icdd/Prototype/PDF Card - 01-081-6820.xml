@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-081-6820</pdf_number>
+<chemical_formula>Nb O0.02</chemical_formula>
+<empirical_formula>Nb O0.02</empirical_formula>
+<anx>NO50</anx>
+<chemical_name>Niobium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>8.579</xtldx>
+<ds>8.58</ds>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>3.3047(1)</cell_a>
+<z>2.00</z>
+<cell_vol>36.09</cell_vol>
+<cell_mv>18.05</cell_mv>
+<xtlvol>36.09</xtlvol>
+<redcellvol>18.05</redcellvol>
+<xtla>3.305</xtla>
+<xtlb>3.305</xtlb>
+<xtlc>3.305</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.862</redcell_a>
+<redcell_b>2.862</redcell_b>
+<redcell_c>2.862</redcell_c>
+<redcell_al>109.47</redcell_al>
+<redcell_be>109.47</redcell_be>
+<redcell_ga>109.47</redcell_ga>
+<xtlz>2.00</xtlz>
+<ss>F(8) = 999.9(0.0001, 8)</ss>
+<xtlsg>Im-3m (229)</xtlsg>
+<xtlmolwt>93.23</xtlmolwt>
+<quality_mark>Prototyping</quality_mark>
+<iic>19.23</iic>
+<iic_nd>0.69</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>229</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Im-3m (229)</spgr>
+<pearson>cI2.04</pearson>
+<entry_date>09/01/2013</entry_date>
+<weight_percent>Nb99.66 O0.34</weight_percent>
+<atomic_percent>Nb98.04 O1.96</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<doi>10.1107/S002188987000554X</doi>
+<reference>Straumanis, M.E., Zyszczynski, S. "Lattice parameters, thermal expansion coefficients and densities of Nb, and of solid solutions Nb-O and Nb-N-O and their defect structure". J. Appl. Crystallogr. 1970, 3, 1.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: NO50. Analysis: Nb1 O0.02. Formula from original source: Nb O0.02. ICSD Collection Code: 645130. Calculated Pattern Original Remarks: Partly filled W type. Atom positions estimated by editor, not refined. Temperature of Data Collection: 298 K. Minor Warning: No R factors reported/abstracted. Wyckoff Sequence: b a (IM3-M). Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-081-6820.jpg</chart_name>
+<stick_series type="Nb O0.02 - 01-081-6820 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>38.493</theta>
+<da>2.336780</da>
+<intensity>1000</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.572</theta>
+<da>1.652350</da>
+<intensity>143</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>69.632</theta>
+<da>1.349140</da>
+<intensity>242</intensity>
+<h>2</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>82.488</theta>
+<da>1.168390</da>
+<intensity>66</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>94.967</theta>
+<da>1.045040</da>
+<intensity>85</intensity>
+<h>3</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>107.692</theta>
+<da>0.953985</da>
+<intensity>21</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>121.414</theta>
+<da>0.883218</da>
+<intensity>108</intensity>
+<h>3</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>137.607</theta>
+<da>0.826175</da>
+<intensity>12</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

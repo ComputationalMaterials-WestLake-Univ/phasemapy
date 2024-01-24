@@ -1,0 +1,81 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_62661-ICSD
+_database_code_ICSD 62661
+_audit_creation_date 1988-02-22
+_audit_update_record 2010-08-01
+_chemical_name_common 'Manganese niobium oxide (3/6/11)'
+_chemical_formula_structural 'Mn3 Nb6 O11'
+_chemical_formula_sum 'Mn3 Nb6 O11'
+_chemical_name_structure_type Mn3Nb6O11
+_exptl_crystal_density_diffrn 6.11
+_citation_title
+
+;
+Mn3 Nb6 O11 und Mg3 Nb6 O11 - Darstellung von Einkristallen und
+Strukturverfeinerung.
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Zeitschrift fuer Naturforschung, B: A Journal of Chemical Sciences'
+1987 42 536 538 ZNBSEN
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Burnus, R.'
+primary 'Koehler, J.'
+primary 'Simon, A.'
+_cell_length_a 6.08
+_cell_length_b 6.08
+_cell_length_c 7.627
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 120.
+_cell_volume 244.17
+_cell_formula_units_Z 1
+_space_group_name_H-M_alt 'P -3 m 1'
+_space_group_IT_number 164
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x-y, -y, -z'
+2 '-x, -x+y, -z'
+3 'y, x, -z'
+4 'x-y, x, -z'
+5 'y, -x+y, -z'
+6 '-x, -y, -z'
+7 '-x+y, y, z'
+8 'x, x-y, z'
+9 '-y, -x, z'
+10 '-x+y, -x, z'
+11 '-y, x-y, z'
+12 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Nb2+ 2.67
+Mn2+ 2
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Nb1 Nb2+ 6 i 0.8453 0.1547 0.3508 0.0038 1.
+Mn1 Mn2+ 1 a 0. 0. 0. 0.0058 1.
+Mn2 Mn2+ 2 d 0.33333 0.66667 0.0699 0.007 1.
+O1 O2- 3 f 0.5 0. 0.5 0.0052 1.
+O2 O2- 6 i 0.1565 0.8435 0.1834 0.0062 1.
+O3 O2- 2 d 0.33333 0.66667 0.8025 0.0068 1.
+#End of TTdata_62661-ICSD

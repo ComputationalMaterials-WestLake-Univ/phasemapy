@@ -1,0 +1,106 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_151911-ICSD
+_database_code_ICSD 151911
+_audit_creation_date 2006-10-01
+_chemical_name_common 'Bismuth vanadium oxide (4/2/11.2)'
+_chemical_formula_structural 'Bi4 (V2 O11.2)'
+_chemical_formula_sum 'Bi4 O11.2 V2'
+_chemical_name_structure_type Î³-Bi4V2O11-frame
+_exptl_crystal_density_diffrn 7.53
+_diffrn_ambient_temperature 893.
+_citation_title
+
+;
+Time resolved in-situ neutron diffraction investigation of the electrochemical
+reduction of BIMEVOX
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Solid State Ionics' 2004 175 419 424 SSIOD3
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Capoen, E.'
+primary 'Steil, M.C.'
+primary 'Tancret, N.'
+primary 'Nowogrocki, G.'
+primary 'Boivin, J.C.'
+primary 'Mairesse, G.'
+primary 'Vannier, R.N.'
+primary 'Anne, M.'
+primary 'Isnard, O.'
+_cell_length_a 3.9934
+_cell_length_b 3.9934
+_cell_length_c 15.448
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 246.35
+_cell_formula_units_Z 1
+_space_group_name_H-M_alt 'I 4/m m m'
+_space_group_IT_number 139
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y, x, -z'
+2 '-y, -x, -z'
+3 '-y, x, -z'
+4 'y, -x, -z'
+5 '-x, y, -z'
+6 'x, -y, -z'
+7 'x, y, -z'
+8 '-x, -y, -z'
+9 '-y, -x, z'
+10 'y, x, z'
+11 'y, -x, z'
+12 '-y, x, z'
+13 'x, -y, z'
+14 '-x, y, z'
+15 '-x, -y, z'
+16 'x, y, z'
+17 'y+1/2, x+1/2, -z+1/2'
+18 '-y+1/2, -x+1/2, -z+1/2'
+19 '-y+1/2, x+1/2, -z+1/2'
+20 'y+1/2, -x+1/2, -z+1/2'
+21 '-x+1/2, y+1/2, -z+1/2'
+22 'x+1/2, -y+1/2, -z+1/2'
+23 'x+1/2, y+1/2, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/2, -x+1/2, z+1/2'
+26 'y+1/2, x+1/2, z+1/2'
+27 'y+1/2, -x+1/2, z+1/2'
+28 '-y+1/2, x+1/2, z+1/2'
+29 'x+1/2, -y+1/2, z+1/2'
+30 '-x+1/2, y+1/2, z+1/2'
+31 '-x+1/2, -y+1/2, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+V5+ 5.2
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 4 e 0. 0. 0.331 0.02 0.5
+Bi2 Bi3+ 16 m 0.078 0.078 0.334 0.02 0.125
+V1 V5+ 8 h 0.03 0.03 0. 0.048 0.25
+O1 O2- 4 d 0. 0.5 0.25 0.035 1.
+O2 O2- 16 n 0. 0.147 0.093 0.07 0.25
+O3 O2- 16 n 0. 0.43 0.464 0.07 0.2
+#End of TTdata_151911-ICSD

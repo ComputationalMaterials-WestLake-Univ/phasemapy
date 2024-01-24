@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>00-059-0331</pdf_number>
+<chemical_formula>Bi2 O3</chemical_formula>
+<empirical_formula>Bi2 O3</empirical_formula>
+<chemical_name>Bismuth Oxide</chemical_name>
+<common_name>ε-Bi2 O3</common_name>
+<xstal_system>Triclinic (Anorthic)</xstal_system>
+<xtldx>9.54</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>7.12</cell_a>
+<cell_b>11.27</cell_b>
+<cell_c>24.34</cell_c>
+<cell_alpha>90</cell_alpha>
+<cell_beta>90</cell_beta>
+<cell_gamma>114</cell_gamma>
+<z>22.00</z>
+<cell_vol>1784.25</cell_vol>
+<cell_mv>81.10</cell_mv>
+<authcovera>3.419</authcovera>
+<authaoverb>0.632</authaoverb>
+<authcoverb>2.160</authcoverb>
+<xtlvol>1784.25</xtlvol>
+<redcellvol>1784.25</redcellvol>
+<xtla>10.603</xtla>
+<xtlb>24.340</xtlb>
+<xtlc>7.120</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>103.84</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.672</xtlcovera>
+<xtlaoverb>0.436</xtlaoverb>
+<xtlcoverb>0.293</xtlcoverb>
+<redcell_a>7.120</redcell_a>
+<redcell_b>10.603</redcell_b>
+<redcell_c>24.340</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>103.84</redcell_ga>
+<metric_symmetry_warning>Warning: Metric Symmetry Exceeds Crystal Symmetry</metric_symmetry_warning>
+<metric_symmetry_warning_comments>
+<metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment>Crystal Data Bravais Lattice = AP Reduced Cell Bravais Lattice = MP</metric_symmetry_warning_comment>
+</metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment>MP Cell Parameters:  7.120 24.340 10.603  90.00 103.84  90.00</metric_symmetry_warning_comment>
+</metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment_group>
+<metric_symmetry_warning_comment>Matrix (Initial To MP): 1.0 0.0 0.0/ 0.0 0.0 1.0/-1.0-1.0 0.0</metric_symmetry_warning_comment>
+</metric_symmetry_warning_comment_group>
+</metric_symmetry_warning_comments>
+<xtlz>22.00</xtlz>
+<ss>F(10) = 0.4(0.0428, 567)</ss>
+<xtlsg>P</xtlsg>
+<xtlmolwt>465.96</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Diffractometer - Peak</source>
+<instrument>Diffractometer</instrument>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>P</spgr>
+<pearson>aP110.00</pearson>
+<entry_date>09/01/2009</entry_date>
+<last_mod_date>09/01/2010</last_mod_date>
+<last_modifications>CellVolume</last_modifications>
+<weight_percent>Bi89.70 O10.30</weight_percent>
+<atomic_percent>Bi40.00 O60.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Klinkova, L., Nikolaichik, V., Barkovskii, N., Fedotov, V. "Barium bismuth oxides with α-, γ-, and ε-\Bi2 O3\ structures." Russ. J. Inorg. Chem. (Engl. Transl.) 2007, 52, 1666.</reference>
+</reference_group>
+</references>
+<database_comments>Sample Preparation: Prepared by sintering ''Bi2 O3'' and ''Ba ( N O3 )2'' at 1013 K in a ''Pt''-crucible for 94 hours. Temperature of Data Collection: 298 K. Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG. Unit Cell Data Source: Electron diffraction.</database_comments>
+<phase>ε</phase>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.54056 Å)</wave_length>
+<chart_name>PDF Card - 00-059-0331.jpg</chart_name>
+<stick_series type="Bi2 O3 - 00-059-0331 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>26.466</theta>
+<da>3.365</da>
+<intensity>4</intensity>
+<h>-1</h>
+<k>-1</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.162</theta>
+<da>3.166</da>
+<intensity>7</intensity>
+<h>0</h>
+<k>-3</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.521</theta>
+<da>3.127</da>
+<intensity>20</intensity>
+<h>-2</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>29.336</theta>
+<da>3.042</da>
+<intensity>100</intensity>
+<h>0</h>
+<k>0</k>
+<l>8</l>
+<F/>
+</intensity>
+<intensity>
+<theta>30.157</theta>
+<da>2.961</da>
+<intensity>8</intensity>
+<h>-1</h>
+<k>3</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.449</theta>
+<da>1.994</da>
+<intensity>5</intensity>
+<h>-2</h>
+<k>5</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>49.154</theta>
+<da>1.852</da>
+<intensity>4</intensity>
+<h>-2</h>
+<k>5</k>
+<l>7</l>
+<F/>
+</intensity>
+<intensity>
+<theta>51.532</theta>
+<da>1.772</da>
+<intensity>9</intensity>
+<h>0</h>
+<k>-5</k>
+<l>7</l>
+<F/>
+</intensity>
+<intensity>
+<theta>54.196</theta>
+<da>1.691</da>
+<intensity>8</intensity>
+<h>-2</h>
+<k>-2</k>
+<l>10</l>
+<F/>
+</intensity>
+<intensity>
+<theta>60.853</theta>
+<da>1.521</da>
+<intensity>7</intensity>
+<h>0</h>
+<k>0</k>
+<l>16</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

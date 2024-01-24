@@ -1,0 +1,75 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_32263-ICSD
+_database_code_ICSD 32263
+_audit_creation_date 2022-02-01
+_chemical_name_common 'Vanadium pentoxide'
+_chemical_formula_structural 'V2 O5'
+_chemical_formula_sum 'O5 V2'
+_chemical_name_structure_type V2O5
+_exptl_crystal_density_diffrn 3.35
+_citation_title
+
+;
+Potentiodynamics of the zinc and proton storage in disordered sodium vanadate
+for aqueous Zn-ion batteries
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'ACS Applied Materials & Interfaces' 2020 12 54627 54636 AAMICK
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Shan, Xiaoqiang'
+primary 'Kim, SaeWon'
+primary 'Abeykoon, A.M.Milinda'
+primary 'Kwon, Gihan'
+primary 'Olds, Daniel'
+primary 'Teng, Xiaowei'
+_cell_length_a 3.572
+_cell_length_b 11.539
+_cell_length_c 4.379
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 180.49
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'P m m n Z'
+_space_group_IT_number 59
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x+1/2, y+1/2, -z'
+2 '-x, y+1/2, -z'
+3 'x+1/2, -y, -z'
+4 '-x, -y, -z'
+5 '-x+1/2, -y+1/2, z'
+6 'x, -y+1/2, z'
+7 '-x+1/2, y, z'
+8 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+O2- -2
+V5+ 5
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+O1 O2- 4 e 0.25 0.568 0.507 0.02 1.
+O2 O2- 2 a 0.25 0.25 0.494 0.04 1.
+O3 O2- 4 e 0.25 0.1 0.029 0.04 1.
+V1 V5+ 4 e 0.25 0.101 0.392 0.003 1.
+#End of TTdata_32263-ICSD

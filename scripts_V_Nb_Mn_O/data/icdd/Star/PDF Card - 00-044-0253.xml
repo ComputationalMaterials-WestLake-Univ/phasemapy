@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-044-0253</pdf_number>
+<chemical_formula>V O2</chemical_formula>
+<empirical_formula>O2 V</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Tetragonal</xstal_system>
+<xtldx>4.651</xtldx>
+<rep_struc>Ti O2</rep_struc>
+<rep_struc_alpha_order>O2 Ti</rep_struc_alpha_order>
+<lpf_rep_struc>Ti O2,tP6,136</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>O2 Ti,tP6,136</lpf_rep_struc_alpha_order>
+<pressure_temperature>Non-ambient Temperature</pressure_temperature>
+<status>Primary</status>
+<cell_a>4.5540(1)</cell_a>
+<cell_c>2.8557(2)</cell_c>
+<z>2.00</z>
+<cell_vol>59.22</cell_vol>
+<cell_mv>29.61</cell_mv>
+<authcovera>0.627</authcovera>
+<xtlvol>59.22</xtlvol>
+<redcellvol>59.22</redcellvol>
+<xtla>4.554</xtla>
+<xtlb>4.554</xtlb>
+<xtlc>2.856</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.627</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>0.627</xtlcoverb>
+<redcell_a>2.856</redcell_a>
+<redcell_b>4.554</redcell_b>
+<redcell_c>4.554</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>2.00</xtlz>
+<ss>F(15) = 114.2(0.0088, 15)</ss>
+<xtlsg>P42/mnm (136)</xtlsg>
+<xtlmolwt>82.94</xtlmolwt>
+<quality_mark>Star</quality_mark>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<temperature>127.0</temperature>
+<aspectn>136</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>P42/mnm (136)</spgr>
+<pearson>tP6.00</pearson>
+<entry_date>09/01/1994</entry_date>
+<weight_percent>O38.58 V61.42</weight_percent>
+<atomic_percent>O66.67 V33.33</atomic_percent>
+<structure_info>Atomic parameters are cross-referenced from PDF entry 04-001-8957</structure_info>
+<sg_sym_ops>
+<sg_sym_op>
+<seq>1</seq>
+<operator>x,y,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>2</seq>
+<operator>-x,-y,-z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>3</seq>
+<operator>-x,-y,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>4</seq>
+<operator>x,y,-z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>5</seq>
+<operator>x+1/2,-y+1/2,z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>6</seq>
+<operator>-x+1/2,y+1/2,-z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>7</seq>
+<operator>-x+1/2,y+1/2,z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>8</seq>
+<operator>x+1/2,-y+1/2,-z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>9</seq>
+<operator>y,x,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>10</seq>
+<operator>-y,-x,-z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>11</seq>
+<operator>-y,-x,z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>12</seq>
+<operator>y,x,-z</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>13</seq>
+<operator>y+1/2,-x+1/2,z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>14</seq>
+<operator>-y+1/2,x+1/2,-z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>15</seq>
+<operator>-y+1/2,x+1/2,z+1/2</operator>
+</sg_sym_op>
+<sg_sym_op>
+<seq>16</seq>
+<operator>y+1/2,-x+1/2,-z+1/2</operator>
+</sg_sym_op>
+</sg_sym_ops>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<atomic_coords>
+<atomic_coord>
+<atom>O</atom>
+<num>1</num>
+<wyckoff>4f</wyckoff>
+<symmetry>m.2m</symmetry>
+<x>0.30478</x>
+<y>0.30478</y>
+<z>0.0</z>
+<sof>1.0</sof>
+<aet>3#b</aet>
+</atomic_coord>
+<atomic_coord>
+<atom>V</atom>
+<num>2</num>
+<wyckoff>2a</wyckoff>
+<symmetry>m.mm</symmetry>
+<x>0.0</x>
+<y>0.0</y>
+<z>0.0</z>
+<sof>1.0</sof>
+<aet>6-a</aet>
+</atomic_coord>
+</atomic_coords>
+<ani_temp_facs/>
+<ac_space_group>P42/mnm (136)</ac_space_group>
+<ac_unit_cell_a>4.542</ac_unit_cell_a>
+<ac_unit_cell_b>4.542</ac_unit_cell_b>
+<ac_unit_cell_c>2.872</ac_unit_cell_c>
+<ac_unit_cell_alpha>90</ac_unit_cell_alpha>
+<ac_unit_cell_beta>90</ac_unit_cell_beta>
+<ac_unit_cell_gamma>90</ac_unit_cell_gamma>
+<subfile_indicator>Ceramic (Semiconductor), Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>01-079-1655 (Alternate), 04-001-8957 (Alternate), 04-001-9153 (Alternate), 04-002-3081 (Alternate), 04-002-9116 (Alternate), 04-004-3064 (Primary), 04-004-5458 (Alternate), 04-004-9010 (Alternate), 04-006-6356 (Alternate), 04-007-3725 (Alternate), 04-007-8018 (Alternate), 04-007-9096 (Alternate), 04-008-7668 (Alternate), 04-008-7669 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Rogers, K. Powder Diffr. 1993, 8, 240.</reference>
+</reference_group>
+<reference_group>
+<type>Crystal Structure</type>
+<reference>Crystal Structure Source: LPF.</reference>
+</reference_group>
+</references>
+<database_comments>Additional Patterns: See PDF 01-079-1655. Temperature of Data Collection: 127 K.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<phase>High temperature phase.</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-044-0253.jpg</chart_name>
+<stick_series type="V O2 - 00-044-0253 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>27.680</theta>
+<da>3.22008</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.120</theta>
+<da>2.42000</da>
+<intensity>59</intensity>
+<h>0</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.560</theta>
+<da>2.27618</da>
+<intensity>7</intensity>
+<h>0</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.280</theta>
+<da>2.13582</da>
+<intensity>21</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.440</theta>
+<da>2.03689</da>
+<intensity>5</intensity>
+<h>1</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>55.360</theta>
+<da>1.65818</da>
+<intensity>43</intensity>
+<h>1</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>57.160</theta>
+<da>1.61017</da>
+<intensity>19</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.680</theta>
+<da>1.43993</da>
+<intensity>8</intensity>
+<h>1</h>
+<k>3</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>65.300</theta>
+<da>1.42775</da>
+<intensity>5</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>66.640</theta>
+<da>1.40226</da>
+<intensity>1</intensity>
+<h>2</h>
+<k>2</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>70.160</theta>
+<da>1.34027</da>
+<intensity>13</intensity>
+<h>0</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>72.320</theta>
+<da>1.30547</da>
+<intensity>19</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>73.600</theta>
+<da>1.28589</da>
+<intensity>1</intensity>
+<h>1</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>75.169</theta>
+<da>1.26290</da>
+<intensity>&lt;1</intensity>
+<h>2</h>
+<k>3</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>79.120</theta>
+<da>1.20945</da>
+<intensity>2</intensity>
+<h>0</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

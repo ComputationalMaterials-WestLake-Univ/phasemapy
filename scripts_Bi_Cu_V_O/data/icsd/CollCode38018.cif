@@ -1,0 +1,99 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_38018-ICSD
+_database_code_ICSD 38018
+_audit_creation_date 1980-01-01
+_audit_update_record 2000-07-15
+_chemical_name_common 'Vanadium oxide (51.6/64)'
+_chemical_formula_structural 'V51.61 O64'
+_chemical_formula_sum 'O64 V51.61'
+_exptl_crystal_density_diffrn 5.35
+_citation_title 'The defect structure of V Ox. The ordered phase, V O1.3'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary
+
+;
+Acta Crystallographica, Section A: Crystal Physics, Diffraction, Theoretical
+and General Crystallography
+; 1979 35 745 756 ACACBN
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Morinaga, M.'
+primary 'Cohen, J.B.'
+_cell_length_a 11.707
+_cell_length_b 11.707
+_cell_length_c 8.278
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 1134.53
+_cell_formula_units_Z 1
+_space_group_name_H-M_alt 'I 41/a m d Z'
+_space_group_IT_number 141
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y+1/4, x+3/4, -z+1/4'
+2 'y+1/4, -x+3/4, -z+1/4'
+3 'x, y+1/2, -z'
+4 'x, -y, -z'
+5 '-y+3/4, x+3/4, -z+1/4'
+6 '-y+3/4, -x+3/4, -z+1/4'
+7 '-x, y+1/2, -z'
+8 '-x, -y, -z'
+9 '-y+3/4, -x+1/4, z+3/4'
+10 '-y+3/4, x+1/4, z+3/4'
+11 '-x, -y+1/2, z'
+12 '-x, y, z'
+13 'y+1/4, -x+1/4, z+3/4'
+14 'y+1/4, x+1/4, z+3/4'
+15 'x, -y+1/2, z'
+16 'x, y, z'
+17 'y+3/4, x+1/4, -z+3/4'
+18 'y+3/4, -x+1/4, -z+3/4'
+19 'x+1/2, y, -z+1/2'
+20 'x+1/2, -y+1/2, -z+1/2'
+21 '-y+1/4, x+1/4, -z+3/4'
+22 '-y+1/4, -x+1/4, -z+3/4'
+23 '-x+1/2, y, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/4, -x+3/4, z+1/4'
+26 '-y+1/4, x+3/4, z+1/4'
+27 '-x+1/2, -y, z+1/2'
+28 '-x+1/2, y+1/2, z+1/2'
+29 'y+3/4, -x+3/4, z+1/4'
+30 'y+3/4, x+3/4, z+1/4'
+31 'x+1/2, -y, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+V2+ 2.48
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+V1 V2+ 4 a 0. 0.75 0.125 1.41 1.
+V2 V2+ 16 h 0. 0.1238 0.2505 0.75 1.
+V3 V2+ 16 f 0.1252 0. 0. 1.24 1.
+V4 V2+ 16 f 0.3775 0. 0. 1.06 0.934
+V5 V2+ 16 g 0.25 0.5 0.875 0.75 0.041
+O1 O2- 16 h 0. 0.1182 0.0092 1.55 1.
+O2 O2- 16 h 0. 0.1291 0.4973 1.18 1.
+O3 O2- 32 i 0.2533 0.1202 0.0006 1.05 1.
+#End of TTdata_38018-ICSD

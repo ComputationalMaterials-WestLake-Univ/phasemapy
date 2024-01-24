@@ -1,0 +1,108 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_16605-ICSD
+_database_code_ICSD 16605
+_audit_creation_date 1986-09-25
+_audit_update_record 2013-02-01
+_chemical_name_common 'Niobium oxide - HT'
+_chemical_formula_structural 'Nb2 O5'
+_chemical_formula_sum 'Nb2 O5'
+_exptl_crystal_density_diffrn 4.55
+_citation_title
+'The crystal structure of the high temperature form of niobium pentoxide'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Acta Crystallographica' 1964 17 1545 1554 ACCRA9
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Gatehouse, B.M.'
+primary 'Wadsley, A.D.'
+_cell_length_a 19.35
+_cell_length_b 3.822
+_cell_length_c 20.3673
+_cell_angle_alpha 90.
+_cell_angle_beta 115.675
+_cell_angle_gamma 90.
+_cell_volume 1357.56
+_cell_formula_units_Z 14
+_space_group_name_H-M_alt 'P 1 2 1'
+_space_group_IT_number 3
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, y, -z'
+2 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Nb5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Nb1 Nb5+ 1 a 0. 0.25 0. . 1.
+Nb2 Nb5+ 1 b 0. 0. 0.5 . 1.
+Nb3 Nb5+ 2 e 0.1623 0. 0.1623 . 1.
+Nb4 Nb5+ 2 e 0.0044 0. 0.2354 . 1.
+Nb5 Nb5+ 2 e 0.1527 0. 0.6983 . 1.
+Nb6 Nb5+ 2 e 0.3162 0. 0.3609 . 1.
+Nb7 Nb5+ 2 e 0.1555 0. 0.4331 . 1.
+Nb8 Nb5+ 2 e 0.5301 0. 0.4365 . 1.
+Nb9 Nb5+ 2 e 0.3064 0. 0.6303 . 1.
+Nb10 Nb5+ 2 e 0.8931 0.5 0.0938 . 1.
+Nb11 Nb5+ 2 e 0.7353 0.5 0.1598 . 1.
+Nb12 Nb5+ 2 e 0.4209 0.5 0.2972 . 1.
+Nb13 Nb5+ 2 e 0.5812 0.5 0.2299 . 1.
+Nb14 Nb5+ 2 e 0.2645 0.5 0.101 . 1.
+Nb15 Nb5+ 2 e 0.4241 0.5 0.035 . 1.
+O1 O2- 1 c 0.5 0.5 0. . 1.
+O2 O2- 1 b 0. 0.5 0.5 . 1.
+O3 O2- 2 e 0.073 0. 0.869 . 1.
+O4 O2- 2 e 0.757 0. 0.2 . 1.
+O5 O2- 2 e 0.08 0. 0.194 . 1.
+O6 O2- 2 e 0.08 0. 0.739 . 1.
+O7 O2- 2 e 0.246 0. 0.26 . 1.
+O8 O2- 2 e 0.081 0. 0.33 . 1.
+O9 O2- 2 e 0.082 0. 0.602 . 1.
+O10 O2- 2 e 0.252 0. 0.407 . 1.
+O11 O2- 2 e 0.077 0. 0.461 . 1.
+O12 O2- 2 e 0.423 0. 0.46 . 1.
+O13 O2- 2 e 0.24 0. 0.535 . 1.
+O14 O2- 2 e 0.392 0. 0.59 . 1.
+O15 O2- 2 e 0.235 0. 0.663 . 1.
+O16 O2- 2 e 0.439 0. 0.343 . 1.
+O17 O2- 2 e 0.597 0. 0.257 . 1.
+O18 O2- 2 e 0.245 0. 0.117 . 1.
+O19 O2- 2 e 0.084 0. 0.056 . 1.
+O20 O2- 2 e 0.424 0. 0.035 . 1.
+O21 O2- 2 e 0.019 0.5 0.944 . 1.
+O22 O2- 2 e 0.662 0.5 0.068 . 1.
+O23 O2- 2 e 0.824 0.5 0.135 . 1.
+O24 O2- 2 e 0.021 0.5 0.806 . 1.
+O25 O2- 2 e 0.181 0.5 0.734 . 1.
+O26 O2- 2 e 0.345 0.5 0.355 . 1.
+O27 O2- 2 e 0.185 0.5 0.426 . 1.
+O28 O2- 2 e 0.497 0.5 0.406 . 1.
+O29 O2- 2 e 0.654 0.5 0.342 . 1.
+O30 O2- 2 e 0.499 0.5 0.268 . 1.
+O31 O2- 2 e 0.656 0.5 0.201 . 1.
+O32 O2- 2 e 0.337 0.5 0.207 . 1.
+O33 O2- 2 e 0.503 0.5 0.138 . 1.
+O34 O2- 2 e 0.184 0.5 0.155 . 1.
+O35 O2- 2 e 0.332 0.5 0.067 . 1.
+O36 O2- 2 e 0.176 0.5 0. . 1.
+#End of TTdata_16605-ICSD

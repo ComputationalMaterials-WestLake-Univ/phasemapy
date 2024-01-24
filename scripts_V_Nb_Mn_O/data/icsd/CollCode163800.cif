@@ -1,0 +1,100 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_163800-ICSD
+_database_code_ICSD 163800
+_audit_creation_date 2009-08-01
+_chemical_name_common 'Manganese vanadium oxide (1.69/1.31/4)'
+_chemical_formula_structural 'Mn (Mn0.69 V1.31) O4'
+_chemical_formula_sum 'Mn1.69 O4 V1.31'
+_chemical_name_structure_type CdMn2O4
+_chemical_name_mineral Unnamed_Spinel
+_exptl_crystal_density_diffrn 4.76
+_diffrn_ambient_temperature 4.
+_citation_title
+
+;
+Crystal and magnetic structure and cation distribution of Mn(2-x) V(1+x) O4
+spinels (x=0, 1/3 and 1)
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Materials Research Bulletin' 2009 44 1586 1591 MRBUAC
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Pannunzio-Miner, E.V.'
+primary 'de Paoli, J.M.'
+primary 'Sanchez, R.D.'
+primary 'Carbonio, R.E.'
+_cell_length_a 6.0421
+_cell_length_b 6.0421
+_cell_length_c 8.5472
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 312.03
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'I 41/a m d Z'
+_space_group_IT_number 141
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y+1/4, x+3/4, -z+1/4'
+2 'y+1/4, -x+3/4, -z+1/4'
+3 'x, y+1/2, -z'
+4 'x, -y, -z'
+5 '-y+3/4, x+3/4, -z+1/4'
+6 '-y+3/4, -x+3/4, -z+1/4'
+7 '-x, y+1/2, -z'
+8 '-x, -y, -z'
+9 '-y+3/4, -x+1/4, z+3/4'
+10 '-y+3/4, x+1/4, z+3/4'
+11 '-x, -y+1/2, z'
+12 '-x, y, z'
+13 'y+1/4, -x+1/4, z+3/4'
+14 'y+1/4, x+1/4, z+3/4'
+15 'x, -y+1/2, z'
+16 'x, y, z'
+17 'y+3/4, x+1/4, -z+3/4'
+18 'y+3/4, -x+1/4, -z+3/4'
+19 'x+1/2, y, -z+1/2'
+20 'x+1/2, -y+1/2, -z+1/2'
+21 '-y+1/4, x+1/4, -z+3/4'
+22 '-y+1/4, -x+1/4, -z+3/4'
+23 '-x+1/2, y, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/4, -x+3/4, z+1/4'
+26 '-y+1/4, x+3/4, z+1/4'
+27 '-x+1/2, -y, z+1/2'
+28 '-x+1/2, y+1/2, z+1/2'
+29 'y+3/4, -x+3/4, z+1/4'
+30 'y+3/4, x+3/4, z+1/4'
+31 'x+1/2, -y, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn2+ 2
+V3+ 3.5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Mn1 Mn2+ 4 b 0. 0.25 0.375 0.667 1.
+Mn2 Mn2+ 8 c 0. 0. 0. 0.471 0.34
+V1 V3+ 8 c 0. 0. 0. 0.471 0.66
+O1 O2- 16 h 0. 0.521 0.2336 0.993 1.
+#End of TTdata_163800-ICSD

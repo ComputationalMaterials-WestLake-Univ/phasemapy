@@ -1,0 +1,76 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_47268-ICSD
+_database_code_ICSD 47268
+_audit_creation_date 2022-08-01
+_chemical_name_common 'Î±-Divanadium pentoxide'
+_chemical_formula_structural 'V2 O5'
+_chemical_formula_sum 'O5 V2'
+_chemical_name_structure_type Sb2O5
+_exptl_crystal_density_diffrn 4.19
+_diffrn_ambient_temperature 293.
+_citation_title
+
+;
+Stability of Wadsley-type vanadium oxides V$_2$O$_5$ and V$_6$O$_{13}$ at high
+pressures
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Alloys and Compounds' 2022 911 '' '' JALCEU
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Hakala, B. Viliam'
+primary 'Manousou, Dimitra K.'
+primary 'Glazyrin, Konstantin'
+primary 'Crichton, Wilson A.'
+primary 'Friese, Karen'
+primary 'Grzechnik, Andrzej'
+_cell_length_a 11.944
+_cell_length_b 4.6857
+_cell_length_c 5.3135
+_cell_angle_alpha 90.
+_cell_angle_beta 104.333
+_cell_angle_gamma 90.
+_cell_volume 288.12
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'C 1 2/c 1'
+_space_group_IT_number 15
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y, z+1/2'
+2 '-x, -y, -z'
+3 '-x, y, -z+1/2'
+4 'x, y, z'
+5 'x+1/2, -y+1/2, z+1/2'
+6 '-x+1/2, -y+1/2, -z'
+7 '-x+1/2, y+1/2, -z+1/2'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+V5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+V1 V5+ 8 f 0.1437 0.2383 0.2452 0.031 1.
+O1 O2- 8 f 0.3922 0.067 0.016 0.024 1.
+O2 O2- 4 e 0. 0.109 0.25 0.02 1.
+O3 O2- 8 f 0.2977 0.427 0.376 0.02 1.
+#End of TTdata_47268-ICSD

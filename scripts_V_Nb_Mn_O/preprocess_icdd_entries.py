@@ -82,7 +82,7 @@ def main():
 
 
     precess.get_xrd()
-    precess.merge_by_xrd(bin_number=1000, gaussian_filter=4, R_cutoff=0.2)
+    precess.merge_by_polymorph(bin_number=1000, gaussian_filter=4, R_cutoff=0.2)
     print('[ICDD] after merging XRD-duplicate entries', len(precess.entries))
 
     print(len([_ for _ in precess.entries if _.structure.is_ordered]), 'ordered structures')

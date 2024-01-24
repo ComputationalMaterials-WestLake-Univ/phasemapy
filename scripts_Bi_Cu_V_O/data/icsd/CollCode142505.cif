@@ -1,0 +1,104 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_142505-ICSD
+_database_code_ICSD 142505
+_audit_creation_date 2021-08-01
+_chemical_name_common 'Tribismuth(III) vanadate(V) trioxide'
+_chemical_formula_structural 'Bi3 (V O4) O3'
+_chemical_formula_sum 'Bi3 O7 V1'
+_exptl_crystal_density_diffrn 7.75
+_diffrn_ambient_temperature 293.
+_citation_title
+
+;
+Original oxo-centered frameworks in Bi$_3$(VO$_4$)O$_3$ and
+Bi$_{3.5}$(AsO$_4$)(OH)$_{0.5}$O$_{3.5}$ by supercritical steam
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Inorganic Chemistry' 2020 59 9486 9490 INOCAJ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Colmont, Marie'
+primary 'Zadoya, Anastasiya'
+primary 'Daviero-Minaud, Sylvie'
+primary 'Djelal, Nora'
+primary 'MentrÃ©, Olivier'
+_cell_length_a 5.6823
+_cell_length_b 8.4789
+_cell_length_c 14.2428
+_cell_angle_alpha 81.394
+_cell_angle_beta 86.906
+_cell_angle_gamma 88.529
+_cell_volume 677.39
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P -1'
+_space_group_IT_number 2
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, -y, -z'
+2 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+V5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 2 i 0.21054 0.2661 0.34169 0.0099 1.
+Bi2 Bi3+ 2 i 0.69622 0.24296 0.13014 0.0113 1.
+Bi3 Bi3+ 2 i 0.24338 0.13991 0.95524 0.0119 1.
+Bi4 Bi3+ 2 i 0.25437 0.39023 0.69024 0.0113 1.
+Bi5 Bi3+ 2 i 0.17662 0.92488 0.21285 0.0127 1.
+Bi6 Bi3+ 2 i 0.68671 0.00926 0.39354 0.011 1.
+V1 V5+ 2 i 0.2395 0.6856 0.4532 0.0084 1.
+V2 V5+ 2 i 0.2557 0.5382 0.1316 0.0125 1.
+O1 O2- 2 i 0.012 0.1197 0.2669 0.015 1.
+O2 O2- 2 i 0.014 0.0338 0.0837 0.012 1.
+O3 O2- 2 i 0.326 0.0694 0.442 0.011 1.
+O4 O2- 2 i 0.009 0.746 0.3831 0.019 1.
+O5 O2- 2 i 0.178 0.1845 0.7863 0.016 1.
+O6 O2- 2 i 0.523 0.0487 0.0838 0.014 1.
+O7 O2- 2 i 0.515 0.2391 0.6182 0.016 1.
+O8 O2- 2 i 0.798 0.2508 0.4344 0.015 1.
+O9 O2- 2 i 0.506 0.166 0.2655 0.02 1.
+O10 O2- 2 i 0.192 0.706 0.0539 0.03 1.
+O11 O2- 2 i 0.357 0.377 0.0792 0.021 1.
+O12 O2- 2 i 0.464 0.579 0.205 0.041 1.
+O13 O2- 2 i 0.258 0.496 0.4649 0.023 1.
+O14 O2- 2 i 0.009 0.482 0.2006 0.025 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Bi1 Bi3+ 0.0149 0.0076 0.0075 -0.0018 0. -0.0022
+Bi2 Bi3+ 0.0153 0.0103 0.0085 -0.0032 0.002 -0.0027
+Bi3 Bi3+ 0.0136 0.0094 0.0125 -0.0021 0.0037 -0.0022
+Bi4 Bi3+ 0.0141 0.0085 0.0109 -0.0009 0.0016 -0.0008
+Bi5 Bi3+ 0.0168 0.0128 0.0085 0.0041 -0.001 -0.0022
+Bi6 Bi3+ 0.0124 0.0118 0.0088 -0.0012 0.0011 -0.0022
+V1 V5+ 0.01 0.013 0.003 -0.001 0.0017 -0.0031
+V2 V5+ 0.015 0.01 0.012 -0.001 0.0019 -0.0001
+#End of TTdata_142505-ICSD

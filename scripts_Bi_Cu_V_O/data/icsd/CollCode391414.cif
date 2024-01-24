@@ -1,0 +1,152 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_391414-ICSD
+_database_code_ICSD 391414
+_audit_creation_date 2009-02-01
+_chemical_name_common 'Tetradecabismuth(III) triacontaoxotetravanadate(IV/V)'
+_chemical_formula_structural 'Bi14 V4 O30'
+_chemical_formula_sum 'Bi14 O30 V4'
+_exptl_crystal_density_diffrn 7.98
+_diffrn_ambient_temperature 293.
+_citation_title
+
+;
+Crystal structure and conductivity properties of M Bi6 V2 O15 family type
+compounds (M = Pb, Sr, Ca, Cd, Na0.5 Bi0.5)
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Solid State Sciences' 2007 9 964 972 SSSCFJ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Labidi, O.'
+primary 'Drache, M.'
+primary 'Roussel, P.'
+primary 'Wignacourt, J.P.'
+_cell_length_a 19.9345
+_cell_length_b 11.5464
+_cell_length_c 27.9515
+_cell_angle_alpha 90.
+_cell_angle_beta 110.881
+_cell_angle_gamma 90.
+_cell_volume 6011.1
+_cell_formula_units_Z 8
+_space_group_name_H-M_alt 'C 1 2/c 1'
+_space_group_IT_number 15
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y, z+1/2'
+2 '-x, -y, -z'
+3 '-x, y, -z+1/2'
+4 'x, y, z'
+5 'x+1/2, -y+1/2, z+1/2'
+6 '-x+1/2, -y+1/2, -z'
+7 '-x+1/2, y+1/2, -z+1/2'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+O2- -2
+V4+ 4.5
+O2- -2
+V4+ 4.5
+O2- -2
+V4+ 4.5
+O2- -2
+V4+ 4.5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 8 f 0.24617 0.18931 0.19026 0.01088 1.
+Bi2 Bi3+ 8 f 0.27073 0.03326 0.31417 0.01825 1.
+Bi3 Bi3+ 8 f 0.07968 0.16578 0.55048 0.01787 1.
+Bi4 Bi3+ 8 f 0.40668 0.49115 0.06445 0.01411 1.
+Bi5 Bi3+ 8 f 0.08684 0.30759 0.4386 0.02348 1.
+Bi6 Bi3+ 8 f 0.09707 0.18634 0.31379 0.01307 1.
+Bi7 Bi3+ 8 f 0.07912 0.01747 0.18661 0.01021 1.
+Bi8 Bi3+ 8 f 0.40943 0.01716 0.18764 0.01223 1.
+Bi9 Bi3+ 8 f 0.42283 0.19382 0.31682 0.01098 1.
+Bi10 Bi3+ 8 f 0.08174 0.50933 0.06615 0.0122 1.
+Bi11 Bi3+ 8 f 0.23802 0.33753 0.06032 0.013 1.
+Bi12 Bi3+ 8 f 0.25064 0.0003 0.56118 0.02163 1.
+Bi13 Bi3+ 8 f 0.25613 0.36074 0.32172 0.02365 1.
+Bi14 Bi3+ 8 f 0.25561 0.1628 0.4413 0.02579 1.
+O1 O2- 8 f 0.2159 0.162 0.3379 0.017 1.
+O2 O2- 8 f 0.3891 0.3561 0.3359 0.0163 1.
+O3 O2- 8 f 0.2973 0.0451 0.1665 0.0127 1.
+O4 O2- 8 f 0.111 0.1512 0.3921 0.0235 1.
+O5 O2- 8 f 0.2031 0.3361 0.4662 0.0178 1.
+O6 O2- 8 f 0.3894 0.1623 0.4687 0.0154 1.
+O7 O2- 8 f 0.3724 0.1149 0.3652 0.0224 1.
+O8 O2- 8 f 0.3076 0.1691 0.2722 0.0216 1.
+O9 O2- 8 f 0.3033 0.3607 0.405 0.0179 1.
+O10 O2- 8 f 0.2885 0.4859 0.0369 0.0166 1.
+O11 O2- 8 f 0.1117 0.1451 0.4838 0.0227 1.
+O12 O2- 8 f 0.1945 0.4721 0.0924 0.033 1.
+O13 O2- 8 f 0.1897 0.046 0.2023 0.0253 1.
+O14 O2- 8 f 0.1377 0.3512 0.3369 0.041 1.
+V1 V4+ 8 f 0.07991 0.35469 0.19662 0.0119 1.
+O15 O2- 8 f 0.0877 0.4812 0.2307 0.0504 1.
+O16 O2- 8 f 0.1484 0.2702 0.2281 0.076 1.
+O17 O2- 8 f 0.0029 0.2864 0.1881 0.08 1.
+O18 O2- 8 f 0.0826 0.3894 0.1391 0.074 1.
+V2 V4+ 8 f 0.40695 0.14476 0.05993 0.0119 1.
+O19 O2- 8 f 0.3894 0.0568 0.1038 0.0504 1.
+O20 O2- 8 f 0.4 0.0658 0.0091 0.076 1.
+O21 O2- 8 f 0.3509 0.2571 0.0429 0.08 1.
+O22 O2- 8 f 0.4909 0.195 0.0874 0.074 1.
+V3 V4+ 8 f 0.39717 0.35782 0.18877 0.0119 1.
+O23 O2- 8 f 0.4091 0.2262 0.2196 0.0504 1.
+O24 O2- 8 f 0.3839 0.457 0.2271 0.076 1.
+O25 O2- 8 f 0.4675 0.3942 0.173 0.08 1.
+O26 O2- 8 f 0.3247 0.3465 0.135 0.074 1.
+V4 V4+ 8 f 0.082 0.14844 0.06381 0.0119 1.
+O27 O2- 8 f 0.0441 0.074 0.1012 0.0504 1.
+O28 O2- 8 f 0.0288 0.2582 0.0368 0.076 1.
+O29 O2- 8 f 0.164 0.197 0.0976 0.08 1.
+O30 O2- 8 f 0.088 0.0565 0.019 0.074 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Bi1 Bi3+ 0.0154 0.0066 0.01104 -0.00119 0.00522 -0.00093
+Bi2 Bi3+ 0.0206 0.0117 0.0249 -0.00204 0.0111 0.00439
+Bi3 Bi3+ 0.0171 0.0168 0.0216 -0.00009 0.00918 -0.00197
+Bi4 Bi3+ 0.0137 0.016 0.0125 0.00155 0.00452 0.00143
+Bi5 Bi3+ 0.016 0.0191 0.0324 0.00116 0.0049 -0.0045
+Bi6 Bi3+ 0.0151 0.0129 0.0097 -0.00075 0.00247 -0.00095
+Bi7 Bi3+ 0.0132 0.0076 0.01142 0.00083 0.00635 0.
+Bi8 Bi3+ 0.01047 0.0098 0.015 -0.00125 0.00282 -0.00008
+Bi9 Bi3+ 0.01185 0.0095 0.01322 -0.00233 0.00648 0.00072
+Bi10 Bi3+ 0.0129 0.0127 0.01147 0.00389 0.00487 0.00165
+Bi11 Bi3+ 0.0228 0.0078 0.01036 -0.00368 0.00841 -0.00164
+Bi12 Bi3+ 0.0244 0.02 0.0222 0.0018 0.0104 0.0047
+Bi13 Bi3+ 0.0356 0.0226 0.0103 -0.0103 0.0051 -0.0018
+Bi14 Bi3+ 0.0274 0.0244 0.027 0.0043 0.0114 -0.001
+V1 V4+ 0.0118 0.011 0.0131 0.0022 0.0048 0.0002
+V2 V4+ 0.0128 0.0134 0.0105 -0.0001 0.0055 -0.0007
+V3 V4+ 0.0126 0.01 0.0131 0.0015 0.0047 -0.0006
+V4 V4+ 0.0131 0.0113 0.0108 0.0011 0.0038 0.002
+#End of TTdata_391414-ICSD

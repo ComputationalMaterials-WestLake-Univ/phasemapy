@@ -1,0 +1,75 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_15072-ICSD
+_database_code_ICSD 15072
+_audit_creation_date 1986-09-25
+_audit_update_record 2015-02-01
+_chemical_name_common 'Bismuth oxide - alpha'
+_chemical_formula_structural 'Bi2 O3'
+_chemical_formula_sum 'Bi2 O3'
+_chemical_name_structure_type Bi2O3
+_chemical_name_mineral Bismite
+_exptl_crystal_density_diffrn 9.37
+_citation_title 'The crystal structure of alpha - Bi2 O3'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Acta Chemica Scandinavica ' 1970 24 384 396 ACSAA4
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Malmros, G.'
+_cell_length_a 5.8486
+_cell_length_b 8.1661
+_cell_length_c 7.5097
+_cell_angle_alpha 90.
+_cell_angle_beta 113.
+_cell_angle_gamma 90.
+_cell_volume 330.15
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P 1 21/c 1'
+_space_group_IT_number 14
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y+1/2, z+1/2'
+2 '-x, -y, -z'
+3 '-x, y+1/2, -z+1/2'
+4 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 4 e 0.524 0.3169 0.3613 . 1.
+Bi2 Bi3+ 4 e 0.0409 0.0425 0.2762 . 1.
+O1 O2- 4 e 0.78 0.3 0.21 0.9 1.
+O2 O2- 4 e 0.242 0.456 0.134 1.2 1.
+O3 O2- 4 e 0.271 0.024 0.013 0.8 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_beta_11
+_atom_site_aniso_beta_22
+_atom_site_aniso_beta_33
+_atom_site_aniso_beta_12
+_atom_site_aniso_beta_13
+_atom_site_aniso_beta_23
+Bi1 Bi3+ 0.0042 0.0027 0.0031 0.00065 0.0012 -0.00015
+Bi2 Bi3+ 0.0045 0.0018 0.004 -0.0002 0.00195 0.00015
+#End of TTdata_15072-ICSD

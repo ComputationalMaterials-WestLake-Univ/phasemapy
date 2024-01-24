@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>01-077-2173</pdf_number>
+<chemical_formula>V O</chemical_formula>
+<empirical_formula>O V</empirical_formula>
+<anx>AX</anx>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Cubic</xstal_system>
+<xtldx>6.629</xtldx>
+<ds>6.63</ds>
+<rep_struc>Na Cl</rep_struc>
+<rep_struc_alpha_order>Cl Na</rep_struc_alpha_order>
+<lpf_rep_struc>Na Cl,cF8,225</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>Cl Na,cF8,225</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Alternate</status>
+<cell_a>4.063</cell_a>
+<z>4.00</z>
+<cell_vol>67.07</cell_vol>
+<cell_mv>16.77</cell_mv>
+<xtlvol>67.07</xtlvol>
+<redcellvol>16.77</redcellvol>
+<xtla>4.063</xtla>
+<xtlb>4.063</xtlb>
+<xtlc>4.063</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.000</xtlcoverb>
+<redcell_a>2.873</redcell_a>
+<redcell_b>2.873</redcell_b>
+<redcell_c>2.873</redcell_c>
+<redcell_al>60.00</redcell_al>
+<redcell_be>60.00</redcell_be>
+<redcell_ga>60.00</redcell_ga>
+<xtlz>4.00</xtlz>
+<ss>F(9) = 999.9(0.0001, 9)</ss>
+<xtlsg>Fm-3m (225)</xtlsg>
+<xtlmolwt>66.94</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<iic>4.37</iic>
+<iic_nd>0.54</iic_nd>
+<lambda>1.5406</lambda>
+<patrad>CuKα1</patrad>
+<source>Calculated - Peak</source>
+<instrument>Calculated</instrument>
+<temperature>298.0</temperature>
+<aspectn>225</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>Fm-3m (225)</spgr>
+<pearson>cF8.00</pearson>
+<entry_date>09/01/1998</entry_date>
+<last_mod_date>09/01/2011</last_mod_date>
+<last_modifications>Reflections</last_modifications>
+<weight_percent>O23.90 V76.10</weight_percent>
+<atomic_percent>O50.00 V50.00</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>01-075-0048 (Alternate), 01-077-3167 (Alternate), 01-085-4554 (Alternate), 03-065-2896 (Alternate), 04-001-6924 (Primary), 04-002-0651 (Alternate), 04-002-5409 (Alternate), 04-004-3131 (Alternate), 04-004-3818 (Alternate), 04-004-5762 (Alternate), 04-004-8995 (Alternate), 04-004-9038 (Alternate), 04-005-5953 (Alternate), 04-006-1901 (Alternate), 04-007-8199 (Alternate), 04-008-0642 (Alternate), 04-008-3656 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Calculated from ICSD using POWD-12++ 1997.</reference>
+</reference_group>
+<reference_group>
+<type>Structure</type>
+<doi>10.1021/j100726a025</doi>
+<reference>Loehman, R.E., Rao, C.N.R., Honig, J.M. "Crystallography and Defect Chemistry of Solid Solutions of Vanadium and Titanium Oxides". J. Phys. Chem. 1969, 73, 1781.</reference>
+</reference_group>
+</references>
+<database_comments>ANX: AX. Analysis: O1 V1. Formula from original source: V O. ICSD Collection Code: 60486. Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R factors reported/abstracted. Wyckoff Sequence: b a(FM3-M). Unit Cell Data Source: Single Crystal.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 01-077-2173.jpg</chart_name>
+<stick_series type="V O - 01-077-2173 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>38.340</theta>
+<da>2.345770</da>
+<intensity>604</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.564</theta>
+<da>2.031500</da>
+<intensity>1000</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>64.854</theta>
+<da>1.436490</da>
+<intensity>442</intensity>
+<h>2</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>77.920</theta>
+<da>1.225040</da>
+<intensity>145</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>82.103</theta>
+<da>1.172890</da>
+<intensity>111</intensity>
+<h>2</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>98.635</theta>
+<da>1.015750</da>
+<intensity>44</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>111.457</theta>
+<da>0.932116</da>
+<intensity>51</intensity>
+<h>3</h>
+<k>3</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>115.956</theta>
+<da>0.908514</da>
+<intensity>124</intensity>
+<h>4</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>136.487</theta>
+<da>0.829357</da>
+<intensity>102</intensity>
+<h>4</h>
+<k>2</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

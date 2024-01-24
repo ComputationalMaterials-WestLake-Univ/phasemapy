@@ -1,0 +1,81 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_51778-ICSD
+_database_code_ICSD 51778
+_audit_creation_date 2004-04-01
+_audit_update_record 2012-08-01
+_chemical_name_common 'Tribismuth bismuth(V) oxide'
+_chemical_formula_structural 'Bi4 O7'
+_chemical_formula_sum 'Bi4 O7'
+_chemical_name_structure_type Bi4O7
+_exptl_crystal_density_diffrn 9.25
+_diffrn_ambient_temperature 295.
+_citation_title
+
+;
+The crystal structure of the binary mixed valence compound Bi(III)3 Bi(IV) O7
+and isotopic Bi3 Sb O7 as determined by high resolution x-ray and neutron
+powder diffraction
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 2002 163 332 339 JSSCBI
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Dinnebier, R.E.'
+primary 'Ibberson, R.M.'
+primary 'Ehrenberg, H.'
+primary 'Jansen, M.'
+_cell_length_a 6.7253
+_cell_length_b 6.995
+_cell_length_c 7.7961
+_cell_angle_alpha 72.566
+_cell_angle_beta 88.842
+_cell_angle_gamma 76.925
+_cell_volume 340.39
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'P -1'
+_space_group_IT_number 2
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, -y, -z'
+2 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+Bi5+ 5
+Bi3+ 3
+Bi5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 2 i 0.7239 0.485 0.1253 0.013 1.
+Bi2 Bi3+ 2 i 0.2615 0.493 0.3787 0.01 1.
+Bi3 Bi5+ 1 b 0. 0. 0.5 0.007 1.
+Bi4 Bi3+ 2 i 0.4848 0.0042 0.7569 0.013 1.
+Bi5 Bi5+ 1 a 0. 0. 0. 0.01 1.
+O1 O2- 2 i 0.108 0.684 0.54 0.013 1.
+O2 O2- 2 i 0.109 0.679 0.136 0.01 1.
+O3 O2- 2 i 0.895 0.087 0.226 0.01 1.
+O4 O2- 2 i 0.475 0.343 0.128 0.01 1.
+O5 O2- 2 i 0.287 0.07 0.021 0.017 1.
+O6 O2- 2 i 0.285 0.04 0.443 0.014 1.
+O7 O2- 2 i 0.528 0.635 0.305 0.01 1.
+#End of TTdata_51778-ICSD

@@ -1,0 +1,101 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_9652-ICSD
+_database_code_ICSD 9652
+_audit_creation_date 2020-08-01
+_chemical_name_common 'Manganese diniobate'
+_chemical_formula_structural 'Mn Nb2 O6'
+_chemical_formula_sum 'Mn1 Nb2 O6'
+_chemical_name_structure_type Columbite#Nb2FeO6
+_chemical_name_mineral Columbite-(Mn)
+_exptl_crystal_density_diffrn 5.32
+_diffrn_ambient_temperature 296.
+_citation_title
+
+;
+An insight into crystal chemistry and cation order of columbite-(Fe) and
+columbite-(Mn) from worldwide occurrences
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Neues Jahrbuch fuer Mineralogie, Abhandlungen' 2015 192 275 287 NJMIAK
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Balassone, Giuseppina'
+primary 'Danisi, Rosa Micaela'
+primary 'Armbruster, Thomas'
+primary 'Altomare, Angela'
+primary 'Moliterni, Anna Grazia'
+primary 'Petti, Carmela'
+primary 'Mondillo, Nicola'
+primary 'Ghiara, Maria Rosaria'
+primary 'Saviano, Michele'
+_cell_length_a 14.3644
+_cell_length_b 5.7498
+_cell_length_c 5.0888
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 420.3
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P b c n'
+_space_group_IT_number 60
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y, z+1/2'
+2 '-x+1/2, y+1/2, z'
+3 'x+1/2, y+1/2, -z+1/2'
+4 '-x, -y, -z'
+5 '-x, y, -z+1/2'
+6 'x+1/2, -y+1/2, -z'
+7 '-x+1/2, -y+1/2, z+1/2'
+8 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn2+ 2
+Nb5+ 5
+Mn2+ 2
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Mn1 Mn2+ 4 c 0. 0.32264 0.25 0.00714 0.94
+Nb1 Nb5+ 4 c 0. 0.32264 0.25 0.00714 0.06
+Nb2 Nb5+ 8 d 0.33723 0.32135 0.24164 0.00632 0.97
+Mn2 Mn2+ 8 d 0.33723 0.32135 0.24164 0.00632 0.03
+O1 O2- 8 d 0.09713 0.1017 0.0615 0.0097 1.
+O2 O2- 8 d 0.41824 0.1166 0.0959 0.0101 1.
+O3 O2- 8 d 0.24391 0.1244 0.4117 0.0087 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn1 Mn2+ 0.0066 0.0085 0.0064 0. 0.00063 0.
+Nb1 Nb5+ 0.0066 0.0085 0.0064 0. 0.00063 0.
+Nb2 Nb5+ 0.00648 0.00618 0.0063 -0.00001 -0.00044 -0.00028
+Mn2 Mn2+ 0.00648 0.00618 0.0063 -0.00001 -0.00044 -0.00028
+O1 O2- 0.01 0.01 0.0092 0.0002 -0.0002 0.0009
+O2 O2- 0.0091 0.0099 0.0114 0.0018 0.0003 -0.0008
+O3 O2- 0.008 0.0091 0.009 0.001 0.0011 -0.0002
+#End of TTdata_9652-ICSD

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-030-0820</pdf_number>
+<chemical_formula>Mn O2</chemical_formula>
+<empirical_formula>Mn O2</empirical_formula>
+<chemical_name>Manganese Oxide</chemical_name>
+<mineral_name>Akhtenskite, syn</mineral_name>
+<common_name>ε-Mn O2</common_name>
+<xstal_system>Hexagonal</xstal_system>
+<xtldx>4.778</xtldx>
+<dm>4</dm>
+<rep_struc>Ni As</rep_struc>
+<rep_struc_alpha_order>As Ni</rep_struc_alpha_order>
+<lpf_rep_struc>Ni As,hP4,194</lpf_rep_struc>
+<lpf_rep_struc_alpha_order>As Ni,hP4,194</lpf_rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>2.8</cell_a>
+<cell_c>4.45</cell_c>
+<z>1.00</z>
+<cell_vol>30.21</cell_vol>
+<cell_mv>30.21</cell_mv>
+<authcovera>1.589</authcovera>
+<xtlvol>30.21</xtlvol>
+<redcellvol>30.21</redcellvol>
+<xtla>2.800</xtla>
+<xtlb>2.800</xtlb>
+<xtlc>4.450</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>120.00</xtlga>
+<xtlcovera>1.589</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>1.589</xtlcoverb>
+<redcell_a>2.800</redcell_a>
+<redcell_b>2.800</redcell_b>
+<redcell_c>4.450</redcell_c>
+<redcell_al>90.00</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>120.00</redcell_ga>
+<xtlz>1.00</xtlz>
+<ss>F(15) = 61.7(0.0143, 17)</ss>
+<xtlsg>P63/mmc (194)</xtlsg>
+<xtlmolwt>86.94</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<diameter>114.60</diameter>
+<iic>1.69</iic>
+<lambda>0.7093</lambda>
+<patrad>MoKα1</patrad>
+<source>Densiometer</source>
+<instrument>Guinier</instrument>
+<temperature>298.0</temperature>
+<aspectn>194</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>P63/mmc (194)</spgr>
+<color>Black</color>
+<pearson>hP3.00</pearson>
+<entry_date>09/01/1980</entry_date>
+<last_mod_date>09/01/2004</last_mod_date>
+<last_modifications>Quality</last_modifications>
+<weight_percent>Mn63.19 O36.81</weight_percent>
+<atomic_percent>Mn33.33 O66.67</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Battery Material, Forensic, Inorganic, Metal &amp; Alloy, Mineral Related (Mineral, Synthetic)</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Visser, J., Technisch Physische Dienst, Delft, The Netherlands. ICDD Grant-in-Aid 1979.</reference>
+</reference_group>
+<reference_group>
+<type>Unit Cell</type>
+<reference>de Wolff, P. Chimia 1978, 32, 257.</reference>
+</reference_group>
+</references>
+<database_comments>General Comments: All reflections broadened, broadening increases with l. The reflection at d=4.22 is weak and very broad. It is caused by a partial order in the Mn-distribution. For full explanation see: de Wolff, P., Chimia, 32 257 (1978); where the difference between Dcalc and Dexp is also explained. Warning: One or more lines are unindexed. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<phase>ε</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-030-0820.jpg</chart_name>
+<stick_series type="Mn O2 - 00-030-0820 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>21.034</theta>
+<da>4.220</da>
+<intensity>1</intensity>
+<h/>
+<k/>
+<l/>
+<F/>
+</intensity>
+<intensity>
+<theta>37.120</theta>
+<da>2.420</da>
+<intensity>65</intensity>
+<h>1</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>40.605</theta>
+<da>2.220</da>
+<intensity>2</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.401</theta>
+<da>2.130</da>
+<intensity>35</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>56.027</theta>
+<da>1.640</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>66.761</theta>
+<da>1.400</da>
+<intensity>40</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>75.022</theta>
+<da>1.265</da>
+<intensity>2</intensity>
+<h>1</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>78.921</theta>
+<da>1.212</da>
+<intensity>5</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>81.087</theta>
+<da>1.185</da>
+<intensity>4</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>82.350</theta>
+<da>1.170</da>
+<intensity>1</intensity>
+<h>2</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>87.589</theta>
+<da>1.113</da>
+<intensity>2</intensity>
+<h>0</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>92.650</theta>
+<da>1.065</da>
+<intensity>12</intensity>
+<h>2</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>99.264</theta>
+<da>1.011</da>
+<intensity>3</intensity>
+<h>1</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>114.474</theta>
+<da>0.916</da>
+<intensity>3</intensity>
+<h>2</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>124.346</theta>
+<da>0.871</da>
+<intensity>2</intensity>
+<h>1</h>
+<k>1</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>130.851</theta>
+<da>0.847</da>
+<intensity>6</intensity>
+<h>2</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

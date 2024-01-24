@@ -1,0 +1,76 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_421855-ICSD
+_database_code_ICSD 421855
+_audit_creation_date 2011-08-01
+_chemical_name_common 'Dibismuth trioxide - HP , metastable'
+_chemical_formula_structural 'Bi2 O3'
+_chemical_formula_sum 'Bi2 O3'
+_chemical_name_structure_type Bi2O3(P31c)
+_exptl_crystal_density_diffrn 9.44
+_diffrn_ambient_temperature 298.
+_citation_title
+
+;
+High-pressure and high-temperature multianvil synthesis of metastable
+polymorphs of Bi2 O3: crystal structure and electronic properties
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Physical Review B: Condensed Matter and Materials Physics' 2010 82 1 12
+PRBMDO
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Ghedia, S.'
+primary 'Locherer, T.'
+primary 'Dinnebier, R.'
+primary 'Prasad, D.L.V.K.'
+primary 'Wedig, U.'
+primary 'Jansen, M.'
+primary 'Senyshyn, A.'
+_cell_length_a 7.7488
+_cell_length_b 7.7488
+_cell_length_c 6.3024
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 120.
+_cell_volume 327.72
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P 3 1 c'
+_space_group_IT_number 159
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, -x+y, z+1/2'
+2 'x-y, -y, z+1/2'
+3 'y, x, z+1/2'
+4 '-x+y, -x, z'
+5 '-y, x-y, z'
+6 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 6 c 0.34072 0.16882 0.2322 3.26 1.
+Bi2 Bi3+ 2 b 0.33333 0.66667 0.25 0.3 1.
+O1 O2- 6 c 0.07751 0.4884 0.4617 5.67 1.
+O2 O2- 6 c 0.1452 0.2861 0.131 8.02 1.
+#End of TTdata_421855-ICSD

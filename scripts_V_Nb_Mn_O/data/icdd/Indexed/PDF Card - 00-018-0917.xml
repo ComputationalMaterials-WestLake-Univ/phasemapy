@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-018-0917</pdf_number>
+<chemical_formula>Nb2 O5</chemical_formula>
+<empirical_formula>Nb2 O5</empirical_formula>
+<chemical_name>Niobium Oxide</chemical_name>
+<common_name>β-Nb2 O5</common_name>
+<xstal_system>Monoclinic</xstal_system>
+<xtldx>7.938</xtldx>
+<pressure_temperature>Ambient</pressure_temperature>
+<cas>1313-96-8</cas>
+<status>Alternate</status>
+<cell_a>12.73</cell_a>
+<cell_b>4.88</cell_b>
+<cell_c>5.56</cell_c>
+<cell_beta>105</cell_beta>
+<z>6.00</z>
+<cell_vol>333.63</cell_vol>
+<cell_mv>55.60</cell_mv>
+<authcovera>0.437</authcovera>
+<authaoverb>2.609</authaoverb>
+<authcoverb>1.139</authcoverb>
+<xtlvol>333.63</xtlvol>
+<redcellvol>166.82</redcellvol>
+<xtla>12.503</xtla>
+<xtlb>4.880</xtlb>
+<xtlc>5.560</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>100.44</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.445</xtlcovera>
+<xtlaoverb>2.562</xtlaoverb>
+<xtlcoverb>1.139</xtlcoverb>
+<redcell_a>4.880</redcell_a>
+<redcell_b>5.560</redcell_b>
+<redcell_c>6.817</redcell_c>
+<redcell_al>103.99</redcell_al>
+<redcell_be>110.97</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<xtlz>6.00</xtlz>
+<ss>F(9) = 21.8(0.0376, 11)</ss>
+<xtlsg>I2/a (15)</xtlsg>
+<xtlmolwt>265.81</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<filttyp>Ni Beta</filttyp>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<source>Densiometer</source>
+<temperature>298.0</temperature>
+<aspectn>15A</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgr>C2/c (15)</spgr>
+<pearson>mC42.00</pearson>
+<entry_date>09/01/1968</entry_date>
+<last_mod_date>09/01/2003</last_mod_date>
+<last_modifications>Zsource, Z</last_modifications>
+<weight_percent>Nb69.90 O30.10</weight_percent>
+<atomic_percent>Nb28.57 O71.43</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Battery Material, Inorganic, Metal &amp; Alloy</subfile_indicator>
+<cross_ref_pdf_numbers>00-018-0910 (Alternate), 00-026-0885 (Primary), 00-068-0148 (Primary), 04-005-4685 (Primary), 04-007-0498 (Alternate)</cross_ref_pdf_numbers>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Laves, Moser, Petter. Naturwissenschaften 1964, 51, 356.</reference>
+</reference_group>
+</references>
+<database_comments>Additional Patterns: See PDF 00-026-0885. Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+<crystal_properties>Centrosymmetric</crystal_properties>
+<phase>β</phase>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-018-0917.jpg</chart_name>
+<stick_series type="Nb2 O5 - 00-018-0917 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>14.343</theta>
+<da>6.170</da>
+<intensity>20</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>24.434</theta>
+<da>3.640</da>
+<intensity>100</intensity>
+<h>-1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>26.831</theta>
+<da>3.320</da>
+<intensity>80</intensity>
+<h>1</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.966</theta>
+<da>3.080</da>
+<intensity>65</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>29.950</theta>
+<da>2.981</da>
+<intensity>95</intensity>
+<h>-3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.815</theta>
+<da>2.727</da>
+<intensity>5</intensity>
+<h>-2</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>33.343</theta>
+<da>2.685</da>
+<intensity>35</intensity>
+<h>0</h>
+<k>0</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.832</theta>
+<da>2.504</da>
+<intensity>35</intensity>
+<h>3</h>
+<k>1</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.774</theta>
+<da>2.442</da>
+<intensity>30</intensity>
+<h>0</h>
+<k>2</k>
+<l>0</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

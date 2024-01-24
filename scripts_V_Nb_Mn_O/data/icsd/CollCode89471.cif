@@ -1,0 +1,63 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_89471-ICSD
+_database_code_ICSD 89471
+_audit_creation_date 2002-04-01
+_audit_update_record 2015-02-01
+_chemical_name_common 'Vanadium(IV) oxide - M3'
+_chemical_formula_structural 'V O2'
+_chemical_formula_sum 'O2 V1'
+_chemical_name_structure_type VO2(mP6)
+_exptl_crystal_density_diffrn 4.57
+_citation_title 'Ab initio structures of (M2) and (M3) V O2'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Solid State Sciences' 1999 1 433 448 SSSCFJ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Galy, J.'
+primary 'Miehe, G.'
+_cell_length_a 4.506
+_cell_length_b 2.899
+_cell_length_c 4.617
+_cell_angle_alpha 90.
+_cell_angle_beta 91.79
+_cell_angle_gamma 90.
+_cell_volume 60.28
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'P 1 2/m 1'
+_space_group_IT_number 10
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, y, -z'
+2 '-x, -y, -z'
+3 'x, -y, z'
+4 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+V4+ 4
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+V1 V4+ 1 a 0. 0. 0. . 1.
+V2 V4+ 1 h 0.5 0.5 0.5 . 1.
+O1 O2- 2 n 0.761 0.5 0.206 . 1.
+O2 O2- 2 m 0.274 0. 0.296 . 1.
+#End of TTdata_89471-ICSD

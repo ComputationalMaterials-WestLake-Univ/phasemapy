@@ -1,0 +1,84 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_71317-ICSD
+_database_code_ICSD 71317
+_audit_creation_date 1993-01-06
+_audit_update_record 2006-04-01
+_chemical_name_common 'Niobium oxide - zeta'
+_chemical_formula_structural 'Nb2 O5'
+_chemical_formula_sum 'Nb2 O5'
+_chemical_name_structure_type Sb2O5
+_exptl_crystal_density_diffrn 5.28
+_citation_title
+
+;
+Refinement of the structure of zeta-Nb2 O5 and its relationship to the rutile
+and thoreaulite structures
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Mineralogy and Petrology' 1991 43 217 223 MIPEE9
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Ercit, T.S.'
+_cell_length_a 12.74
+_cell_length_b 4.883
+_cell_length_c 5.5609
+_cell_angle_alpha 90.
+_cell_angle_beta 105.02
+_cell_angle_gamma 90.
+_cell_volume 334.12
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'C 1 2/c 1'
+_space_group_IT_number 15
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y, z+1/2'
+2 '-x, -y, -z'
+3 '-x, y, -z+1/2'
+4 'x, y, z'
+5 'x+1/2, -y+1/2, z+1/2'
+6 '-x+1/2, -y+1/2, -z'
+7 '-x+1/2, y+1/2, -z+1/2'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Nb5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Nb1 Nb5+ 8 f 0.1402 0.24126 0.2488 . 1.
+O1 O2- 4 e 0. 0.1035 0.25 . 1.
+O2 O2- 8 f 0.3912 0.0579 0.0291 . 1.
+O3 O2- 8 f 0.2945 0.4277 0.3744 . 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nb1 Nb5+ 0.0052 0.0047 0.005 -0.0004 0.0016 -0.0001
+O1 O2- 0.0071 0.0076 0.0104 0. 0.0034 0.
+O2 O2- 0.0083 0.0081 0.0085 -0.0006 0.002 0.0016
+O3 O2- 0.0058 0.0071 0.0075 0.0004 0.0018 -0.0007
+#End of TTdata_71317-ICSD

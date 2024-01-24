@@ -1,0 +1,73 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_250270-ICSD
+_database_code_ICSD 250270
+_audit_creation_date 2005-10-01
+_audit_update_record 2006-04-01
+_chemical_name_common 'Copper vanadium oxide (1.98/1.96/6.92)'
+_chemical_formula_structural 'Cu1.98 (V1.96 O6.92)'
+_chemical_formula_sum 'Cu1.98 O6.92 V1.96'
+_exptl_crystal_density_diffrn 3.92
+_diffrn_ambient_temperature 913.
+_citation_title 'New high-temperature modification of the copper pyrovanadate'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Doklady Akademii Nauk' 2005 400 770 773 DAKNEQ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Petrova, S.A.'
+primary 'Zakharov, R.G.'
+primary 'Rotermel', M.V. (Rotermel, M.V.)'
+primary 'Krasnenko, T.I.'
+primary 'Vatolin, N.A.'
+_cell_length_a 7.325
+_cell_length_b 8.214
+_cell_length_c 10.1045
+_cell_angle_alpha 90.
+_cell_angle_beta 110.533
+_cell_angle_gamma 90.
+_cell_volume 569.34
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'C 1 2/c 1'
+_space_group_IT_number 15
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, -y, z+1/2'
+2 '-x, -y, -z'
+3 '-x, y, -z+1/2'
+4 'x, y, z'
+5 'x+1/2, -y+1/2, z+1/2'
+6 '-x+1/2, -y+1/2, -z'
+7 '-x+1/2, y+1/2, -z+1/2'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu2+ 2
+V5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Cu1 Cu2+ 8 f 0.279 0.071 0.008 0.63 0.99
+V1 V5+ 8 f 0.243 0.249 0.297 0.67 0.98
+O1 O2- 4 e 0. 0.273 0.25 1.03 0.96
+O2 O2- 8 f 0.293 0.301 0.143 0.84 1.
+O3 O2- 8 f 0.416 0.081 0.413 0.94 0.98
+O4 O2- 8 f 0.069 0.11 0.629 0.75 1.
+#End of TTdata_250270-ICSD

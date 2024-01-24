@@ -1,0 +1,107 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_248071-ICSD
+_database_code_ICSD 248071
+_audit_creation_date 2010-08-01
+_chemical_name_common 'Rubidium manganese oxide (1/0.733/1.467) (Mn O2)-part'
+_chemical_formula_structural 'Mn O2'
+_chemical_formula_sum 'Mn1 O2'
+_exptl_crystal_density_diffrn 1.74
+_diffrn_ambient_temperature 296.
+_citation_title
+
+;
+Structures of incommensurate and commensurate composite crystals Rb(x) Mn O2
+(x = 1.3711, 1.3636)
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Acta Crystallographica, Section B: Structural Science' 2010 66 27 33
+ASBSDK
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Nuss, J.'
+primary 'Pfeiffer, S.'
+primary 'van Smaalen, S.'
+primary 'Jansen, M.'
+_cell_length_a 2.7181
+_cell_length_b 12.1639
+_cell_length_c 20.1013
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 664.6
+_cell_formula_units_Z 8
+_space_group_name_H-M_alt 'F d d d Z'
+_space_group_IT_number 70
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x+3/4, y+3/4, -z'
+2 'x+3/4, -y, z+3/4'
+3 '-x, y+3/4, z+3/4'
+4 '-x, -y, -z'
+5 '-x+1/4, -y+1/4, z'
+6 '-x+1/4, y, -z+1/4'
+7 'x, -y+1/4, -z+1/4'
+8 'x, y, z'
+9 'x+3/4, y+1/4, -z+1/2'
+10 'x+3/4, -y+1/2, z+1/4'
+11 '-x, y+1/4, z+1/4'
+12 '-x, -y+1/2, -z+1/2'
+13 '-x+1/4, -y+3/4, z+1/2'
+14 '-x+1/4, y+1/2, -z+3/4'
+15 'x, -y+3/4, -z+3/4'
+16 'x, y+1/2, z+1/2'
+17 'x+1/4, y+3/4, -z+1/2'
+18 'x+1/4, -y, z+1/4'
+19 '-x+1/2, y+3/4, z+1/4'
+20 '-x+1/2, -y, -z+1/2'
+21 '-x+3/4, -y+1/4, z+1/2'
+22 '-x+3/4, y, -z+3/4'
+23 'x+1/2, -y+1/4, -z+3/4'
+24 'x+1/2, y, z+1/2'
+25 'x+1/4, y+1/4, -z'
+26 'x+1/4, -y+1/2, z+3/4'
+27 '-x+1/2, y+1/4, z+3/4'
+28 '-x+1/2, -y+1/2, -z'
+29 '-x+3/4, -y+3/4, z'
+30 '-x+3/4, y+1/2, -z+1/4'
+31 'x+1/2, -y+3/4, -z+1/4'
+32 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn2+ 2.5
+O1- -1.25
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Mn1 Mn2+ 16 e 0.375 0.125 0.125 0.01076 0.5
+O1 O1- 32 h 0.375 0.0488 0.08671 0.0295 0.5
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn1 Mn2+ 0.01063 0.0084 0.01326 0. 0. 0.
+O1 O1- 0.0422 0.0236 0.0226 -0.0116 -0.0011 -0.0042
+#End of TTdata_248071-ICSD

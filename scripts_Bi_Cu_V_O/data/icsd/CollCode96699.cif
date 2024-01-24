@@ -1,0 +1,74 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_96699-ICSD
+_database_code_ICSD 96699
+_audit_creation_date 2004-10-01
+_chemical_name_common 'Copper oxide (1/2)'
+_chemical_formula_structural 'Cu O2'
+_chemical_formula_sum 'Cu1 O2'
+_exptl_crystal_density_diffrn 3.39
+_citation_title 'Modulated structure of the composite crystal Ca0.83 Cu O2'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 2002 163 540 545 JSSCBI
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Miyazaki, Y.'
+primary 'Onoda, M.'
+primary 'Edwards, P.P.'
+primary 'Shamoto, S.'
+primary 'Kajitani, T.'
+_cell_length_a 2.8043
+_cell_length_b 6.3179
+_cell_length_c 10.5744
+_cell_angle_alpha 90.
+_cell_angle_beta 90.1
+_cell_angle_gamma 90.
+_cell_volume 187.35
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'F 1 2/m 1'
+_space_group_IT_number 12
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, -y, -z'
+2 'x, -y, z'
+3 '-x, y, -z'
+4 'x, y, z'
+5 '-x, -y+1/2, -z+1/2'
+6 'x, -y+1/2, z+1/2'
+7 '-x, y+1/2, -z+1/2'
+8 'x, y+1/2, z+1/2'
+9 '-x+1/2, -y, -z+1/2'
+10 'x+1/2, -y, z+1/2'
+11 '-x+1/2, y, -z+1/2'
+12 'x+1/2, y, z+1/2'
+13 '-x+1/2, -y+1/2, -z'
+14 'x+1/2, -y+1/2, z'
+15 '-x+1/2, y+1/2, -z'
+16 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu0+ 0
+O0+ 0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Cu1 Cu0+ 4 a 0. 0. 0. 0.69 1.
+O1 O0+ 8 i 0.991 0. 0.3747 0.77 1.
+#End of TTdata_96699-ICSD

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-038-0959</pdf_number>
+<chemical_formula>V3 Nb9 O29</chemical_formula>
+<empirical_formula>Nb9 O29 V3</empirical_formula>
+<chemical_name>Niobium Vanadium Oxide</chemical_name>
+<xstal_system>Monoclinic</xstal_system>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>28.3</cell_a>
+<cell_b>3.81</cell_b>
+<cell_c>14.1</cell_c>
+<cell_beta>133.2</cell_beta>
+<cell_vol>1108.25</cell_vol>
+<authcovera>0.498</authcovera>
+<authaoverb>7.428</authaoverb>
+<authcoverb>3.701</authcoverb>
+<xtlvol>1108.25</xtlvol>
+<redcellvol>554.13</redcellvol>
+<xtla>21.293</xtla>
+<xtlb>3.810</xtlb>
+<xtlc>14.100</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>104.34</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>0.662</xtlcovera>
+<xtlaoverb>5.589</xtlaoverb>
+<xtlcoverb>3.701</xtlcoverb>
+<redcell_a>3.810</redcell_a>
+<redcell_b>11.380</redcell_b>
+<redcell_c>14.100</redcell_c>
+<redcell_al>112.82</redcell_al>
+<redcell_be>90.00</redcell_be>
+<redcell_ga>99.64</redcell_ga>
+<ss>F(12) = 2.2(0.0562, 96)</ss>
+<xtlsg>I</xtlsg>
+<xtlmolwt>1452.96</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<filttyp>Ni Beta</filttyp>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<temperature>298.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>C</spgr>
+<pearson>mC?</pearson>
+<entry_date>09/01/1988</entry_date>
+<weight_percent>Nb57.55 O31.93 V10.52</weight_percent>
+<atomic_percent>Nb21.95 O70.73 V7.32</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Wang, E., Kimura, N., Greenblatt, M. J. Electrochem. Soc. 1985, 132, 1505.</reference>
+</reference_group>
+<reference_group>
+<type>Unit Cell</type>
+<reference>Groh, H., Reitz, B., Guehn, R., Mertin, W. Naturwissenschaften 1982, 69, 187.</reference>
+</reference_group>
+</references>
+<database_comments>Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-038-0959.jpg</chart_name>
+<stick_series type="V3 Nb9 O29 - 00-038-0959 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>17.170</theta>
+<da>5.160</da>
+<intensity>50</intensity>
+<h>4</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>18.785</theta>
+<da>4.720</da>
+<intensity>45</intensity>
+<h>-4</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>23.694</theta>
+<da>3.752</da>
+<intensity>90</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>25.273</theta>
+<da>3.521</da>
+<intensity>100</intensity>
+<h>-8</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>25.894</theta>
+<da>3.438</da>
+<intensity>100</intensity>
+<h>6</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>31.271</theta>
+<da>2.858</da>
+<intensity>25</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>32.581</theta>
+<da>2.746</da>
+<intensity>50</intensity>
+<h>-7</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>33.001</theta>
+<da>2.712</da>
+<intensity>45</intensity>
+<h>-1</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.798</theta>
+<da>2.576</da>
+<intensity>20</intensity>
+<h>8</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.116</theta>
+<da>2.301</da>
+<intensity>20</intensity>
+<h>-10</h>
+<k>0</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>43.960</theta>
+<da>2.058</da>
+<intensity>40</intensity>
+<h>0</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>44.949</theta>
+<da>2.015</da>
+<intensity>45</intensity>
+<h>-10</h>
+<k>0</k>
+<l>7</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

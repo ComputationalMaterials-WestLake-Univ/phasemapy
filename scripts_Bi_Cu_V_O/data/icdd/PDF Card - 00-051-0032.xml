@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?>
+
+<pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2022" ApplicationVersion="4.22.0.2">
+<pdf_number>00-051-0032</pdf_number>
+<chemical_formula>Bi2 V O5.5</chemical_formula>
+<empirical_formula>Bi2 O5.5 V</empirical_formula>
+<chemical_name>Bismuth Vanadium Oxide</chemical_name>
+<xstal_system>Tetragonal</xstal_system>
+<pressure_temperature>Non-ambient Temperature</pressure_temperature>
+<status>Primary</status>
+<cell_a>3.984(1)</cell_a>
+<cell_c>15.422(3)</cell_c>
+<cell_vol>244.78</cell_vol>
+<authcovera>3.871</authcovera>
+<xtlvol>244.78</xtlvol>
+<redcellvol>122.39</redcellvol>
+<xtla>3.984</xtla>
+<xtlb>3.984</xtlb>
+<xtlc>15.422</xtlc>
+<xtlal>90.00</xtlal>
+<xtlbe>90.00</xtlbe>
+<xtlga>90.00</xtlga>
+<xtlcovera>3.871</xtlcovera>
+<xtlaoverb>1.000</xtlaoverb>
+<xtlcoverb>3.871</xtlcoverb>
+<redcell_a>3.984</redcell_a>
+<redcell_b>3.984</redcell_b>
+<redcell_c>8.209</redcell_c>
+<redcell_al>104.04</redcell_al>
+<redcell_be>104.04</redcell_be>
+<redcell_ga>90.00</redcell_ga>
+<ss>F(12) = 37.3(0.0161, 20)</ss>
+<xtlsg>I</xtlsg>
+<xtlmolwt>556.90</xtlmolwt>
+<quality_mark>Star</quality_mark>
+<lambda>1.5418</lambda>
+<patrad>CuKα</patrad>
+<instrument>Diffractometer</instrument>
+<temperature>860.0</temperature>
+<spgr_label>Space Group</spgr_label>
+<spgr>I</spgr>
+<pearson>tI?</pearson>
+<entry_date>09/01/2001</entry_date>
+<weight_percent>Bi75.05 O15.80 V9.15</weight_percent>
+<atomic_percent>Bi23.53 O64.71 V11.76</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Ceramic (Ferroelectric), Inorganic</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Prasad, K., Varma, K. J. Mater. Sci. 1995, 30, 6345.</reference>
+</reference_group>
+</references>
+<database_comments>Sample Preparation: The binary oxides were heated at 500 C for 8 hours, then at 800 C for 24 hours in air with intermediate regrindings. The powder was cold-pressed and sintered at 800 C for 36 hours. Temperature of Data Collection: 860 K. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>X-ray (Cu Kα1 1.54056 Å)</wave_length>
+<chart_name>PDF Card - 00-051-0032.jpg</chart_name>
+<stick_series type="Bi2 V O5.5 - 00-051-0032 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>23.016</theta>
+<da>3.861</da>
+<intensity>21</intensity>
+<h>1</h>
+<k>0</k>
+<l>1</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.290</theta>
+<da>3.152</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>0</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>31.750</theta>
+<da>2.816</da>
+<intensity>36</intensity>
+<h>1</h>
+<k>1</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>33.862</theta>
+<da>2.645</da>
+<intensity>16</intensity>
+<h>1</h>
+<k>1</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.882</theta>
+<da>2.570</da>
+<intensity>15</intensity>
+<h>0</h>
+<k>0</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.836</theta>
+<da>2.438</da>
+<intensity>18</intensity>
+<h>1</h>
+<k>0</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.599</theta>
+<da>2.274</da>
+<intensity>15</intensity>
+<h>1</h>
+<k>1</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>45.497</theta>
+<da>1.992</da>
+<intensity>18</intensity>
+<h>2</h>
+<k>0</k>
+<l>0</l>
+<F/>
+</intensity>
+<intensity>
+<theta>47.149</theta>
+<da>1.926</da>
+<intensity>18</intensity>
+<h>0</h>
+<k>0</k>
+<l>8</l>
+<F/>
+</intensity>
+<intensity>
+<theta>47.887</theta>
+<da>1.898</da>
+<intensity>26</intensity>
+<h>1</h>
+<k>1</k>
+<l>6</l>
+<F/>
+</intensity>
+<intensity>
+<theta>54.475</theta>
+<da>1.683</da>
+<intensity>30</intensity>
+<h>2</h>
+<k>1</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>58.599</theta>
+<da>1.574</da>
+<intensity>25</intensity>
+<h>1</h>
+<k>0</k>
+<l>9</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

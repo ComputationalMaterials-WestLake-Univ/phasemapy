@@ -1,0 +1,86 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_78061-ICSD
+_database_code_ICSD 78061
+_audit_creation_date 1995-10-17
+_chemical_name_common 'Bismuth vanadium oxide (1.7/8/16)'
+_chemical_formula_structural 'Bi1.62 V8 O16'
+_chemical_formula_sum 'Bi1.62 O16 V8'
+_chemical_name_structure_type Hollandite(tet)-frame#Ba1.15(Cr2.3Ti5.7)O16
+_exptl_crystal_density_diffrn 5.79
+_citation_title 'Bi1.7V8O16 The first Bi-hollandite-type compound'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 1994 109 127 133 JSSCBI
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Abraham, F.'
+primary 'Mentre, O.'
+_cell_length_a 9.93
+_cell_length_b 9.93
+_cell_length_c 2.914
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 287.33
+_cell_formula_units_Z 1
+_space_group_name_H-M_alt 'I 4/m'
+_space_group_IT_number 87
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-y, x, -z'
+2 'y, -x, -z'
+3 'x, y, -z'
+4 '-x, -y, -z'
+5 'y, -x, z'
+6 '-y, x, z'
+7 '-x, -y, z'
+8 'x, y, z'
+9 '-y+1/2, x+1/2, -z+1/2'
+10 'y+1/2, -x+1/2, -z+1/2'
+11 'x+1/2, y+1/2, -z+1/2'
+12 '-x+1/2, -y+1/2, -z+1/2'
+13 'y+1/2, -x+1/2, z+1/2'
+14 '-y+1/2, x+1/2, z+1/2'
+15 '-x+1/2, -y+1/2, z+1/2'
+16 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+V3+ 3.39
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 4 e 0. 0. 0.10449 . 0.406
+V1 V3+ 8 h 0.35504 0.17023 0. . 1.
+O1 O2- 8 h 0.15302 0.19406 0. 0.59 1.
+O2 O2- 8 h 0.16439 0.45922 0. 0.64 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Bi1 Bi3+ 0.0147 0.0147 0.0322 0. 0. 0.
+V1 V3+ 0.0058 0.0058 0.009 0.0002 0. 0.
+#End of TTdata_78061-ICSD

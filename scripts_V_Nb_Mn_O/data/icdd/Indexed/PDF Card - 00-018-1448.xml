@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pdfcard.xsl"?><pdfcard>
+<pdf_data ApplicationName="PDF-4+ 2020" ApplicationVersion="4.20.0.1" CurrentYear="2019">
+<pdf_number>00-018-1448</pdf_number>
+<chemical_formula>V8 O15</chemical_formula>
+<empirical_formula>O15 V8</empirical_formula>
+<chemical_name>Vanadium Oxide</chemical_name>
+<xstal_system>Triclinic (Anorthic)</xstal_system>
+<xtldx>6.258</xtldx>
+<rep_struc>Ti8 O15</rep_struc>
+<rep_struc_alpha_order>O15 Ti8</rep_struc_alpha_order>
+<pressure_temperature>Ambient</pressure_temperature>
+<status>Primary</status>
+<cell_a>5.43</cell_a>
+<cell_b>6.99</cell_b>
+<cell_c>37.08</cell_c>
+<cell_alpha>99</cell_alpha>
+<cell_beta>128.5</cell_beta>
+<cell_gamma>109</cell_gamma>
+<z>5.30</z>
+<cell_vol>910.58</cell_vol>
+<cell_mv>171.81</cell_mv>
+<authcovera>6.829</authcovera>
+<authaoverb>0.777</authaoverb>
+<authcoverb>5.305</authcoverb>
+<xtlvol>910.58</xtlvol>
+<redcellvol>910.58</redcellvol>
+<xtla>6.990</xtla>
+<xtlb>25.392</xtlb>
+<xtlc>5.430</xtlc>
+<xtlal>91.09</xtlal>
+<xtlbe>109.00</xtlbe>
+<xtlga>91.49</xtlga>
+<xtlcovera>0.777</xtlcovera>
+<xtlaoverb>0.275</xtlaoverb>
+<xtlcoverb>0.214</xtlcoverb>
+<redcell_a>5.430</redcell_a>
+<redcell_b>6.990</redcell_b>
+<redcell_c>25.392</redcell_c>
+<redcell_al>91.49</redcell_al>
+<redcell_be>91.09</redcell_be>
+<redcell_ga>109.00</redcell_ga>
+<xtlz>5.30</xtlz>
+<ss>F(15) = 2.1(0.0361, 199)</ss>
+<xtlsg>P*,-1</xtlsg>
+<xtlmolwt>647.52</xtlmolwt>
+<quality_mark>Indexed</quality_mark>
+<lambda>1.5405</lambda>
+<patrad>CuKα1</patrad>
+<source>Visual</source>
+<instrument>Guinier</instrument>
+<temperature>298.0</temperature>
+<aspectn>2</aspectn>
+<spgr_label>Space Group</spgr_label>
+<spgraspect>P*,-1 (2)</spgraspect>
+<pearson>aP121.90</pearson>
+<entry_date>09/01/1968</entry_date>
+<weight_percent>O37.06 V62.94</weight_percent>
+<atomic_percent>O65.22 V34.78</atomic_percent>
+<sg_sym_ops/>
+<idp_column>IDP</idp_column>
+<adp_column>ADP</adp_column>
+<ani_temp_facs/>
+<subfile_indicator>Inorganic, Metal &amp; Alloy</subfile_indicator>
+<references>
+<reference_group>
+<type>Primary Reference</type>
+<reference>Andersson, Jahnberg. Ark. Kemi 1964, 21, 413.</reference>
+</reference_group>
+</references>
+<database_comments>Warning: Lines with abs(delta 2Theta)&gt;0.06 DEG. Unit Cell Data Source: Powder Diffraction.</database_comments>
+</pdf_data>
+<graphs>
+<wave_length>Cu Kα1 1.54056 Å</wave_length>
+<chart_name>PDF Card - 00-018-1448.jpg</chart_name>
+<stick_series type="V8 O15 - 00-018-1448 (Stick, Fixed Slit Intensity)">
+<intensity>
+<theta>19.981</theta>
+<da>4.440</da>
+<intensity>40</intensity>
+<h>-1</h>
+<k>0</k>
+<l>8</l>
+<F/>
+</intensity>
+<intensity>
+<theta>24.366</theta>
+<da>3.650</da>
+<intensity>60</intensity>
+<h>-1</h>
+<k>0</k>
+<l>10</l>
+<F/>
+</intensity>
+<intensity>
+<theta>27.080</theta>
+<da>3.290</da>
+<intensity>100</intensity>
+<h>0</h>
+<k>-2</k>
+<l>5</l>
+<F/>
+</intensity>
+<intensity>
+<theta>28.870</theta>
+<da>3.090</da>
+<intensity>100</intensity>
+<h>1</h>
+<k>-2</k>
+<l>2</l>
+<F/>
+</intensity>
+<intensity>
+<theta>29.786</theta>
+<da>2.997</da>
+<intensity>100</intensity>
+<h>-1</h>
+<k>0</k>
+<l>12</l>
+<F/>
+</intensity>
+<intensity>
+<theta>34.952</theta>
+<da>2.565</da>
+<intensity>40</intensity>
+<h>-2</h>
+<k>0</k>
+<l>10</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.050</theta>
+<da>2.558</da>
+<intensity>40</intensity>
+<h>-2</h>
+<k>0</k>
+<l>11</l>
+<F/>
+</intensity>
+<intensity>
+<theta>35.980</theta>
+<da>2.494</da>
+<intensity>60</intensity>
+<h>-2</h>
+<k>0</k>
+<l>8</l>
+<F/>
+</intensity>
+<intensity>
+<theta>36.774</theta>
+<da>2.442</da>
+<intensity>60</intensity>
+<h>1</h>
+<k>0</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>37.136</theta>
+<da>2.419</da>
+<intensity>60</intensity>
+<h>-1</h>
+<k>-2</k>
+<l>8</l>
+<F/>
+</intensity>
+<intensity>
+<theta>38.268</theta>
+<da>2.350</da>
+<intensity>40</intensity>
+<h>-2</h>
+<k>2</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>39.984</theta>
+<da>2.253</da>
+<intensity>40</intensity>
+<h>1</h>
+<k>-1</k>
+<l>7</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.784</theta>
+<da>2.160</da>
+<intensity>100</intensity>
+<h>-1</h>
+<k>3</k>
+<l>3</l>
+<F/>
+</intensity>
+<intensity>
+<theta>41.866</theta>
+<da>2.156</da>
+<intensity>60</intensity>
+<h>0</h>
+<k>-3</k>
+<l>4</l>
+<F/>
+</intensity>
+<intensity>
+<theta>42.008</theta>
+<da>2.149</da>
+<intensity>60</intensity>
+<h>-1</h>
+<k>-2</k>
+<l>15</l>
+<F/>
+</intensity>
+</stick_series>
+</graphs>
+</pdfcard>

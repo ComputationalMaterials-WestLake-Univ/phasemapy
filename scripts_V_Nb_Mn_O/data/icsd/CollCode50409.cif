@@ -1,0 +1,80 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_50409-ICSD
+_database_code_ICSD 50409
+_audit_creation_date 1999-11-30
+_audit_update_record 2004-04-01
+_chemical_name_common 'Vanadium oxide (6/13)'
+_chemical_formula_structural 'V6 O13'
+_chemical_formula_sum 'O13 V6'
+_chemical_name_structure_type V6O13
+_exptl_crystal_density_diffrn 3.91
+_diffrn_ambient_temperature 295.
+_citation_title
+
+;
+Lithium insertion into V6 O13 studied by deformation electron density
+refinement of single crystal x-ray data
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Solid State Ionics' 1998 110 179 186 SSIOD3
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Bergstroem, O.'
+primary 'Gustafsson, T.'
+primary 'Thomas, J.O.'
+_cell_length_a 11.92
+_cell_length_b 3.6786
+_cell_length_c 10.14
+_cell_angle_alpha 90.
+_cell_angle_beta 100.88
+_cell_angle_gamma 90.
+_cell_volume 436.64
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'C 1 2/m 1'
+_space_group_IT_number 12
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, y, -z'
+2 '-x, -y, -z'
+3 'x, -y, z'
+4 'x, y, z'
+5 '-x+1/2, y+1/2, -z'
+6 '-x+1/2, -y+1/2, -z'
+7 'x+1/2, -y+1/2, z'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+V4+ 4.333
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+V1 V4+ 4 i 0.14806 0. 0.00049 0.53 1.
+V2 V4+ 4 i 0.08723 0. 0.63685 0.34 1.
+V3 V4+ 4 i 0.21314 0. 0.36507 0.35 1.
+O1 O2- 4 i 0.67897 0. 0.00067 0.63 1.
+O2 O2- 4 i 0.3816 0. 0.3873 0.53 1.
+O3 O2- 4 i 0.25095 0. 0.59199 0.52 1.
+O4 O2- 2 a 0. 0. 0. 0.87 1.
+O5 O2- 4 i 0.1139 0. 0.80253 0.68 1.
+O6 O2- 4 i 0.17828 0. 0.20015 0.69 1.
+O7 O2- 4 i 0.06265 0. 0.40826 0.59 1.
+#End of TTdata_50409-ICSD

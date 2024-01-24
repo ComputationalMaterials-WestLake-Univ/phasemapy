@@ -1,0 +1,126 @@
+
+#(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_185579-ICSD
+_database_code_ICSD 185579
+_audit_creation_date 2013-02-01
+_chemical_name_common 'Bismuth vanadium oxide (46/8/89)'
+_chemical_formula_structural 'Bi46 (V8 O89)'
+_chemical_formula_sum 'Bi46 O89 V8'
+_exptl_crystal_density_diffrn 8.32
+_diffrn_ambient_temperature 293.
+_citation_title
+
+;
+Polymorphism and oxide ion migration pathways in fluorite-type bismuth
+vanadate, Bi46 V8 O89
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Chemistry of Materials' 2012 24 2162 2167 CMATEX
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Kuang Xiaojun'
+primary 'Payne, J.L.'
+primary 'Farrell, J.D.'
+primary 'Johnson, M.R.'
+primary 'Radosavljevic Evans, I.'
+_cell_length_a 20.0294
+_cell_length_b 11.5962
+_cell_length_c 21.1286
+_cell_angle_alpha 90.
+_cell_angle_beta 111.337
+_cell_angle_gamma 90.
+_cell_volume 4571.06
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'C 1 2/m 1'
+_space_group_IT_number 12
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x, y, -z'
+2 '-x, -y, -z'
+3 'x, -y, z'
+4 'x, y, z'
+5 '-x+1/2, y+1/2, -z'
+6 '-x+1/2, -y+1/2, -z'
+7 'x+1/2, -y+1/2, z'
+8 'x+1/2, y+1/2, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+O2- -2
+V5+ 5
+O2- -2
+V5+ 5
+O2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 4 i 0.07649 0. 0.23955 2.822 1.
+Bi2 Bi3+ 8 j 0.40814 0.3331 0.24038 2.822 1.
+Bi3 Bi3+ 8 j 0.19011 0.1665 0.41154 2.822 1.
+Bi4 Bi3+ 8 j 0.25823 0.17326 0.27428 2.822 1.
+Bi5 Bi3+ 4 i 0.47048 0. 0.07524 2.822 1.
+Bi6 Bi3+ 4 i 0.7337 0. 0.25352 2.822 1.
+Bi7 Bi3+ 8 j 0.14007 0.16036 0.57974 2.822 1.
+Bi8 Bi3+ 8 j 0.06704 0.31941 0.24524 2.822 1.
+Bi9 Bi3+ 4 i 0.32337 0. 0.5926 2.822 1.
+Bi10 Bi3+ 8 j 0.30072 0.16113 0.07764 2.822 1.
+Bi11 Bi3+ 8 j 0.13903 0.34289 0.09579 2.822 1.
+Bi12 Bi3+ 8 j 0.46555 0.32398 0.07669 2.822 1.
+Bi13 Bi3+ 8 j 0.02259 0.33771 0.40429 2.822 1.
+Bi14 Bi3+ 4 i 0.40745 0. 0.23336 2.822 1.
+O1 O2- 8 j 0.39968 0.1695 0.05717 3.7 1.
+O2 O2- 8 j 0.12149 0.3147 0.38948 3.7 1.
+O3 O2- 4 i 0.3492 0. 0.1206 3.7 1.
+O4 O2- 4 i 0.4978 0. 0.2095 3.7 1.
+O5 O2- 8 j 0.04656 0.3089 0.11931 3.7 1.
+O6 O2- 4 i 0.2032 0. 0.6018 3.7 1.
+O7 O2- 4 i 0.6575 0. 0.3006 3.7 1.
+O8 O2- 4 i 0.5761 0. 0.0335 3.7 1.
+O9 O2- 8 j 0.47471 0.1908 0.29276 3.7 1.
+O10 O2- 8 j 0.20078 0.3105 0.2203 3.7 1.
+O11 O2- 8 j 0.3449 0.1907 0.1848 3.7 1.
+O12 O2- 4 i 0.548 0. 0.37739 3.7 1.
+O13 O2- 4 i 0.6449 0. 0.1623 3.7 1.
+O14 O2- 8 j 0.49134 0.3183 0.18995 3.7 1.
+O15 O2- 8 j 0.13927 0.1391 0.29188 3.7 1.
+O16 O2- 8 j 0.2227 0.2072 0.5226 3.7 0.75
+O17 O2- 8 j 0.34596 0.2963 0.31461 3.7 1.
+O18 O2- 8 j 0.25506 0.2552 0.36899 3.7 1.
+V1 V5+ 4 i 0.37429 0. 0.43105 2.822 1.
+V2 V5+ 4 i 0.14449 0. 0.09978 2.822 0.433
+V3 V5+ 4 i 0.02433 0. 0.39767 2.822 1.
+V4 V5+ 4 i 0.80037 0. 0.08777 2.822 1.
+O19 O2- 4 i 0.28262 0. 0.39076 6.17 1.
+O20 O2- 8 j 0.40022 0.12111 0.48104 6.17 1.
+O21 O2- 4 i 0.4141 0. 0.37135 6.17 1.
+O22 O2- 8 j 0.09682 0.12111 0.06242 6.17 0.433
+O23 O2- 4 i 0.22566 0. 0.08917 6.17 0.433
+O24 O2- 4 i 0.15865 0. 0.1851 6.17 0.433
+O25 O2- 4 i 0.05862 0. 0.59541 6.17 1.
+O26 O2- 4 i 0.01403 0. 0.31322 6.17 1.
+O27 O2- 8 j 0.07095 0.12111 0.43643 6.17 1.
+O28 O2- 8 j 0.34965 0.37889 0.08702 6.17 1.
+O29 O2- 4 i 0.77952 0. 0.15988 6.17 1.
+O30 O2- 4 i 0.72265 0. 0.01717 6.17 1.
+V5 V5+ 4 i 0.14586 0. 0.1109 2.822 0.567
+O31 O2- 8 j 0.17773 0.12111 0.08426 6.17 0.567
+O32 O2- 4 i 0.17427 0. 0.19815 6.17 0.567
+O33 O2- 4 i 0.0537 0. 0.07695 6.17 0.567
+#End of TTdata_185579-ICSD
