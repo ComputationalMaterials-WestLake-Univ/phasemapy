@@ -18,7 +18,6 @@ Its main functionalities:
 - [Installation](#installation)
 - [Datasets](#datasets)
 - [Usage](#usage)
-- [Authors and acknowledgements](#authors-and-acknowledgements)
 - [Citation](#citation)
 - [Contact](#contact)
 
