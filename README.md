@@ -23,7 +23,6 @@ Its main functionalities:
 
 ## Installation
 
-The easiest way to install prerequisites is via [conda](https://conda.io/docs/index.html).
 
 Run the following command to install the environment:
 ```
