@@ -26,7 +26,7 @@ Its main functionalities:
 
 Run the following command to install the environment:
 ```
-pip install -r requirements.txt
+pip install -r environment.yaml
 ```
 
 
