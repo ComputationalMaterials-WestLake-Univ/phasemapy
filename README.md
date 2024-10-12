@@ -34,8 +34,6 @@ pip install -r environment.yaml
 
 We analyzed three previously published combinatorial libraries: the V–Nb–Mn oxide, the Bi–Cu–V oxide, and the Li–Sr–Al oxide systems, which contain 317, 307, and 50 samples, respectively. If you use these datasets, please consider to cite the original papers from which we curate these datasets.
 
-Find more about these datasets by going to our [Datasets_Bi_Cu_V_O]("phasemapy/scripts_Bi_Cu_V_O/data) page,  [Datasets_V_Nb_Mn_O]("phasemapy/scripts_V_Nb_Mn_O/data) page.,  [Datasets_Li_Sr_Al_O]("phasemapy/scripts_Li_Sr_Al_O/data) page.
-
 ## Usage
 ### Phase mapping with V–Nb–Mn dataset:
 
